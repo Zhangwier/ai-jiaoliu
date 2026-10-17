@@ -1,0 +1,23 @@
+{
+  "scope": "印刷总长公式与表列长度一致性，不等于构造/下料公式正确性",
+  "records": 60,
+  "max_abs_length_delta_cm": 0.048801,
+  "length_deltas_over_0_05cm": [],
+  "sum_Phi22_subtotals_kg": "2038.4",
+  "drawing_Phi22_kg": "2038.3",
+  "sum_Phi10_subtotals_kg": "418.0",
+  "drawing_Phi10_kg": "418.1",
+  "sum_C35_m3": "3.76",
+  "drawing_C35_m3": "3.8",
+  "one_a_segment_constant": 266,
+  "one_a_printed_constant": 221,
+  "one_a_conditional_difference_cm": 45,
+  "one_a_bar_count": 160,
+  "one_a_conditional_total_length_m": 72.0,
+  "rubber_count": 20,
+  "rubber_volume_m3": 0.024000000000000004,
+  "geometry_4left_if_B2_midpoint_cm": 53.32149657576524,
+  "geometry_4left_if_B3_endpoint_cm": 44.123280479536874,
+  "geometry_caution": "按分段平面几何假设的反推，支持定义待澄清，不授权交换参数或修改设计",
+  "units": "长度cm、重量kg、混凝土m3。所有差值不直接认定安全或计量后果。"
+}

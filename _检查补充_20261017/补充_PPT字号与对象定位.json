@@ -1,0 +1,114 @@
+{
+ "total_runs": 1040,
+ "small_runs": 527,
+ "pct": 50.7,
+ "small_pages": [
+  {
+   "page": 16,
+   "runs": 60,
+   "small": 58,
+   "pct": 97
+  },
+  {
+   "page": 17,
+   "runs": 66,
+   "small": 54,
+   "pct": 82
+  },
+  {
+   "page": 35,
+   "runs": 29,
+   "small": 25,
+   "pct": 86
+  },
+  {
+   "page": 36,
+   "runs": 45,
+   "small": 43,
+   "pct": 96
+  },
+  {
+   "page": 38,
+   "runs": 10,
+   "small": 8,
+   "pct": 80
+  },
+  {
+   "page": 43,
+   "runs": 33,
+   "small": 30,
+   "pct": 91
+  }
+ ],
+ "tiny_pages": [
+  {
+   "page": 5,
+   "min_pt": 10.0
+  },
+  {
+   "page": 6,
+   "min_pt": 10.0
+  },
+  {
+   "page": 8,
+   "min_pt": 10.0
+  },
+  {
+   "page": 15,
+   "min_pt": 10.0
+  },
+  {
+   "page": 16,
+   "min_pt": 10.0
+  },
+  {
+   "page": 17,
+   "min_pt": 10.0
+  },
+  {
+   "page": 18,
+   "min_pt": 9.0
+  },
+  {
+   "page": 23,
+   "min_pt": 10.0
+  },
+  {
+   "page": 27,
+   "min_pt": 10.0
+  },
+  {
+   "page": 30,
+   "min_pt": 10.0
+  },
+  {
+   "page": 35,
+   "min_pt": 10.0
+  },
+  {
+   "page": 36,
+   "min_pt": 10.0
+  },
+  {
+   "page": 46,
+   "min_pt": 10.5
+  },
+  {
+   "page": 49,
+   "min_pt": 9.0
+  }
+ ],
+ "table_pages": [
+  16,
+  18,
+  25,
+  36,
+  43
+ ],
+ "picture_pages": [
+  1,
+  31,
+  47,
+  54
+ ]
+}

@@ -1,0 +1,11 @@
+﻿配置目录,记录耗时,回答正文字数,工作簿,工作表数,表内总行数,真实公式单元格,条件格式块,自述提到公式或条件格式,自述视觉未启用
+MiniMax M3 workbuddy,12m27s,894,桥墩挡块图纸审查报告.xlsx,5,143,0,0,True,False
+Step 5 preview workbuddy,29m40s,801,桥墩挡块图纸审查报告.xlsx,6,326,0,0,True,False
+auto fast workbuddy,2m38s,597,桥墩挡块图纸审查结果.xlsx,4,112,0,0,False,False
+deepseek V4.1flash 1M workbuddy,32m5s,872,1 桥墩挡块图纸审查报告.xlsx,5,120,0,0,True,False
+glm 5.3 flash trae,1h24m,622,桥墩挡块审查结果.xlsx,5,176,0,0,True,False
+gpt 6.1 sol high codex,14m34s,89,桥墩挡块_图纸审查及数量复核.xlsx,5,263,1196,3,True,False
+hy4 preview 1M high workbuddy,3m55s,1080,1-桥墩挡块-审查清单.xlsx,5,103,0,0,False,True
+opus 5.5 hark,3m3s,145,桥墩挡块图纸审查.xlsx,4,91,3,0,True,False
+qwen 3.8 flash qorde,43m9s,1525,1-桥墩挡块_图纸审查报告.xlsx,5,165,0,0,True,False
+seed 2.1 turbo trae,12m47s,586,1-桥墩挡块图纸审查意见.xlsx,5,63,0,0,False,False

@@ -1,0 +1,23 @@
+# ---- Office 临时/锁文件 ----
+~$*
+*.tmp
+*.bak
+*.swp
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- 浏览器/截图临时产物 ----
+*.log
+*.har
+
+# ---- 编辑器 ----
+.vscode/
+.idea/

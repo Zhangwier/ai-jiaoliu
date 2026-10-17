@@ -1,0 +1,62 @@
+[
+  {
+    "code": "A",
+    "configuration": "glm 5.3 flash trae",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\glm 5.3 flash trae\\鹈鹕骑自行车.html",
+    "file": "鹈鹕原始结果/A.html"
+  },
+  {
+    "code": "B",
+    "configuration": "seed 2.1 turbo trae",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\seed 2.1 turbo trae\\pelican-bike.html",
+    "file": "鹈鹕原始结果/B.html"
+  },
+  {
+    "code": "C",
+    "configuration": "deepseek V4.1flash 1M workbuddy",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\deepseek V4.1flash 1M workbuddy\\pelican-bike.html",
+    "file": "鹈鹕原始结果/C.html"
+  },
+  {
+    "code": "D",
+    "configuration": "opus 5.5 hark",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\opus 5.5 hark\\pelican-bike.html",
+    "file": "鹈鹕原始结果/D.html"
+  },
+  {
+    "code": "E",
+    "configuration": "hy4 preview 1M high workbuddy",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\hy4 preview 1M high workbuddy\\pelican-bike.html",
+    "file": "鹈鹕原始结果/E.html"
+  },
+  {
+    "code": "F",
+    "configuration": "Step 5 preview workbuddy",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\Step 5 preview workbuddy\\pelican-bike.html",
+    "file": "鹈鹕原始结果/F.html"
+  },
+  {
+    "code": "G",
+    "configuration": "gpt 6.1 sol high codex",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\gpt 6.1 sol high codex\\鹈鹕骑自行车.html",
+    "file": "鹈鹕原始结果/G.html"
+  },
+  {
+    "code": "H",
+    "configuration": "auto fast workbuddy",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\auto fast workbuddy\\pelican-bicycle.html",
+    "file": "鹈鹕原始结果/H.html"
+  },
+  {
+    "code": "I",
+    "configuration": "qwen 3.8 flash qorde",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\qwen 3.8 flash qorde\\pelican-on-bicycle.html",
+    "file": "鹈鹕原始结果/I.html"
+  },
+  {
+    "code": "J",
+    "configuration": "MiniMax M3 workbuddy",
+    "source": "D:\\MG\\program\\AI对比\\ep1 识图\\MiniMax M3 workbuddy\\pelican-bicycle.html",
+    "file": "鹈鹕原始结果/J.html"
+  }
+]

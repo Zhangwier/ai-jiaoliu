@@ -1,0 +1,11 @@
+﻿编号,配置目录,原目录HTML,与盲测副本一致,映射source路径可用,KB
+A,glm 5.3 flash trae,鹈鹕骑自行车.html,True,False,13.1
+B,seed 2.1 turbo trae,pelican-bike.html,True,False,15.0
+C,deepseek V4.1flash 1M workbuddy,pelican-bike.html,True,False,16.9
+D,opus 5.5 hark,pelican-bike.html,True,False,7.2
+E,hy4 preview 1M high workbuddy,pelican-bike.html,True,False,17.2
+F,Step 5 preview workbuddy,pelican-bike.html,True,False,25.2
+G,gpt 6.1 sol high codex,鹈鹕骑自行车.html,True,False,20.1
+H,auto fast workbuddy,pelican-bicycle.html,True,False,15.6
+I,qwen 3.8 flash qorde,pelican-on-bicycle.html,True,False,21.6
+J,MiniMax M3 workbuddy,pelican-bicycle.html,True,False,11.4
