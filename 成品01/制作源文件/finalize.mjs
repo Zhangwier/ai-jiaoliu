@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const B=path.dirname(fileURLToPath(import.meta.url));
+const runtime='C:/Users/MG/.cache/codex-runtimes/codex-primary-runtime/dependencies';
+const SKILL='C:/Users/MG/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations';
+process.env.RUNTIME_NODE_MODULES=runtime+'/node/node_modules';
+const {finalizePresentation}=await import('file:///'+SKILL+'/container_tools/artifact_tool_utils.mjs');
+const manifest=JSON.parse(await fs.readFile(path.join(B,'manifest.json'),'utf8'));
+await fs.mkdir(path.join(B,'delivery'),{recursive:true});
+const result=await finalizePresentation({workspaceDir:B,candidatePath:path.join(B,'enriched.pptx'),finalPath:path.join(B,'delivery','AI交流分享-成品01.pptx'),pythonExecutable:runtime+'/python/python.exe',integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-heading-fit',...manifest.tableOwners.flatMap(s=>['--require-native-table-slide',String(s)])],explicitTotalSlideCount:52,requiredNativeTableOwnerSlides:manifest.tableOwners,requiredNativeChartOwnerSlides:manifest.chartOwners,materializeLiteralChartWorkbooks:true,fontPolicy:{basis:'design',families:['Microsoft YaHei']},verifyArtifactToolImport:true,receiptPath:path.join(B,'final-validation.json')});
+console.log(JSON.stringify({path:result.finalPath,layout:result.presentationLayout,charts:result.nativeChartValidation,font:result.fontSelection,import:result.firstPartyImport}));

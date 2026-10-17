@@ -1,0 +1,52 @@
+[
+  {
+    "id": "A",
+    "configuration": "GLM 5.3 Flash · Trae",
+    "file": "鹈鹕原始结果/A.html"
+  },
+  {
+    "id": "B",
+    "configuration": "Seed 2.1 Turbo · Trae",
+    "file": "鹈鹕原始结果/B.html"
+  },
+  {
+    "id": "C",
+    "configuration": "DeepSeek V4.1 Flash 1M · WorkBuddy",
+    "file": "鹈鹕原始结果/C.html"
+  },
+  {
+    "id": "D",
+    "configuration": "Opus 5.5 · Hark",
+    "file": "鹈鹕原始结果/D.html"
+  },
+  {
+    "id": "E",
+    "configuration": "HY4 Preview 1M high · WorkBuddy",
+    "file": "鹈鹕原始结果/E.html"
+  },
+  {
+    "id": "F",
+    "configuration": "Step 5 Preview · WorkBuddy",
+    "file": "鹈鹕原始结果/F.html"
+  },
+  {
+    "id": "G",
+    "configuration": "GPT 6.1 Sol high · Codex",
+    "file": "鹈鹕原始结果/G.html"
+  },
+  {
+    "id": "H",
+    "configuration": "Auto fast · WorkBuddy",
+    "file": "鹈鹕原始结果/H.html"
+  },
+  {
+    "id": "I",
+    "configuration": "Qwen 3.8 Flash · Qoder",
+    "file": "鹈鹕原始结果/I.html"
+  },
+  {
+    "id": "J",
+    "configuration": "MiniMax M3 · WorkBuddy",
+    "file": "鹈鹕原始结果/J.html"
+  }
+]
