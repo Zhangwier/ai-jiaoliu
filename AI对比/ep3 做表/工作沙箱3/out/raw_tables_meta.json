@@ -1,0 +1,8379 @@
+{
+ "meta": {
+  "source_pdf": "d:\\MG\\program\\ai交流\\AI对比\\ep3 做表\\工作沙箱3\\out\\table_pages.pdf",
+  "total_pages": 155,
+  "band_excluded": [
+   752,
+   860
+  ],
+  "ocr_dpi": 300,
+  "generated": "2026-10-18 17:57:09"
+ },
+ "pages": [
+  {
+   "pkg_page": 1,
+   "page_index": 3,
+   "drawing_paths": 32,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "G 6 标设计文件分册表第 1",
+     "n_rows": 14,
+     "n_cols": 3,
+     "cell_total": 42,
+     "filled_cells": 42,
+     "text_cells": 42,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      317.7,
+      148.0,
+      1045.9,
+      637.6
+     ],
+     "status": "ok",
+     "key": "P1_T0",
+     "merge_group": "MG1",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 2,
+   "page_index": 4,
+   "drawing_paths": 87,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "第1页狮子洋通道工程两阶段施工图设计-新沙高架桥上部结构钢桁梁设计图名称名称图表编号单位页数页号备注序号图表编号单位页数页号",
+     "n_rows": 25,
+     "n_cols": 11,
+     "cell_total": 251,
+     "filled_cells": 250,
+     "text_cells": 250,
+     "ocr_cells": 0,
+     "text_coverage": 0.996,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      92.0,
+      137.1,
+      1069.4,
+      695.2
+     ],
+     "status": "ok",
+     "key": "P2_T0",
+     "merge_group": "MG2",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 3,
+   "page_index": 5,
+   "drawing_paths": 92,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "第2页狮子洋通道工程两阶段施工图设计-新沙高架桥上部结构钢桁梁设计图名称图表编号单位页数页号备注序号名称图表编号单位页数页号",
+     "n_rows": 25,
+     "n_cols": 11,
+     "cell_total": 251,
+     "filled_cells": 106,
+     "text_cells": 106,
+     "ocr_cells": 0,
+     "text_coverage": 0.4223,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      92.0,
+      124.5,
+      1069.4,
+      682.5
+     ],
+     "status": "ok",
+     "key": "P3_T0",
+     "merge_group": "MG3",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 4,
+   "page_index": 13,
+   "drawing_paths": 27,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "支座位移及梁磁致伸缩位移 6 端纵向位移计",
+     "n_rows": 4,
+     "n_cols": 3,
+     "cell_total": 12,
+     "filled_cells": 12,
+     "text_cells": 12,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      814.2,
+      137.3,
+      1072.9,
+      256.0
+     ],
+     "status": "ok",
+     "key": "P4_T0",
+     "merge_group": "MG4",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "监测内测类别传感器类型新沙高架桥容",
+     "n_rows": 3,
+     "n_cols": 4,
+     "cell_total": 12,
+     "filled_cells": 12,
+     "text_cells": 12,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      201.4,
+      584.9,
+      522.2,
+      703.1
+     ],
+     "status": "ok",
+     "key": "P4_T1",
+     "merge_group": "MG5",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 5,
+   "page_index": 15,
+   "drawing_paths": 53,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "2002《金属覆盖层钢铁制件热浸镀锌层技术要求及试验方法》的技术要求，防撞护栏安装前应采用与钢梁外表面相同的涂装体系进行涂装，防撞护栏涂装方案：",
+     "n_rows": 4,
+     "n_cols": 3,
+     "cell_total": 11,
+     "filled_cells": 11,
+     "text_cells": 11,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      734.2,
+      468.8,
+      1045.9,
+      588.0
+     ],
+     "status": "ok",
+     "key": "P5_T0",
+     "merge_group": "MG6",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 6,
+   "page_index": 21,
+   "drawing_paths": 5913,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "主桥上构附属工程项目单位合计检修轨道及检查车主析主桁拼接上层桥面系伸缩缝集中排水",
+     "n_rows": 38,
+     "n_cols": 9,
+     "cell_total": 342,
+     "filled_cells": 178,
+     "text_cells": 0,
+     "ocr_cells": 178,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9938,
+     "low_quality": false,
+     "grid_bbox": [
+      415.3,
+      109.3,
+      862.9,
+      676.2
+     ],
+     "status": "ok",
+     "key": "P6_T0",
+     "merge_group": "MG7",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 7,
+   "page_index": 22,
+   "drawing_paths": 6748,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "UC140-预制",
+     "n_rows": 29,
+     "n_cols": 10,
+     "cell_total": 290,
+     "filled_cells": 129,
+     "text_cells": 0,
+     "ocr_cells": 129,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9947,
+     "low_quality": false,
+     "grid_bbox": [
+      415.3,
+      129.3,
+      943.3,
+      653.7
+     ],
+     "status": "ok",
+     "key": "P7_T0",
+     "merge_group": "MG8",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 8,
+   "page_index": 33,
+   "drawing_paths": 4485,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "析架特征点坐标表单位：m",
+     "n_rows": 25,
+     "n_cols": 6,
+     "cell_total": 150,
+     "filled_cells": 147,
+     "text_cells": 0,
+     "ocr_cells": 147,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9931,
+     "low_quality": false,
+     "grid_bbox": [
+      472.2,
+      389.0,
+      722.1,
+      743.7
+     ],
+     "status": "ok",
+     "key": "P8_T0",
+     "merge_group": "MG9",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 9,
+   "page_index": 42,
+   "drawing_paths": 9424,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段二",
+     "n_rows": 7,
+     "n_cols": 8,
+     "cell_total": 26,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9997,
+     "low_quality": false,
+     "grid_bbox": [
+      162.6,
+      180.0,
+      780.9,
+      738.1
+     ],
+     "status": "ok",
+     "key": "P9_T0",
+     "merge_group": "MG10",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 10,
+   "page_index": 46,
+   "drawing_paths": 11803,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N71'",
+     "n_rows": 3,
+     "n_cols": 4,
+     "cell_total": 10,
+     "filled_cells": 7,
+     "text_cells": 0,
+     "ocr_cells": 7,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9856,
+     "low_quality": false,
+     "grid_bbox": [
+      206.9,
+      338.1,
+      600.4,
+      426.8
+     ],
+     "status": "ok",
+     "key": "P10_T0",
+     "merge_group": "MG11",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 11,
+   "page_index": 49,
+   "drawing_paths": 8745,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "上弦加劲肋",
+     "n_rows": 7,
+     "n_cols": 55,
+     "cell_total": 385,
+     "filled_cells": 66,
+     "text_cells": 0,
+     "ocr_cells": 66,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9745,
+     "low_quality": false,
+     "grid_bbox": [
+      83.6,
+      209.4,
+      765.7,
+      489.5
+     ],
+     "status": "ok",
+     "key": "P11_T0",
+     "merge_group": "MG12",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 12,
+   "page_index": 51,
+   "drawing_paths": 12359,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "熔透",
+     "n_rows": 3,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.8811,
+     "low_quality": false,
+     "grid_bbox": [
+      134.6,
+      132.0,
+      774.5,
+      369.8
+     ],
+     "status": "ok",
+     "key": "P12_T0",
+     "merge_group": "MG13",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 5,
+     "cell_total": 20,
+     "filled_cells": 20,
+     "text_cells": 0,
+     "ocr_cells": 20,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9834,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      645.0,
+      708.7,
+      733.6
+     ],
+     "status": "ok",
+     "key": "P12_T1",
+     "merge_group": "MG14",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 13,
+   "page_index": 52,
+   "drawing_paths": 15259,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段1~节段2拼接数量表",
+     "n_rows": 25,
+     "n_cols": 7,
+     "cell_total": 175,
+     "filled_cells": 132,
+     "text_cells": 0,
+     "ocr_cells": 132,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9904,
+     "low_quality": false,
+     "grid_bbox": [
+      822.5,
+      441.3,
+      1099.2,
+      751.7
+     ],
+     "status": "ok",
+     "key": "P13_T0",
+     "merge_group": "MG15",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.963,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      514.8,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P13_T1",
+     "merge_group": "MG16",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "申中申",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5456,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P13_T2",
+     "merge_group": "MG17",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 14,
+   "page_index": 53,
+   "drawing_paths": 7368,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段02材料数量表",
+     "n_rows": 50,
+     "n_cols": 7,
+     "cell_total": 350,
+     "filled_cells": 287,
+     "text_cells": 0,
+     "ocr_cells": 287,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9877,
+     "low_quality": false,
+     "grid_bbox": [
+      174.4,
+      104.3,
+      455.0,
+      725.0
+     ],
+     "status": "ok",
+     "key": "P14_T0",
+     "merge_group": "MG18",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段1~节段2拼接数量汇总表",
+     "n_rows": 9,
+     "n_cols": 4,
+     "cell_total": 30,
+     "filled_cells": 30,
+     "text_cells": 0,
+     "ocr_cells": 30,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9941,
+     "low_quality": false,
+     "grid_bbox": [
+      810.9,
+      320.3,
+      994.7,
+      432.1
+     ],
+     "status": "ok",
+     "key": "P14_T1",
+     "merge_group": "MG19",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 15,
+   "page_index": 55,
+   "drawing_paths": 11383,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 6,
+     "filled_cells": 6,
+     "text_cells": 0,
+     "ocr_cells": 6,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9643,
+     "low_quality": false,
+     "grid_bbox": [
+      190.0,
+      305.2,
+      694.2,
+      393.8
+     ],
+     "status": "ok",
+     "key": "P15_T0",
+     "merge_group": "MG20",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9798,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.7,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P15_T1",
+     "merge_group": "MG21",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 16,
+   "page_index": 56,
+   "drawing_paths": 13066,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "名称编号材质规格数量单件重共重(kq) 备注",
+     "n_rows": 21,
+     "n_cols": 8,
+     "cell_total": 168,
+     "filled_cells": 114,
+     "text_cells": 0,
+     "ocr_cells": 114,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9941,
+     "low_quality": false,
+     "grid_bbox": [
+      792.2,
+      459.9,
+      1110.4,
+      718.4
+     ],
+     "status": "ok",
+     "key": "P16_T0",
+     "merge_group": "MG22",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 17,
+   "page_index": 57,
+   "drawing_paths": 6814,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段03材料数量表",
+     "n_rows": 44,
+     "n_cols": 7,
+     "cell_total": 308,
+     "filled_cells": 251,
+     "text_cells": 0,
+     "ocr_cells": 251,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9913,
+     "low_quality": false,
+     "grid_bbox": [
+      216.6,
+      128.7,
+      493.8,
+      674.9
+     ],
+     "status": "ok",
+     "key": "P17_T0",
+     "merge_group": "MG23",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段O3材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 44,
+     "filled_cells": 42,
+     "text_cells": 0,
+     "ocr_cells": 42,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.99,
+     "low_quality": false,
+     "grid_bbox": [
+      615.6,
+      282.0,
+      783.9,
+      443.4
+     ],
+     "status": "ok",
+     "key": "P17_T1",
+     "merge_group": "MG24",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "规格（mm)",
+     "n_rows": 8,
+     "n_cols": 4,
+     "cell_total": 28,
+     "filled_cells": 27,
+     "text_cells": 0,
+     "ocr_cells": 27,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9891,
+     "low_quality": false,
+     "grid_bbox": [
+      872.1,
+      297.9,
+      1055.9,
+      397.2
+     ],
+     "status": "ok",
+     "key": "P17_T2",
+     "merge_group": "MG25",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 18,
+   "page_index": 59,
+   "drawing_paths": 11220,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9549,
+     "low_quality": false,
+     "grid_bbox": [
+      219.5,
+      308.6,
+      645.1,
+      397.3
+     ],
+     "status": "ok",
+     "key": "P18_T0",
+     "merge_group": "MG26",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9798,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P18_T1",
+     "merge_group": "MG27",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 19,
+   "page_index": 60,
+   "drawing_paths": 13070,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段3~节段4拼接数量表",
+     "n_rows": 21,
+     "n_cols": 8,
+     "cell_total": 168,
+     "filled_cells": 116,
+     "text_cells": 0,
+     "ocr_cells": 116,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9934,
+     "low_quality": false,
+     "grid_bbox": [
+      793.2,
+      445.7,
+      1111.3,
+      704.6
+     ],
+     "status": "ok",
+     "key": "P19_T0",
+     "merge_group": "MG28",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 20,
+   "page_index": 61,
+   "drawing_paths": 7074,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段04材料数量表",
+     "n_rows": 49,
+     "n_cols": 7,
+     "cell_total": 343,
+     "filled_cells": 281,
+     "text_cells": 0,
+     "ocr_cells": 281,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9884,
+     "low_quality": false,
+     "grid_bbox": [
+      204.8,
+      86.6,
+      482.1,
+      694.9
+     ],
+     "status": "ok",
+     "key": "P20_T0",
+     "merge_group": "MG29",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段04材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 44,
+     "filled_cells": 42,
+     "text_cells": 0,
+     "ocr_cells": 42,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9914,
+     "low_quality": false,
+     "grid_bbox": [
+      630.1,
+      241.4,
+      798.2,
+      402.8
+     ],
+     "status": "ok",
+     "key": "P20_T1",
+     "merge_group": "MG30",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 21,
+   "page_index": 63,
+   "drawing_paths": 11982,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N14",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9387,
+     "low_quality": false,
+     "grid_bbox": [
+      220.0,
+      322.5,
+      395.6,
+      366.7
+     ],
+     "status": "ok",
+     "key": "P21_T0",
+     "merge_group": "MG31",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9798,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P21_T1",
+     "merge_group": "MG32",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 22,
+   "page_index": 64,
+   "drawing_paths": 15338,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段4～节段5拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 136,
+     "text_cells": 0,
+     "ocr_cells": 136,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9926,
+     "low_quality": false,
+     "grid_bbox": [
+      783.2,
+      435.4,
+      1101.5,
+      745.6
+     ],
+     "status": "ok",
+     "key": "P22_T0",
+     "merge_group": "MG33",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "申中申",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5457,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P22_T1",
+     "merge_group": "MG34",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 23,
+   "page_index": 65,
+   "drawing_paths": 7636,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段05材料数量表",
+     "n_rows": 56,
+     "n_cols": 7,
+     "cell_total": 392,
+     "filled_cells": 333,
+     "text_cells": 0,
+     "ocr_cells": 333,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9874,
+     "low_quality": false,
+     "grid_bbox": [
+      240.3,
+      47.2,
+      518.8,
+      742.4
+     ],
+     "status": "ok",
+     "key": "P23_T0",
+     "merge_group": "MG35",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段4~节段5拼接数量汇总",
+     "n_rows": 11,
+     "n_cols": 3,
+     "cell_total": 26,
+     "filled_cells": 25,
+     "text_cells": 0,
+     "ocr_cells": 25,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9905,
+     "low_quality": false,
+     "grid_bbox": [
+      921.3,
+      374.9,
+      1064.7,
+      511.5
+     ],
+     "status": "ok",
+     "key": "P23_T1",
+     "merge_group": "MG36",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 24,
+   "page_index": 67,
+   "drawing_paths": 11751,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9505,
+     "low_quality": false,
+     "grid_bbox": [
+      210.0,
+      303.7,
+      635.6,
+      392.3
+     ],
+     "status": "ok",
+     "key": "P24_T0",
+     "merge_group": "MG37",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9755,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P24_T1",
+     "merge_group": "MG38",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 25,
+   "page_index": 68,
+   "drawing_paths": 15947,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段5~节段6拼接数量表",
+     "n_rows": 25,
+     "n_cols": 7,
+     "cell_total": 156,
+     "filled_cells": 132,
+     "text_cells": 0,
+     "ocr_cells": 132,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.993,
+     "low_quality": false,
+     "grid_bbox": [
+      809.6,
+      435.8,
+      1089.2,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P25_T0",
+     "merge_group": "MG39",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 3,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.929,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      685.3,
+      563.2,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P25_T1",
+     "merge_group": "MG40",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 26,
+   "page_index": 69,
+   "drawing_paths": 7809,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段06材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9845,
+     "low_quality": false,
+     "grid_bbox": [
+      217.7,
+      71.7,
+      482.2,
+      720.3
+     ],
+     "status": "ok",
+     "key": "P26_T0",
+     "merge_group": "MG41",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=16",
+     "n_rows": 12,
+     "n_cols": 8,
+     "cell_total": 75,
+     "filled_cells": 74,
+     "text_cells": 0,
+     "ocr_cells": 74,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9971,
+     "low_quality": false,
+     "grid_bbox": [
+      617.1,
+      390.7,
+      1106.3,
+      540.4
+     ],
+     "status": "ok",
+     "key": "P26_T1",
+     "merge_group": "MG42",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 27,
+   "page_index": 72,
+   "drawing_paths": 6217,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N81",
+     "n_rows": 2,
+     "n_cols": 6,
+     "cell_total": 12,
+     "filled_cells": 6,
+     "text_cells": 0,
+     "ocr_cells": 6,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.974,
+     "low_quality": false,
+     "grid_bbox": [
+      211.8,
+      134.8,
+      512.0,
+      264.7
+     ],
+     "status": "ok",
+     "key": "P27_T0",
+     "merge_group": "MG43",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "支座中心线",
+     "n_rows": 6,
+     "n_cols": 2,
+     "cell_total": 9,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9981,
+     "low_quality": false,
+     "grid_bbox": [
+      741.1,
+      160.3,
+      828.8,
+      588.9
+     ],
+     "status": "ok",
+     "key": "P27_T1",
+     "merge_group": "MG44",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 28,
+   "page_index": 73,
+   "drawing_paths": 16037,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 4,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "4×100",
+     "n_rows": 2,
+     "n_cols": 6,
+     "cell_total": 8,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9595,
+     "low_quality": false,
+     "grid_bbox": [
+      192.8,
+      319.6,
+      802.4,
+      385.1
+     ],
+     "status": "ok",
+     "key": "P28_T0",
+     "merge_group": "MG45",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "名称编号材质规格数量单件重共重 (kg) 备注",
+     "n_rows": 23,
+     "n_cols": 8,
+     "cell_total": 184,
+     "filled_cells": 124,
+     "text_cells": 0,
+     "ocr_cells": 124,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.994,
+     "low_quality": false,
+     "grid_bbox": [
+      805.2,
+      464.7,
+      1126.6,
+      748.1
+     ],
+     "status": "ok",
+     "key": "P28_T1",
+     "merge_group": "MG46",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "L2",
+     "n_rows": 3,
+     "n_cols": 3,
+     "cell_total": 5,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9884,
+     "low_quality": false,
+     "grid_bbox": [
+      157.1,
+      514.2,
+      489.6,
+      595.5
+     ],
+     "status": "ok",
+     "key": "P28_T2",
+     "merge_group": "MG47",
+     "continued_from": ""
+    },
+    {
+     "表序号": 3,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.7402,
+     "low_quality": false,
+     "grid_bbox": [
+      283.1,
+      680.4,
+      516.2,
+      740.0
+     ],
+     "status": "ok",
+     "key": "P28_T3",
+     "merge_group": "MG48",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 29,
+   "page_index": 74,
+   "drawing_paths": 7944,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段07材料数量表",
+     "n_rows": 60,
+     "n_cols": 7,
+     "cell_total": 420,
+     "filled_cells": 361,
+     "text_cells": 0,
+     "ocr_cells": 361,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9917,
+     "low_quality": false,
+     "grid_bbox": [
+      262.6,
+      56.1,
+      514.9,
+      728.1
+     ],
+     "status": "ok",
+     "key": "P29_T0",
+     "merge_group": "MG49",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "规格（mm) 材质单个合计全桥共1个",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 49,
+     "filled_cells": 47,
+     "text_cells": 0,
+     "ocr_cells": 47,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9971,
+     "low_quality": false,
+     "grid_bbox": [
+      627.0,
+      360.6,
+      801.2,
+      546.8
+     ],
+     "status": "ok",
+     "key": "P29_T1",
+     "merge_group": "MG50",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段6~节段7拼接数量表汇总",
+     "n_rows": 9,
+     "n_cols": 4,
+     "cell_total": 30,
+     "filled_cells": 30,
+     "text_cells": 0,
+     "ocr_cells": 30,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      903.3,
+      363.0,
+      1089.8,
+      474.8
+     ],
+     "status": "ok",
+     "key": "P29_T2",
+     "merge_group": "MG51",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 30,
+   "page_index": 76,
+   "drawing_paths": 11738,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9522,
+     "low_quality": false,
+     "grid_bbox": [
+      198.7,
+      300.0,
+      624.3,
+      388.7
+     ],
+     "status": "ok",
+     "key": "P30_T0",
+     "merge_group": "MG52",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9787,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P30_T1",
+     "merge_group": "MG53",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 31,
+   "page_index": 77,
+   "drawing_paths": 17108,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段7～节段8拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 137,
+     "text_cells": 0,
+     "ocr_cells": 137,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9934,
+     "low_quality": false,
+     "grid_bbox": [
+      789.1,
+      437.5,
+      1110.7,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P31_T0",
+     "merge_group": "MG54",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "隔板密封",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.677,
+     "low_quality": false,
+     "grid_bbox": [
+      288.0,
+      677.9,
+      516.2,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P31_T1",
+     "merge_group": "MG55",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 32,
+   "page_index": 78,
+   "drawing_paths": 7641,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段08材料数量表",
+     "n_rows": 55,
+     "n_cols": 8,
+     "cell_total": 440,
+     "filled_cells": 348,
+     "text_cells": 0,
+     "ocr_cells": 348,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9851,
+     "low_quality": false,
+     "grid_bbox": [
+      166.6,
+      65.0,
+      475.7,
+      713.6
+     ],
+     "status": "ok",
+     "key": "P32_T0",
+     "merge_group": "MG56",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "技UO羽件奴里汇芯衣规格（mm）材质单个合计全桥共1个",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 41,
+     "filled_cells": 41,
+     "text_cells": 0,
+     "ocr_cells": 41,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9998,
+     "low_quality": false,
+     "grid_bbox": [
+      570.9,
+      313.3,
+      741.6,
+      475.3
+     ],
+     "status": "ok",
+     "key": "P32_T1",
+     "merge_group": "MG57",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段7~节段8拼接汇总表",
+     "n_rows": 12,
+     "n_cols": 4,
+     "cell_total": 40,
+     "filled_cells": 39,
+     "text_cells": 0,
+     "ocr_cells": 39,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.993,
+     "low_quality": false,
+     "grid_bbox": [
+      870.6,
+      344.7,
+      1057.0,
+      493.7
+     ],
+     "status": "ok",
+     "key": "P32_T2",
+     "merge_group": "MG58",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 33,
+   "page_index": 80,
+   "drawing_paths": 11137,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9639,
+     "low_quality": false,
+     "grid_bbox": [
+      200.9,
+      300.0,
+      626.5,
+      388.7
+     ],
+     "status": "ok",
+     "key": "P33_T0",
+     "merge_group": "MG59",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "N63",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9985,
+     "low_quality": false,
+     "grid_bbox": [
+      146.6,
+      471.4,
+      678.4,
+      560.1
+     ],
+     "status": "ok",
+     "key": "P33_T1",
+     "merge_group": "MG60",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9791,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P33_T2",
+     "merge_group": "MG61",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 34,
+   "page_index": 81,
+   "drawing_paths": 15710,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段8～节段9拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      797.0,
+      414.0,
+      1115.6,
+      748.2
+     ],
+     "status": "ok",
+     "key": "P34_T0",
+     "merge_group": "MG62",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9734,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      514.6,
+      489.6,
+      577.2
+     ],
+     "status": "ok",
+     "key": "P34_T1",
+     "merge_group": "MG63",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "中",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.6552,
+     "low_quality": false,
+     "grid_bbox": [
+      434.9,
+      690.8,
+      500.5,
+      745.5
+     ],
+     "status": "ok",
+     "key": "P34_T2",
+     "merge_group": "MG64",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 35,
+   "page_index": 82,
+   "drawing_paths": 7539,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段09材料数量表",
+     "n_rows": 57,
+     "n_cols": 8,
+     "cell_total": 456,
+     "filled_cells": 352,
+     "text_cells": 0,
+     "ocr_cells": 352,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9877,
+     "low_quality": false,
+     "grid_bbox": [
+      172.1,
+      70.3,
+      481.1,
+      742.5
+     ],
+     "status": "ok",
+     "key": "P35_T0",
+     "merge_group": "MG65",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "卫技09材科数里儿态衣",
+     "n_rows": 12,
+     "n_cols": 4,
+     "cell_total": 38,
+     "filled_cells": 38,
+     "text_cells": 0,
+     "ocr_cells": 38,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9931,
+     "low_quality": false,
+     "grid_bbox": [
+      615.5,
+      340.8,
+      790.0,
+      489.0
+     ],
+     "status": "ok",
+     "key": "P35_T1",
+     "merge_group": "MG66",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段8~节段9拼接数量汇总表",
+     "n_rows": 11,
+     "n_cols": 4,
+     "cell_total": 35,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9968,
+     "low_quality": false,
+     "grid_bbox": [
+      900.8,
+      343.9,
+      1084.6,
+      480.4
+     ],
+     "status": "ok",
+     "key": "P35_T2",
+     "merge_group": "MG67",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 36,
+   "page_index": 84,
+   "drawing_paths": 11403,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9802,
+     "low_quality": false,
+     "grid_bbox": [
+      206.2,
+      300.0,
+      631.9,
+      388.7
+     ],
+     "status": "ok",
+     "key": "P36_T0",
+     "merge_group": "MG68",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9791,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P36_T1",
+     "merge_group": "MG69",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 37,
+   "page_index": 85,
+   "drawing_paths": 13437,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段9~节段10拼接数量表",
+     "n_rows": 27,
+     "n_cols": 7,
+     "cell_total": 189,
+     "filled_cells": 146,
+     "text_cells": 0,
+     "ocr_cells": 146,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9921,
+     "low_quality": false,
+     "grid_bbox": [
+      833.1,
+      409.3,
+      1110.0,
+      744.5
+     ],
+     "status": "ok",
+     "key": "P37_T0",
+     "merge_group": "MG70",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 38,
+   "page_index": 86,
+   "drawing_paths": 7374,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段10材料数量表",
+     "n_rows": 54,
+     "n_cols": 8,
+     "cell_total": 432,
+     "filled_cells": 330,
+     "text_cells": 0,
+     "ocr_cells": 330,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9892,
+     "low_quality": false,
+     "grid_bbox": [
+      193.0,
+      73.3,
+      518.2,
+      743.6
+     ],
+     "status": "ok",
+     "key": "P38_T0",
+     "merge_group": "MG71",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "规格（mm)",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 50,
+     "filled_cells": 48,
+     "text_cells": 0,
+     "ocr_cells": 48,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9935,
+     "low_quality": false,
+     "grid_bbox": [
+      626.8,
+      279.3,
+      800.9,
+      465.6
+     ],
+     "status": "ok",
+     "key": "P38_T1",
+     "merge_group": "MG72",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 39,
+   "page_index": 88,
+   "drawing_paths": 11104,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9636,
+     "low_quality": false,
+     "grid_bbox": [
+      197.4,
+      300.0,
+      623.1,
+      388.5
+     ],
+     "status": "ok",
+     "key": "P39_T0",
+     "merge_group": "MG73",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9791,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P39_T1",
+     "merge_group": "MG74",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 40,
+   "page_index": 89,
+   "drawing_paths": 13311,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段10～节段11拼接数量表",
+     "n_rows": 23,
+     "n_cols": 8,
+     "cell_total": 184,
+     "filled_cells": 130,
+     "text_cells": 0,
+     "ocr_cells": 130,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9875,
+     "low_quality": false,
+     "grid_bbox": [
+      802.0,
+      455.3,
+      1119.8,
+      740.9
+     ],
+     "status": "ok",
+     "key": "P40_T0",
+     "merge_group": "MG75",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 41,
+   "page_index": 90,
+   "drawing_paths": 7026,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段11材料数量表",
+     "n_rows": 46,
+     "n_cols": 8,
+     "cell_total": 368,
+     "filled_cells": 282,
+     "text_cells": 0,
+     "ocr_cells": 282,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.992,
+     "low_quality": false,
+     "grid_bbox": [
+      222.4,
+      80.0,
+      545.3,
+      651.1
+     ],
+     "status": "ok",
+     "key": "P41_T0",
+     "merge_group": "MG76",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段11材料数量汇总表",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 49,
+     "filled_cells": 47,
+     "text_cells": 0,
+     "ocr_cells": 47,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9927,
+     "low_quality": false,
+     "grid_bbox": [
+      658.6,
+      269.7,
+      826.7,
+      455.9
+     ],
+     "status": "ok",
+     "key": "P41_T1",
+     "merge_group": "MG77",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 42,
+   "page_index": 92,
+   "drawing_paths": 11115,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9725,
+     "low_quality": false,
+     "grid_bbox": [
+      199.4,
+      300.0,
+      625.0,
+      388.5
+     ],
+     "status": "ok",
+     "key": "P42_T0",
+     "merge_group": "MG78",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9716,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      650.1,
+      602.3,
+      738.8
+     ],
+     "status": "ok",
+     "key": "P42_T1",
+     "merge_group": "MG79",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 43,
+   "page_index": 93,
+   "drawing_paths": 13311,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "牧T|~节牧「Z拼按敏重衣",
+     "n_rows": 23,
+     "n_cols": 8,
+     "cell_total": 184,
+     "filled_cells": 130,
+     "text_cells": 0,
+     "ocr_cells": 130,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9894,
+     "low_quality": false,
+     "grid_bbox": [
+      753.3,
+      460.8,
+      1071.9,
+      746.3
+     ],
+     "status": "ok",
+     "key": "P43_T0",
+     "merge_group": "MG80",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 44,
+   "page_index": 94,
+   "drawing_paths": 7041,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段12材料数量表",
+     "n_rows": 46,
+     "n_cols": 8,
+     "cell_total": 368,
+     "filled_cells": 282,
+     "text_cells": 0,
+     "ocr_cells": 282,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9914,
+     "low_quality": false,
+     "grid_bbox": [
+      227.7,
+      135.6,
+      550.7,
+      706.7
+     ],
+     "status": "ok",
+     "key": "P44_T0",
+     "merge_group": "MG81",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=36",
+     "n_rows": 9,
+     "n_cols": 9,
+     "cell_total": 59,
+     "filled_cells": 58,
+     "text_cells": 0,
+     "ocr_cells": 58,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9964,
+     "low_quality": false,
+     "grid_bbox": [
+      659.7,
+      315.3,
+      1102.7,
+      427.0
+     ],
+     "status": "ok",
+     "key": "P44_T1",
+     "merge_group": "MG82",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 45,
+   "page_index": 96,
+   "drawing_paths": 11202,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.975,
+     "low_quality": false,
+     "grid_bbox": [
+      201.8,
+      300.0,
+      627.5,
+      388.5
+     ],
+     "status": "ok",
+     "key": "P45_T0",
+     "merge_group": "MG83",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9716,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      650.1,
+      602.3,
+      738.8
+     ],
+     "status": "ok",
+     "key": "P45_T1",
+     "merge_group": "MG84",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 46,
+   "page_index": 97,
+   "drawing_paths": 13311,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段12～节段13拼接数量表",
+     "n_rows": 23,
+     "n_cols": 8,
+     "cell_total": 184,
+     "filled_cells": 130,
+     "text_cells": 0,
+     "ocr_cells": 130,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9893,
+     "low_quality": false,
+     "grid_bbox": [
+      768.8,
+      450.4,
+      1087.5,
+      735.9
+     ],
+     "status": "ok",
+     "key": "P46_T0",
+     "merge_group": "MG85",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 47,
+   "page_index": 98,
+   "drawing_paths": 7198,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段13材料数量表",
+     "n_rows": 50,
+     "n_cols": 8,
+     "cell_total": 400,
+     "filled_cells": 306,
+     "text_cells": 0,
+     "ocr_cells": 306,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9888,
+     "low_quality": false,
+     "grid_bbox": [
+      165.6,
+      106.2,
+      488.5,
+      726.9
+     ],
+     "status": "ok",
+     "key": "P47_T0",
+     "merge_group": "MG86",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 48,
+   "page_index": 100,
+   "drawing_paths": 11307,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9766,
+     "low_quality": false,
+     "grid_bbox": [
+      202.4,
+      297.5,
+      628.0,
+      386.2
+     ],
+     "status": "ok",
+     "key": "P48_T0",
+     "merge_group": "MG87",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9716,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      650.1,
+      602.3,
+      738.8
+     ],
+     "status": "ok",
+     "key": "P48_T1",
+     "merge_group": "MG88",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 49,
+   "page_index": 101,
+   "drawing_paths": 15473,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段13～节段14拼接数量表",
+     "n_rows": 26,
+     "n_cols": 8,
+     "cell_total": 208,
+     "filled_cells": 145,
+     "text_cells": 0,
+     "ocr_cells": 145,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9908,
+     "low_quality": false,
+     "grid_bbox": [
+      791.2,
+      417.3,
+      1109.8,
+      740.0
+     ],
+     "status": "ok",
+     "key": "P49_T0",
+     "merge_group": "MG89",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.963,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      514.9,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P49_T1",
+     "merge_group": "MG90",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "申中申",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5456,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P49_T2",
+     "merge_group": "MG91",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 50,
+   "page_index": 102,
+   "drawing_paths": 7564,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段14材料数量表",
+     "n_rows": 57,
+     "n_cols": 8,
+     "cell_total": 456,
+     "filled_cells": 349,
+     "text_cells": 0,
+     "ocr_cells": 349,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9879,
+     "low_quality": false,
+     "grid_bbox": [
+      185.1,
+      72.6,
+      493.9,
+      744.9
+     ],
+     "status": "ok",
+     "key": "P50_T0",
+     "merge_group": "MG92",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段14材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 41,
+     "filled_cells": 41,
+     "text_cells": 0,
+     "ocr_cells": 41,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9961,
+     "low_quality": false,
+     "grid_bbox": [
+      622.9,
+      303.9,
+      797.0,
+      465.1
+     ],
+     "status": "ok",
+     "key": "P50_T1",
+     "merge_group": "MG93",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段13~节段14拼接数量汇总表",
+     "n_rows": 9,
+     "n_cols": 4,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9952,
+     "low_quality": false,
+     "grid_bbox": [
+      903.3,
+      325.1,
+      1087.1,
+      437.5
+     ],
+     "status": "ok",
+     "key": "P50_T2",
+     "merge_group": "MG94",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 51,
+   "page_index": 104,
+   "drawing_paths": 11517,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9215,
+     "low_quality": false,
+     "grid_bbox": [
+      195.5,
+      297.5,
+      621.2,
+      386.2
+     ],
+     "status": "ok",
+     "key": "P51_T0",
+     "merge_group": "MG95",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9794,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P51_T1",
+     "merge_group": "MG96",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 52,
+   "page_index": 105,
+   "drawing_paths": 15717,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段14～节段15拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9911,
+     "low_quality": false,
+     "grid_bbox": [
+      780.8,
+      410.9,
+      1099.2,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P52_T0",
+     "merge_group": "MG97",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 3,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.8963,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      685.6,
+      563.2,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P52_T1",
+     "merge_group": "MG98",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 53,
+   "page_index": 106,
+   "drawing_paths": 7690,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段15材料数量表",
+     "n_rows": 58,
+     "n_cols": 8,
+     "cell_total": 464,
+     "filled_cells": 354,
+     "text_cells": 0,
+     "ocr_cells": 354,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9883,
+     "low_quality": false,
+     "grid_bbox": [
+      183.7,
+      65.9,
+      492.6,
+      750.0
+     ],
+     "status": "ok",
+     "key": "P53_T0",
+     "merge_group": "MG99",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "技1J材科数重汇总衣规格（mm）材质单个合计全桥共1个",
+     "n_rows": 16,
+     "n_cols": 4,
+     "cell_total": 53,
+     "filled_cells": 50,
+     "text_cells": 0,
+     "ocr_cells": 50,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9949,
+     "low_quality": false,
+     "grid_bbox": [
+      631.1,
+      376.8,
+      805.9,
+      575.4
+     ],
+     "status": "ok",
+     "key": "P53_T1",
+     "merge_group": "MG100",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段14~节段15拼接数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 43,
+     "filled_cells": 42,
+     "text_cells": 0,
+     "ocr_cells": 42,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9949,
+     "low_quality": false,
+     "grid_bbox": [
+      911.6,
+      379.1,
+      1095.3,
+      540.4
+     ],
+     "status": "ok",
+     "key": "P53_T2",
+     "merge_group": "MG101",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 54,
+   "page_index": 108,
+   "drawing_paths": 11651,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9619,
+     "low_quality": false,
+     "grid_bbox": [
+      200.9,
+      297.5,
+      626.6,
+      386.2
+     ],
+     "status": "ok",
+     "key": "P54_T0",
+     "merge_group": "MG102",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9752,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      650.1,
+      602.3,
+      738.8
+     ],
+     "status": "ok",
+     "key": "P54_T1",
+     "merge_group": "MG103",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 55,
+   "page_index": 109,
+   "drawing_paths": 16794,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段15～节段16拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 138,
+     "text_cells": 0,
+     "ocr_cells": 138,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9936,
+     "low_quality": false,
+     "grid_bbox": [
+      794.5,
+      428.1,
+      1116.3,
+      738.7
+     ],
+     "status": "ok",
+     "key": "P55_T0",
+     "merge_group": "MG104",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 56,
+   "page_index": 110,
+   "drawing_paths": 7766,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段16材料数量表",
+     "n_rows": 56,
+     "n_cols": 8,
+     "cell_total": 448,
+     "filled_cells": 349,
+     "text_cells": 0,
+     "ocr_cells": 349,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9882,
+     "low_quality": false,
+     "grid_bbox": [
+      177.7,
+      46.9,
+      502.9,
+      742.1
+     ],
+     "status": "ok",
+     "key": "P56_T0",
+     "merge_group": "MG105",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 57,
+   "page_index": 113,
+   "drawing_paths": 6157,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N81",
+     "n_rows": 2,
+     "n_cols": 6,
+     "cell_total": 12,
+     "filled_cells": 6,
+     "text_cells": 0,
+     "ocr_cells": 6,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.974,
+     "low_quality": false,
+     "grid_bbox": [
+      211.8,
+      134.8,
+      512.0,
+      264.7
+     ],
+     "status": "ok",
+     "key": "P57_T0",
+     "merge_group": "MG106",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "支座中心线",
+     "n_rows": 6,
+     "n_cols": 2,
+     "cell_total": 9,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9981,
+     "low_quality": false,
+     "grid_bbox": [
+      741.1,
+      160.3,
+      828.8,
+      588.9
+     ],
+     "status": "ok",
+     "key": "P57_T1",
+     "merge_group": "MG107",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 58,
+   "page_index": 114,
+   "drawing_paths": 17050,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段16~节段17拼接数量表",
+     "n_rows": 25,
+     "n_cols": 7,
+     "cell_total": 175,
+     "filled_cells": 134,
+     "text_cells": 0,
+     "ocr_cells": 134,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9939,
+     "low_quality": false,
+     "grid_bbox": [
+      844.4,
+      434.0,
+      1124.3,
+      744.3
+     ],
+     "status": "ok",
+     "key": "P58_T0",
+     "merge_group": "MG108",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "L2",
+     "n_rows": 3,
+     "n_cols": 3,
+     "cell_total": 5,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9674,
+     "low_quality": false,
+     "grid_bbox": [
+      157.1,
+      511.7,
+      489.6,
+      592.9
+     ],
+     "status": "ok",
+     "key": "P58_T1",
+     "merge_group": "MG109",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "隔板密封",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.7339,
+     "low_quality": false,
+     "grid_bbox": [
+      283.1,
+      677.9,
+      516.2,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P58_T2",
+     "merge_group": "MG110",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 59,
+   "page_index": 115,
+   "drawing_paths": 7960,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段17材料数量表名称编号材质规格数量单件重共重 (kg) 备注",
+     "n_rows": 60,
+     "n_cols": 8,
+     "cell_total": 480,
+     "filled_cells": 373,
+     "text_cells": 0,
+     "ocr_cells": 373,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9928,
+     "low_quality": false,
+     "grid_bbox": [
+      207.9,
+      69.1,
+      501.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P59_T0",
+     "merge_group": "MG111",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段17材料数量汇总表",
+     "n_rows": 14,
+     "n_cols": 4,
+     "cell_total": 45,
+     "filled_cells": 45,
+     "text_cells": 0,
+     "ocr_cells": 45,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9978,
+     "low_quality": false,
+     "grid_bbox": [
+      630.5,
+      303.9,
+      795.3,
+      477.3
+     ],
+     "status": "ok",
+     "key": "P59_T1",
+     "merge_group": "MG112",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段16~节段17拼接数量汇总表",
+     "n_rows": 10,
+     "n_cols": 4,
+     "cell_total": 33,
+     "filled_cells": 33,
+     "text_cells": 0,
+     "ocr_cells": 33,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9951,
+     "low_quality": false,
+     "grid_bbox": [
+      881.7,
+      346.5,
+      1068.1,
+      471.5
+     ],
+     "status": "ok",
+     "key": "P59_T2",
+     "merge_group": "MG113",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 60,
+   "page_index": 117,
+   "drawing_paths": 11539,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9654,
+     "low_quality": false,
+     "grid_bbox": [
+      210.0,
+      300.0,
+      635.6,
+      388.7
+     ],
+     "status": "ok",
+     "key": "P60_T0",
+     "merge_group": "MG114",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9787,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P60_T1",
+     "merge_group": "MG115",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 61,
+   "page_index": 118,
+   "drawing_paths": 16334,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段17～节段18拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 138,
+     "text_cells": 0,
+     "ocr_cells": 138,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9936,
+     "low_quality": false,
+     "grid_bbox": [
+      802.4,
+      441.1,
+      1124.0,
+      751.4
+     ],
+     "status": "ok",
+     "key": "P61_T0",
+     "merge_group": "MG116",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9593,
+     "low_quality": false,
+     "grid_bbox": [
+      233.5,
+      514.8,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P61_T1",
+     "merge_group": "MG117",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "申中申",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5456,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P61_T2",
+     "merge_group": "MG118",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 62,
+   "page_index": 119,
+   "drawing_paths": 7701,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段18材料数量表名称编号材质规格数量单件重共重 (kg) 备注",
+     "n_rows": 55,
+     "n_cols": 8,
+     "cell_total": 440,
+     "filled_cells": 342,
+     "text_cells": 0,
+     "ocr_cells": 342,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9824,
+     "low_quality": false,
+     "grid_bbox": [
+      164.6,
+      58.6,
+      489.6,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P62_T0",
+     "merge_group": "MG119",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段18材料数量汇总表",
+     "n_rows": 16,
+     "n_cols": 4,
+     "cell_total": 54,
+     "filled_cells": 51,
+     "text_cells": 0,
+     "ocr_cells": 51,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9934,
+     "low_quality": false,
+     "grid_bbox": [
+      619.9,
+      265.1,
+      790.9,
+      463.8
+     ],
+     "status": "ok",
+     "key": "P62_T1",
+     "merge_group": "MG120",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 63,
+   "page_index": 121,
+   "drawing_paths": 11023,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9526,
+     "low_quality": false,
+     "grid_bbox": [
+      221.8,
+      307.4,
+      647.4,
+      395.8
+     ],
+     "status": "ok",
+     "key": "P63_T0",
+     "merge_group": "MG121",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9791,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P63_T1",
+     "merge_group": "MG122",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 64,
+   "page_index": 122,
+   "drawing_paths": 15718,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段18～节段19拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9925,
+     "low_quality": false,
+     "grid_bbox": [
+      794.0,
+      410.3,
+      1112.6,
+      745.5
+     ],
+     "status": "ok",
+     "key": "P64_T0",
+     "merge_group": "MG123",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "申中申",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5456,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P64_T1",
+     "merge_group": "MG124",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 65,
+   "page_index": 123,
+   "drawing_paths": 7401,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段19材料数量表",
+     "n_rows": 53,
+     "n_cols": 8,
+     "cell_total": 424,
+     "filled_cells": 328,
+     "text_cells": 0,
+     "ocr_cells": 328,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9907,
+     "low_quality": false,
+     "grid_bbox": [
+      122.1,
+      84.1,
+      447.3,
+      742.0
+     ],
+     "status": "ok",
+     "key": "P65_T0",
+     "merge_group": "MG125",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段18~节段19拼接数量汇总表",
+     "n_rows": 12,
+     "n_cols": 4,
+     "cell_total": 39,
+     "filled_cells": 39,
+     "text_cells": 0,
+     "ocr_cells": 39,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.996,
+     "low_quality": false,
+     "grid_bbox": [
+      856.9,
+      292.5,
+      1040.7,
+      441.5
+     ],
+     "status": "ok",
+     "key": "P65_T1",
+     "merge_group": "MG126",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段19材料数量汇总表",
+     "n_rows": 11,
+     "n_cols": 4,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.996,
+     "low_quality": false,
+     "grid_bbox": [
+      559.9,
+      298.4,
+      734.4,
+      434.9
+     ],
+     "status": "ok",
+     "key": "P65_T2",
+     "merge_group": "MG127",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 66,
+   "page_index": 125,
+   "drawing_paths": 10832,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 4,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9612,
+     "low_quality": false,
+     "grid_bbox": [
+      221.5,
+      303.1,
+      640.0,
+      391.8
+     ],
+     "status": "ok",
+     "key": "P66_T0",
+     "merge_group": "MG128",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9808,
+     "low_quality": false,
+     "grid_bbox": [
+      176.7,
+      652.6,
+      602.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P66_T1",
+     "merge_group": "MG129",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 67,
+   "page_index": 126,
+   "drawing_paths": 13077,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "名称",
+     "n_rows": 21,
+     "n_cols": 8,
+     "cell_total": 168,
+     "filled_cells": 116,
+     "text_cells": 0,
+     "ocr_cells": 116,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9931,
+     "low_quality": false,
+     "grid_bbox": [
+      795.5,
+      472.7,
+      1113.6,
+      732.4
+     ],
+     "status": "ok",
+     "key": "P67_T0",
+     "merge_group": "MG130",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 68,
+   "page_index": 127,
+   "drawing_paths": 6824,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段20材料数量表",
+     "n_rows": 44,
+     "n_cols": 8,
+     "cell_total": 352,
+     "filled_cells": 269,
+     "text_cells": 0,
+     "ocr_cells": 269,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.991,
+     "low_quality": false,
+     "grid_bbox": [
+      206.5,
+      110.2,
+      529.4,
+      656.4
+     ],
+     "status": "ok",
+     "key": "P68_T0",
+     "merge_group": "MG131",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=32",
+     "n_rows": 7,
+     "n_cols": 8,
+     "cell_total": 40,
+     "filled_cells": 39,
+     "text_cells": 0,
+     "ocr_cells": 39,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9917,
+     "low_quality": false,
+     "grid_bbox": [
+      654.9,
+      328.7,
+      1080.5,
+      415.8
+     ],
+     "status": "ok",
+     "key": "P68_T1",
+     "merge_group": "MG132",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 69,
+   "page_index": 129,
+   "drawing_paths": 11579,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "R250",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 6,
+     "filled_cells": 6,
+     "text_cells": 0,
+     "ocr_cells": 6,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9622,
+     "low_quality": false,
+     "grid_bbox": [
+      208.5,
+      304.8,
+      700.3,
+      393.4
+     ],
+     "status": "ok",
+     "key": "P69_T0",
+     "merge_group": "MG133",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "R250",
+     "n_rows": 4,
+     "n_cols": 5,
+     "cell_total": 20,
+     "filled_cells": 20,
+     "text_cells": 0,
+     "ocr_cells": 20,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.985,
+     "low_quality": false,
+     "grid_bbox": [
+      167.2,
+      652.6,
+      700.3,
+      741.3
+     ],
+     "status": "ok",
+     "key": "P69_T1",
+     "merge_group": "MG134",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 70,
+   "page_index": 130,
+   "drawing_paths": 13074,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段20～节段21拼接数量表",
+     "n_rows": 22,
+     "n_cols": 7,
+     "cell_total": 154,
+     "filled_cells": 118,
+     "text_cells": 0,
+     "ocr_cells": 118,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9928,
+     "low_quality": false,
+     "grid_bbox": [
+      845.3,
+      468.1,
+      1121.7,
+      741.2
+     ],
+     "status": "ok",
+     "key": "P70_T0",
+     "merge_group": "MG135",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 71,
+   "page_index": 131,
+   "drawing_paths": 6808,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段21材料数量表",
+     "n_rows": 44,
+     "n_cols": 8,
+     "cell_total": 352,
+     "filled_cells": 269,
+     "text_cells": 0,
+     "ocr_cells": 269,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.993,
+     "low_quality": false,
+     "grid_bbox": [
+      237.3,
+      132.5,
+      560.2,
+      678.7
+     ],
+     "status": "ok",
+     "key": "P71_T0",
+     "merge_group": "MG136",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段21材料数量汇总表",
+     "n_rows": 11,
+     "n_cols": 4,
+     "cell_total": 35,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9961,
+     "low_quality": false,
+     "grid_bbox": [
+      668.7,
+      302.6,
+      837.0,
+      439.2
+     ],
+     "status": "ok",
+     "key": "P71_T1",
+     "merge_group": "MG137",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 72,
+   "page_index": 133,
+   "drawing_paths": 12384,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N15",
+     "n_rows": 4,
+     "n_cols": 6,
+     "cell_total": 19,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9225,
+     "low_quality": false,
+     "grid_bbox": [
+      256.5,
+      336.7,
+      894.9,
+      721.4
+     ],
+     "status": "ok",
+     "key": "P72_T0",
+     "merge_group": "MG138",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "N73b",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 8,
+     "filled_cells": 4,
+     "text_cells": 0,
+     "ocr_cells": 4,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9614,
+     "low_quality": false,
+     "grid_bbox": [
+      957.0,
+      632.7,
+      1028.6,
+      700.3
+     ],
+     "status": "ok",
+     "key": "P72_T1",
+     "merge_group": "MG139",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 73,
+   "page_index": 135,
+   "drawing_paths": 5964,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "N73a",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 13,
+     "filled_cells": 9,
+     "text_cells": 0,
+     "ocr_cells": 9,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.988,
+     "low_quality": false,
+     "grid_bbox": [
+      581.9,
+      134.2,
+      724.9,
+      311.0
+     ],
+     "status": "ok",
+     "key": "P73_T0",
+     "merge_group": "MG140",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 74,
+   "page_index": 136,
+   "drawing_paths": 13075,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "名称",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9915,
+     "low_quality": false,
+     "grid_bbox": [
+      790.2,
+      477.9,
+      1106.5,
+      751.0
+     ],
+     "status": "ok",
+     "key": "P74_T0",
+     "merge_group": "MG141",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 75,
+   "page_index": 137,
+   "drawing_paths": 9040,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段22材料数量表",
+     "n_rows": 27,
+     "n_cols": 16,
+     "cell_total": 432,
+     "filled_cells": 334,
+     "text_cells": 0,
+     "ocr_cells": 334,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9903,
+     "low_quality": false,
+     "grid_bbox": [
+      163.0,
+      87.7,
+      827.4,
+      422.9
+     ],
+     "status": "ok",
+     "key": "P75_T0",
+     "merge_group": "MG142",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段22材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 41,
+     "filled_cells": 41,
+     "text_cells": 0,
+     "ocr_cells": 41,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9966,
+     "low_quality": false,
+     "grid_bbox": [
+      591.6,
+      478.8,
+      765.7,
+      640.2
+     ],
+     "status": "ok",
+     "key": "P75_T1",
+     "merge_group": "MG143",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段21~节段22拼接数量汇总表",
+     "n_rows": 7,
+     "n_cols": 4,
+     "cell_total": 24,
+     "filled_cells": 24,
+     "text_cells": 0,
+     "ocr_cells": 24,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9937,
+     "low_quality": false,
+     "grid_bbox": [
+      873.1,
+      506.0,
+      1056.9,
+      592.8
+     ],
+     "status": "ok",
+     "key": "P75_T2",
+     "merge_group": "MG144",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 76,
+   "page_index": 142,
+   "drawing_paths": 8362,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段01材料数量",
+     "n_rows": 52,
+     "n_cols": 7,
+     "cell_total": 364,
+     "filled_cells": 314,
+     "text_cells": 0,
+     "ocr_cells": 314,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9783,
+     "low_quality": false,
+     "grid_bbox": [
+      239.8,
+      76.3,
+      520.5,
+      721.8
+     ],
+     "status": "ok",
+     "key": "P76_T0",
+     "merge_group": "MG145",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段01材料数量汇总表",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 60,
+     "filled_cells": 56,
+     "text_cells": 0,
+     "ocr_cells": 56,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      736.1,
+      431.4,
+      910.8,
+      617.6
+     ],
+     "status": "ok",
+     "key": "P76_T1",
+     "merge_group": "MG146",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 77,
+   "page_index": 145,
+   "drawing_paths": 15019,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段1～节段2拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 138,
+     "text_cells": 0,
+     "ocr_cells": 138,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      820.9,
+      431.2,
+      1139.3,
+      741.5
+     ],
+     "status": "ok",
+     "key": "P77_T0",
+     "merge_group": "MG147",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9636,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      515.0,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P77_T1",
+     "merge_group": "MG148",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P77_T2",
+     "merge_group": "MG149",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 78,
+   "page_index": 146,
+   "drawing_paths": 7203,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段02材料数量表",
+     "n_rows": 47,
+     "n_cols": 7,
+     "cell_total": 329,
+     "filled_cells": 284,
+     "text_cells": 0,
+     "ocr_cells": 284,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9891,
+     "low_quality": false,
+     "grid_bbox": [
+      211.6,
+      77.8,
+      489.0,
+      661.3
+     ],
+     "status": "ok",
+     "key": "P78_T0",
+     "merge_group": "MG150",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 79,
+   "page_index": 149,
+   "drawing_paths": 12802,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段2~节段3拼接数量表",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      809.6,
+      460.4,
+      1127.5,
+      733.5
+     ],
+     "status": "ok",
+     "key": "P79_T0",
+     "merge_group": "MG151",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 80,
+   "page_index": 150,
+   "drawing_paths": 6936,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段03材料数量表",
+     "n_rows": 43,
+     "n_cols": 7,
+     "cell_total": 301,
+     "filled_cells": 260,
+     "text_cells": 0,
+     "ocr_cells": 260,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9906,
+     "low_quality": false,
+     "grid_bbox": [
+      175.9,
+      90.0,
+      453.1,
+      623.8
+     ],
+     "status": "ok",
+     "key": "P80_T0",
+     "merge_group": "MG152",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=16",
+     "n_rows": 6,
+     "n_cols": 9,
+     "cell_total": 49,
+     "filled_cells": 45,
+     "text_cells": 0,
+     "ocr_cells": 45,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9911,
+     "low_quality": false,
+     "grid_bbox": [
+      565.1,
+      391.3,
+      1040.9,
+      465.8
+     ],
+     "status": "ok",
+     "key": "P80_T1",
+     "merge_group": "MG153",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 81,
+   "page_index": 153,
+   "drawing_paths": 12806,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "下技下技牛物按效里衣",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.993,
+     "low_quality": false,
+     "grid_bbox": [
+      806.9,
+      468.9,
+      1124.8,
+      742.0
+     ],
+     "status": "ok",
+     "key": "P81_T0",
+     "merge_group": "MG154",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 82,
+   "page_index": 154,
+   "drawing_paths": 7107,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段04材料数量表",
+     "n_rows": 46,
+     "n_cols": 7,
+     "cell_total": 322,
+     "filled_cells": 278,
+     "text_cells": 0,
+     "ocr_cells": 278,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9873,
+     "low_quality": false,
+     "grid_bbox": [
+      230.2,
+      101.7,
+      507.5,
+      672.7
+     ],
+     "status": "ok",
+     "key": "P82_T0",
+     "merge_group": "MG155",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 83,
+   "page_index": 157,
+   "drawing_paths": 15149,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段4～节段5拼接数量表",
+     "n_rows": 26,
+     "n_cols": 8,
+     "cell_total": 208,
+     "filled_cells": 143,
+     "text_cells": 0,
+     "ocr_cells": 143,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9932,
+     "low_quality": false,
+     "grid_bbox": [
+      791.9,
+      422.8,
+      1110.4,
+      745.5
+     ],
+     "status": "ok",
+     "key": "P83_T0",
+     "merge_group": "MG156",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P83_T1",
+     "merge_group": "MG157",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 84,
+   "page_index": 158,
+   "drawing_paths": 7634,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段05材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 331,
+     "text_cells": 0,
+     "ocr_cells": 331,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9888,
+     "low_quality": false,
+     "grid_bbox": [
+      183.2,
+      55.9,
+      457.4,
+      723.8
+     ],
+     "status": "ok",
+     "key": "P84_T0",
+     "merge_group": "MG158",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "规格（mm)",
+     "n_rows": 17,
+     "n_cols": 4,
+     "cell_total": 68,
+     "filled_cells": 54,
+     "text_cells": 0,
+     "ocr_cells": 54,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9913,
+     "low_quality": false,
+     "grid_bbox": [
+      551.5,
+      302.7,
+      722.4,
+      513.7
+     ],
+     "status": "ok",
+     "key": "P84_T1",
+     "merge_group": "MG159",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段4~节段5拼接数量汇总表规格（mm）材质单个合计全桥共2个",
+     "n_rows": 9,
+     "n_cols": 4,
+     "cell_total": 36,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9966,
+     "low_quality": false,
+     "grid_bbox": [
+      860.7,
+      323.0,
+      1044.5,
+      435.4
+     ],
+     "status": "ok",
+     "key": "P84_T2",
+     "merge_group": "MG160",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 85,
+   "page_index": 161,
+   "drawing_paths": 15969,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段5～节段6拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 138,
+     "text_cells": 0,
+     "ocr_cells": 138,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      805.8,
+      436.1,
+      1124.5,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P85_T0",
+     "merge_group": "MG161",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 3,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9327,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      685.7,
+      563.2,
+      747.0
+     ],
+     "status": "ok",
+     "key": "P85_T1",
+     "merge_group": "MG162",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 86,
+   "page_index": 162,
+   "drawing_paths": 7799,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段06材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9837,
+     "low_quality": false,
+     "grid_bbox": [
+      251.3,
+      47.5,
+      530.9,
+      730.3
+     ],
+     "status": "ok",
+     "key": "P86_T0",
+     "merge_group": "MG163",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=44",
+     "n_rows": 14,
+     "n_cols": 9,
+     "cell_total": 91,
+     "filled_cells": 90,
+     "text_cells": 0,
+     "ocr_cells": 90,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.998,
+     "low_quality": false,
+     "grid_bbox": [
+      665.0,
+      361.3,
+      1111.6,
+      535.0
+     ],
+     "status": "ok",
+     "key": "P86_T1",
+     "merge_group": "MG164",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 87,
+   "page_index": 166,
+   "drawing_paths": 16636,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段6~节段7拼接数量表",
+     "n_rows": 24,
+     "n_cols": 7,
+     "cell_total": 168,
+     "filled_cells": 130,
+     "text_cells": 0,
+     "ocr_cells": 130,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9936,
+     "low_quality": false,
+     "grid_bbox": [
+      786.9,
+      446.2,
+      1080.5,
+      742.7
+     ],
+     "status": "ok",
+     "key": "P87_T0",
+     "merge_group": "MG165",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "L2",
+     "n_rows": 3,
+     "n_cols": 3,
+     "cell_total": 5,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9822,
+     "low_quality": false,
+     "grid_bbox": [
+      157.1,
+      511.5,
+      489.6,
+      592.8
+     ],
+     "status": "ok",
+     "key": "P87_T1",
+     "merge_group": "MG166",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "隔板密封",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9984,
+     "low_quality": false,
+     "grid_bbox": [
+      283.1,
+      677.9,
+      516.2,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P87_T2",
+     "merge_group": "MG167",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 88,
+   "page_index": 167,
+   "drawing_paths": 8006,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段07材料数量表编号材质规格数量单件重共重（kg) 备注",
+     "n_rows": 60,
+     "n_cols": 7,
+     "cell_total": 420,
+     "filled_cells": 361,
+     "text_cells": 0,
+     "ocr_cells": 361,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9796,
+     "low_quality": false,
+     "grid_bbox": [
+      195.8,
+      58.6,
+      448.1,
+      730.8
+     ],
+     "status": "ok",
+     "key": "P88_T0",
+     "merge_group": "MG168",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=48",
+     "n_rows": 10,
+     "n_cols": 9,
+     "cell_total": 66,
+     "filled_cells": 64,
+     "text_cells": 0,
+     "ocr_cells": 64,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9972,
+     "low_quality": false,
+     "grid_bbox": [
+      583.7,
+      378.2,
+      1047.3,
+      502.4
+     ],
+     "status": "ok",
+     "key": "P88_T1",
+     "merge_group": "MG169",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 89,
+   "page_index": 170,
+   "drawing_paths": 16594,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段7～节段8拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 133,
+     "text_cells": 0,
+     "ocr_cells": 133,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9931,
+     "low_quality": false,
+     "grid_bbox": [
+      799.7,
+      437.0,
+      1118.4,
+      747.3
+     ],
+     "status": "ok",
+     "key": "P89_T0",
+     "merge_group": "MG170",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "L2",
+     "n_rows": 3,
+     "n_cols": 3,
+     "cell_total": 5,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9595,
+     "low_quality": false,
+     "grid_bbox": [
+      152.2,
+      511.6,
+      489.6,
+      593.4
+     ],
+     "status": "ok",
+     "key": "P89_T1",
+     "merge_group": "MG171",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "隔板密封",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9989,
+     "low_quality": false,
+     "grid_bbox": [
+      288.0,
+      677.9,
+      516.2,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P89_T2",
+     "merge_group": "MG172",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 90,
+   "page_index": 171,
+   "drawing_paths": 7678,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段08材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9864,
+     "low_quality": false,
+     "grid_bbox": [
+      249.1,
+      79.5,
+      514.8,
+      728.1
+     ],
+     "status": "ok",
+     "key": "P90_T0",
+     "merge_group": "MG173",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段08材料数量汇总表",
+     "n_rows": 17,
+     "n_cols": 4,
+     "cell_total": 57,
+     "filled_cells": 54,
+     "text_cells": 0,
+     "ocr_cells": 54,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9941,
+     "low_quality": false,
+     "grid_bbox": [
+      631.8,
+      364.6,
+      802.7,
+      575.2
+     ],
+     "status": "ok",
+     "key": "P90_T1",
+     "merge_group": "MG174",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "√枚/ √技O拼按数里汇总衣规格（mm) 材质单个合计全桥共2个",
+     "n_rows": 11,
+     "n_cols": 4,
+     "cell_total": 36,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9945,
+     "low_quality": false,
+     "grid_bbox": [
+      886.4,
+      412.0,
+      1072.9,
+      548.6
+     ],
+     "status": "ok",
+     "key": "P90_T2",
+     "merge_group": "MG175",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 91,
+   "page_index": 174,
+   "drawing_paths": 15398,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段8～节段9拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9918,
+     "low_quality": false,
+     "grid_bbox": [
+      807.8,
+      406.2,
+      1126.5,
+      741.4
+     ],
+     "status": "ok",
+     "key": "P91_T0",
+     "merge_group": "MG176",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9636,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      515.0,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P91_T1",
+     "merge_group": "MG177",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P91_T2",
+     "merge_group": "MG178",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 92,
+   "page_index": 175,
+   "drawing_paths": 7650,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段09材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9858,
+     "low_quality": false,
+     "grid_bbox": [
+      261.9,
+      80.9,
+      527.8,
+      729.5
+     ],
+     "status": "ok",
+     "key": "P92_T0",
+     "merge_group": "MG179",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段09材料数量汇总表",
+     "n_rows": 14,
+     "n_cols": 4,
+     "cell_total": 56,
+     "filled_cells": 52,
+     "text_cells": 0,
+     "ocr_cells": 52,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9962,
+     "low_quality": false,
+     "grid_bbox": [
+      630.3,
+      334.4,
+      813.0,
+      508.2
+     ],
+     "status": "ok",
+     "key": "P92_T1",
+     "merge_group": "MG180",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段8～节段9拼接数量汇总表",
+     "n_rows": 12,
+     "n_cols": 4,
+     "cell_total": 48,
+     "filled_cells": 48,
+     "text_cells": 0,
+     "ocr_cells": 48,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9951,
+     "low_quality": false,
+     "grid_bbox": [
+      913.3,
+      343.5,
+      1097.1,
+      493.1
+     ],
+     "status": "ok",
+     "key": "P92_T2",
+     "merge_group": "MG181",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 93,
+   "page_index": 178,
+   "drawing_paths": 15314,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段9～节段10拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9908,
+     "low_quality": false,
+     "grid_bbox": [
+      805.4,
+      410.1,
+      1124.2,
+      745.4
+     ],
+     "status": "ok",
+     "key": "P93_T0",
+     "merge_group": "MG182",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 3,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.931,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      683.4,
+      563.2,
+      745.4
+     ],
+     "status": "ok",
+     "key": "P93_T1",
+     "merge_group": "MG183",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 94,
+   "page_index": 179,
+   "drawing_paths": 7515,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段10材料数量表",
+     "n_rows": 51,
+     "n_cols": 7,
+     "cell_total": 357,
+     "filled_cells": 308,
+     "text_cells": 0,
+     "ocr_cells": 308,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.986,
+     "low_quality": false,
+     "grid_bbox": [
+      247.3,
+      81.5,
+      524.7,
+      714.6
+     ],
+     "status": "ok",
+     "key": "P94_T0",
+     "merge_group": "MG184",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 95,
+   "page_index": 182,
+   "drawing_paths": 13162,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段10~节段11拼接数量表",
+     "n_rows": 24,
+     "n_cols": 7,
+     "cell_total": 168,
+     "filled_cells": 132,
+     "text_cells": 0,
+     "ocr_cells": 132,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9932,
+     "low_quality": false,
+     "grid_bbox": [
+      823.3,
+      435.4,
+      1100.4,
+      733.3
+     ],
+     "status": "ok",
+     "key": "P95_T0",
+     "merge_group": "MG185",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 96,
+   "page_index": 183,
+   "drawing_paths": 7153,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段11材料数量表",
+     "n_rows": 43,
+     "n_cols": 7,
+     "cell_total": 301,
+     "filled_cells": 260,
+     "text_cells": 0,
+     "ocr_cells": 260,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9932,
+     "low_quality": false,
+     "grid_bbox": [
+      252.0,
+      109.5,
+      529.4,
+      643.3
+     ],
+     "status": "ok",
+     "key": "P96_T0",
+     "merge_group": "MG186",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=40",
+     "n_rows": 10,
+     "n_cols": 9,
+     "cell_total": 81,
+     "filled_cells": 78,
+     "text_cells": 0,
+     "ocr_cells": 78,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9968,
+     "low_quality": false,
+     "grid_bbox": [
+      621.2,
+      348.9,
+      1101.9,
+      473.0
+     ],
+     "status": "ok",
+     "key": "P96_T1",
+     "merge_group": "MG187",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 97,
+   "page_index": 186,
+   "drawing_paths": 13161,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段11~节段12拼接数量表",
+     "n_rows": 24,
+     "n_cols": 7,
+     "cell_total": 168,
+     "filled_cells": 131,
+     "text_cells": 0,
+     "ocr_cells": 131,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      786.8,
+      433.4,
+      1080.4,
+      731.3
+     ],
+     "status": "ok",
+     "key": "P97_T0",
+     "merge_group": "MG188",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 98,
+   "page_index": 187,
+   "drawing_paths": 7160,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段12材料数量表",
+     "n_rows": 43,
+     "n_cols": 7,
+     "cell_total": 301,
+     "filled_cells": 260,
+     "text_cells": 0,
+     "ocr_cells": 260,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9917,
+     "low_quality": false,
+     "grid_bbox": [
+      240.1,
+      102.6,
+      517.5,
+      636.4
+     ],
+     "status": "ok",
+     "key": "P98_T0",
+     "merge_group": "MG189",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段12材料数量汇总表",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 60,
+     "filled_cells": 56,
+     "text_cells": 0,
+     "ocr_cells": 56,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9919,
+     "low_quality": false,
+     "grid_bbox": [
+      650.7,
+      296.1,
+      821.6,
+      482.3
+     ],
+     "status": "ok",
+     "key": "P98_T1",
+     "merge_group": "MG190",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 99,
+   "page_index": 190,
+   "drawing_paths": 13156,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段12～节段13拼接数量表",
+     "n_rows": 24,
+     "n_cols": 8,
+     "cell_total": 192,
+     "filled_cells": 136,
+     "text_cells": 0,
+     "ocr_cells": 136,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9929,
+     "low_quality": false,
+     "grid_bbox": [
+      802.4,
+      453.7,
+      1121.1,
+      751.7
+     ],
+     "status": "ok",
+     "key": "P99_T0",
+     "merge_group": "MG191",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 100,
+   "page_index": 191,
+   "drawing_paths": 7313,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段13材料数量表",
+     "n_rows": 47,
+     "n_cols": 7,
+     "cell_total": 329,
+     "filled_cells": 284,
+     "text_cells": 0,
+     "ocr_cells": 284,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9855,
+     "low_quality": false,
+     "grid_bbox": [
+      213.6,
+      95.0,
+      490.9,
+      678.4
+     ],
+     "status": "ok",
+     "key": "P100_T0",
+     "merge_group": "MG192",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段12~节段13拼接数量汇总表",
+     "n_rows": 11,
+     "n_cols": 4,
+     "cell_total": 44,
+     "filled_cells": 43,
+     "text_cells": 0,
+     "ocr_cells": 43,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9937,
+     "low_quality": false,
+     "grid_bbox": [
+      922.6,
+      334.8,
+      1106.1,
+      471.3
+     ],
+     "status": "ok",
+     "key": "P100_T1",
+     "merge_group": "MG193",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 101,
+   "page_index": 194,
+   "drawing_paths": 15322,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "牧「5~节技「4拼按致重衣名称编号材质规格数量单件重共重(kg) 备注",
+     "n_rows": 26,
+     "n_cols": 8,
+     "cell_total": 208,
+     "filled_cells": 142,
+     "text_cells": 0,
+     "ocr_cells": 142,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9928,
+     "low_quality": false,
+     "grid_bbox": [
+      798.9,
+      428.0,
+      1117.7,
+      750.8
+     ],
+     "status": "ok",
+     "key": "P101_T0",
+     "merge_group": "MG194",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9653,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      514.7,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P101_T1",
+     "merge_group": "MG195",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P101_T2",
+     "merge_group": "MG196",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 102,
+   "page_index": 195,
+   "drawing_paths": 7661,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段14材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9858,
+     "low_quality": false,
+     "grid_bbox": [
+      234.6,
+      49.8,
+      514.2,
+      732.6
+     ],
+     "status": "ok",
+     "key": "P102_T0",
+     "merge_group": "MG197",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=44",
+     "n_rows": 11,
+     "n_cols": 8,
+     "cell_total": 78,
+     "filled_cells": 74,
+     "text_cells": 0,
+     "ocr_cells": 74,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9969,
+     "low_quality": false,
+     "grid_bbox": [
+      624.5,
+      362.9,
+      1063.4,
+      499.4
+     ],
+     "status": "ok",
+     "key": "P102_T1",
+     "merge_group": "MG198",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 103,
+   "page_index": 198,
+   "drawing_paths": 15410,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段14～节段15拼接数量表",
+     "n_rows": 27,
+     "n_cols": 8,
+     "cell_total": 216,
+     "filled_cells": 150,
+     "text_cells": 0,
+     "ocr_cells": 150,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9926,
+     "low_quality": false,
+     "grid_bbox": [
+      799.7,
+      407.6,
+      1118.3,
+      742.8
+     ],
+     "status": "ok",
+     "key": "P103_T0",
+     "merge_group": "MG199",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 3,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.967,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      515.8,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P103_T1",
+     "merge_group": "MG200",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P103_T2",
+     "merge_group": "MG201",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 104,
+   "page_index": 199,
+   "drawing_paths": 7786,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段15材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9831,
+     "low_quality": false,
+     "grid_bbox": [
+      244.9,
+      76.9,
+      510.3,
+      725.6
+     ],
+     "status": "ok",
+     "key": "P104_T0",
+     "merge_group": "MG202",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段14~节段15拼接数量汇总表规格（mm）材质单个合计全桥共2个",
+     "n_rows": 12,
+     "n_cols": 9,
+     "cell_total": 97,
+     "filled_cells": 85,
+     "text_cells": 0,
+     "ocr_cells": 85,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9986,
+     "low_quality": false,
+     "grid_bbox": [
+      624.6,
+      335.9,
+      1064.9,
+      484.6
+     ],
+     "status": "ok",
+     "key": "P104_T1",
+     "merge_group": "MG203",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 105,
+   "page_index": 202,
+   "drawing_paths": 16698,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段15～节段16拼接数量表",
+     "n_rows": 25,
+     "n_cols": 8,
+     "cell_total": 200,
+     "filled_cells": 138,
+     "text_cells": 0,
+     "ocr_cells": 138,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9906,
+     "low_quality": false,
+     "grid_bbox": [
+      811.2,
+      432.0,
+      1130.0,
+      742.3
+     ],
+     "status": "ok",
+     "key": "P105_T0",
+     "merge_group": "MG204",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "L2",
+     "n_rows": 3,
+     "n_cols": 3,
+     "cell_total": 5,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9539,
+     "low_quality": false,
+     "grid_bbox": [
+      157.1,
+      511.5,
+      489.6,
+      592.8
+     ],
+     "status": "ok",
+     "key": "P105_T1",
+     "merge_group": "MG205",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "隔板密封",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9984,
+     "low_quality": false,
+     "grid_bbox": [
+      283.1,
+      677.9,
+      516.2,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P105_T2",
+     "merge_group": "MG206",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 106,
+   "page_index": 203,
+   "drawing_paths": 7780,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段16材料数量表",
+     "n_rows": 55,
+     "n_cols": 7,
+     "cell_total": 385,
+     "filled_cells": 332,
+     "text_cells": 0,
+     "ocr_cells": 332,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9861,
+     "low_quality": false,
+     "grid_bbox": [
+      254.5,
+      73.1,
+      520.2,
+      721.8
+     ],
+     "status": "ok",
+     "key": "P106_T0",
+     "merge_group": "MG207",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段16材料数量汇总表",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 60,
+     "filled_cells": 47,
+     "text_cells": 0,
+     "ocr_cells": 47,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      624.6,
+      313.5,
+      792.7,
+      499.7
+     ],
+     "status": "ok",
+     "key": "P106_T1",
+     "merge_group": "MG208",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段15~节段16拼接数量汇总表",
+     "n_rows": 15,
+     "n_cols": 4,
+     "cell_total": 60,
+     "filled_cells": 59,
+     "text_cells": 0,
+     "ocr_cells": 59,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9964,
+     "low_quality": false,
+     "grid_bbox": [
+      888.9,
+      316.6,
+      1072.6,
+      502.8
+     ],
+     "status": "ok",
+     "key": "P106_T2",
+     "merge_group": "MG209",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 107,
+   "page_index": 207,
+   "drawing_paths": 16644,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段16～节段17拼接数量表",
+     "n_rows": 24,
+     "n_cols": 8,
+     "cell_total": 192,
+     "filled_cells": 132,
+     "text_cells": 0,
+     "ocr_cells": 132,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9938,
+     "low_quality": false,
+     "grid_bbox": [
+      799.4,
+      442.4,
+      1118.3,
+      740.0
+     ],
+     "status": "ok",
+     "key": "P107_T0",
+     "merge_group": "MG210",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9417,
+     "low_quality": false,
+     "grid_bbox": [
+      147.6,
+      675.5,
+      572.9,
+      737.5
+     ],
+     "status": "ok",
+     "key": "P107_T1",
+     "merge_group": "MG211",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 108,
+   "page_index": 208,
+   "drawing_paths": 8094,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段17材料数量表",
+     "n_rows": 61,
+     "n_cols": 7,
+     "cell_total": 427,
+     "filled_cells": 368,
+     "text_cells": 0,
+     "ocr_cells": 368,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9854,
+     "low_quality": false,
+     "grid_bbox": [
+      262.7,
+      46.9,
+      515.2,
+      730.4
+     ],
+     "status": "ok",
+     "key": "P108_T0",
+     "merge_group": "MG212",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=44",
+     "n_rows": 10,
+     "n_cols": 9,
+     "cell_total": 73,
+     "filled_cells": 71,
+     "text_cells": 0,
+     "ocr_cells": 71,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9964,
+     "low_quality": false,
+     "grid_bbox": [
+      645.1,
+      357.1,
+      1097.1,
+      481.9
+     ],
+     "status": "ok",
+     "key": "P108_T1",
+     "merge_group": "MG213",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 109,
+   "page_index": 211,
+   "drawing_paths": 15923,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段17～节段18拼接数量表",
+     "n_rows": 24,
+     "n_cols": 8,
+     "cell_total": 192,
+     "filled_cells": 132,
+     "text_cells": 0,
+     "ocr_cells": 132,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9949,
+     "low_quality": false,
+     "grid_bbox": [
+      807.9,
+      446.9,
+      1126.6,
+      741.2
+     ],
+     "status": "ok",
+     "key": "P109_T0",
+     "merge_group": "MG214",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9539,
+     "low_quality": false,
+     "grid_bbox": [
+      233.5,
+      515.0,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P109_T1",
+     "merge_group": "MG215",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P109_T2",
+     "merge_group": "MG216",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 110,
+   "page_index": 212,
+   "drawing_paths": 7691,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段18材料数量表编号材质规格数量单件重共重 (kg) 备注",
+     "n_rows": 54,
+     "n_cols": 7,
+     "cell_total": 378,
+     "filled_cells": 325,
+     "text_cells": 0,
+     "ocr_cells": 325,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9831,
+     "low_quality": false,
+     "grid_bbox": [
+      255.0,
+      70.0,
+      529.2,
+      727.0
+     ],
+     "status": "ok",
+     "key": "P110_T0",
+     "merge_group": "MG217",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段18材料数量汇总表",
+     "n_rows": 16,
+     "n_cols": 4,
+     "cell_total": 54,
+     "filled_cells": 51,
+     "text_cells": 0,
+     "ocr_cells": 51,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      650.7,
+      331.8,
+      821.5,
+      530.3
+     ],
+     "status": "ok",
+     "key": "P110_T1",
+     "merge_group": "MG218",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段17~节段18拼接数量汇总表",
+     "n_rows": 14,
+     "n_cols": 4,
+     "cell_total": 47,
+     "filled_cells": 46,
+     "text_cells": 0,
+     "ocr_cells": 46,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9918,
+     "low_quality": false,
+     "grid_bbox": [
+      914.8,
+      349.2,
+      1098.6,
+      522.3
+     ],
+     "status": "ok",
+     "key": "P110_T2",
+     "merge_group": "MG219",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 111,
+   "page_index": 215,
+   "drawing_paths": 15406,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段18～节段19拼接数量表",
+     "n_rows": 28,
+     "n_cols": 8,
+     "cell_total": 224,
+     "filled_cells": 154,
+     "text_cells": 0,
+     "ocr_cells": 154,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9929,
+     "low_quality": false,
+     "grid_bbox": [
+      810.4,
+      403.4,
+      1129.0,
+      751.0
+     ],
+     "status": "ok",
+     "key": "P111_T0",
+     "merge_group": "MG220",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "4x100",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 2,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9653,
+     "low_quality": false,
+     "grid_bbox": [
+      233.1,
+      514.8,
+      489.6,
+      574.2
+     ],
+     "status": "ok",
+     "key": "P111_T1",
+     "merge_group": "MG221",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "4x10054",
+     "n_rows": 2,
+     "n_cols": 5,
+     "cell_total": 7,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9493,
+     "low_quality": false,
+     "grid_bbox": [
+      147.8,
+      686.0,
+      563.2,
+      747.9
+     ],
+     "status": "ok",
+     "key": "P111_T2",
+     "merge_group": "MG222",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 112,
+   "page_index": 216,
+   "drawing_paths": 7447,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段19材料数量表",
+     "n_rows": 51,
+     "n_cols": 7,
+     "cell_total": 357,
+     "filled_cells": 305,
+     "text_cells": 0,
+     "ocr_cells": 305,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9868,
+     "low_quality": false,
+     "grid_bbox": [
+      230.1,
+      84.4,
+      507.5,
+      717.5
+     ],
+     "status": "ok",
+     "key": "P112_T0",
+     "merge_group": "MG223",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段18~节段19拼接数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 52,
+     "filled_cells": 51,
+     "text_cells": 0,
+     "ocr_cells": 51,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.995,
+     "low_quality": false,
+     "grid_bbox": [
+      903.4,
+      363.5,
+      1087.2,
+      524.9
+     ],
+     "status": "ok",
+     "key": "P112_T1",
+     "merge_group": "MG224",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "节段19材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 52,
+     "filled_cells": 48,
+     "text_cells": 0,
+     "ocr_cells": 48,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9932,
+     "low_quality": false,
+     "grid_bbox": [
+      624.7,
+      365.7,
+      799.4,
+      527.1
+     ],
+     "status": "ok",
+     "key": "P112_T2",
+     "merge_group": "MG225",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 113,
+   "page_index": 219,
+   "drawing_paths": 12811,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段19～节段20拼接数量表",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9926,
+     "low_quality": false,
+     "grid_bbox": [
+      785.4,
+      424.0,
+      1103.3,
+      697.1
+     ],
+     "status": "ok",
+     "key": "P113_T0",
+     "merge_group": "MG226",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 114,
+   "page_index": 220,
+   "drawing_paths": 7060,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段20材料数量表",
+     "n_rows": 44,
+     "n_cols": 7,
+     "cell_total": 308,
+     "filled_cells": 266,
+     "text_cells": 0,
+     "ocr_cells": 266,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9915,
+     "low_quality": false,
+     "grid_bbox": [
+      253.4,
+      106.5,
+      531.5,
+      652.7
+     ],
+     "status": "ok",
+     "key": "P114_T0",
+     "merge_group": "MG227",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "t=36",
+     "n_rows": 7,
+     "n_cols": 9,
+     "cell_total": 57,
+     "filled_cells": 56,
+     "text_cells": 0,
+     "ocr_cells": 56,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9948,
+     "low_quality": false,
+     "grid_bbox": [
+      650.6,
+      311.4,
+      1094.8,
+      398.3
+     ],
+     "status": "ok",
+     "key": "P114_T1",
+     "merge_group": "MG228",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 115,
+   "page_index": 223,
+   "drawing_paths": 12810,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段20～节段21拼接数量表",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9927,
+     "low_quality": false,
+     "grid_bbox": [
+      813.2,
+      460.3,
+      1131.1,
+      733.4
+     ],
+     "status": "ok",
+     "key": "P115_T0",
+     "merge_group": "MG229",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 116,
+   "page_index": 224,
+   "drawing_paths": 6983,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段21材料数量表",
+     "n_rows": 43,
+     "n_cols": 7,
+     "cell_total": 301,
+     "filled_cells": 260,
+     "text_cells": 0,
+     "ocr_cells": 260,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9917,
+     "low_quality": false,
+     "grid_bbox": [
+      262.2,
+      124.8,
+      539.6,
+      658.6
+     ],
+     "status": "ok",
+     "key": "P116_T0",
+     "merge_group": "MG230",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段21材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 52,
+     "filled_cells": 48,
+     "text_cells": 0,
+     "ocr_cells": 48,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9944,
+     "low_quality": false,
+     "grid_bbox": [
+      637.4,
+      344.7,
+      808.1,
+      506.1
+     ],
+     "status": "ok",
+     "key": "P116_T1",
+     "merge_group": "MG231",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 117,
+   "page_index": 229,
+   "drawing_paths": 12810,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段21～节段22拼接数量表",
+     "n_rows": 22,
+     "n_cols": 8,
+     "cell_total": 176,
+     "filled_cells": 122,
+     "text_cells": 0,
+     "ocr_cells": 122,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9933,
+     "low_quality": false,
+     "grid_bbox": [
+      783.6,
+      461.5,
+      1101.5,
+      734.6
+     ],
+     "status": "ok",
+     "key": "P117_T0",
+     "merge_group": "MG232",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 118,
+   "page_index": 230,
+   "drawing_paths": 9171,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "节段22材",
+     "n_rows": 53,
+     "n_cols": 7,
+     "cell_total": 371,
+     "filled_cells": 321,
+     "text_cells": 0,
+     "ocr_cells": 321,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9861,
+     "low_quality": false,
+     "grid_bbox": [
+      290.7,
+      74.3,
+      571.2,
+      732.2
+     ],
+     "status": "ok",
+     "key": "P118_T0",
+     "merge_group": "MG233",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "节段22材料数量汇总表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 41,
+     "filled_cells": 40,
+     "text_cells": 0,
+     "ocr_cells": 40,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9963,
+     "low_quality": false,
+     "grid_bbox": [
+      659.4,
+      503.4,
+      833.9,
+      664.8
+     ],
+     "status": "ok",
+     "key": "P118_T1",
+     "merge_group": "MG234",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 119,
+   "page_index": 233,
+   "drawing_paths": 3954,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "编号",
+     "n_rows": 37,
+     "n_cols": 7,
+     "cell_total": 229,
+     "filled_cells": 179,
+     "text_cells": 0,
+     "ocr_cells": 179,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9862,
+     "low_quality": false,
+     "grid_bbox": [
+      315.9,
+      179.4,
+      655.1,
+      704.3
+     ],
+     "status": "ok",
+     "key": "P119_T0",
+     "merge_group": "MG235",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 120,
+   "page_index": 237,
+   "drawing_paths": 4208,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "编号",
+     "n_rows": 36,
+     "n_cols": 7,
+     "cell_total": 224,
+     "filled_cells": 175,
+     "text_cells": 0,
+     "ocr_cells": 175,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9859,
+     "low_quality": false,
+     "grid_bbox": [
+      275.7,
+      166.5,
+      627.3,
+      677.3
+     ],
+     "status": "ok",
+     "key": "P120_T0",
+     "merge_group": "MG235",
+     "continued_from": "P119_T0"
+    },
+    {
+     "表序号": 1,
+     "table_title": "规格(mm)",
+     "n_rows": 19,
+     "n_cols": 3,
+     "cell_total": 45,
+     "filled_cells": 40,
+     "text_cells": 0,
+     "ocr_cells": 40,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9924,
+     "low_quality": false,
+     "grid_bbox": [
+      804.6,
+      331.4,
+      963.6,
+      601.0
+     ],
+     "status": "ok",
+     "key": "P120_T1",
+     "merge_group": "MG236",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 121,
+   "page_index": 238,
+   "drawing_paths": 2613,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "弦杆纵肋弦杆纵肋",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 4,
+     "filled_cells": 1,
+     "text_cells": 1,
+     "ocr_cells": 0,
+     "text_coverage": 0.25,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      670.8,
+      165.8,
+      1062.1,
+      238.8
+     ],
+     "status": "ok",
+     "key": "P121_T0",
+     "merge_group": "MG237",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "(单套)工程量总表",
+     "n_rows": 7,
+     "n_cols": 8,
+     "cell_total": 56,
+     "filled_cells": 56,
+     "text_cells": 56,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      651.3,
+      464.3,
+      1125.1,
+      623.2
+     ],
+     "status": "ok",
+     "key": "P121_T1",
+     "merge_group": "MG238",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 122,
+   "page_index": 244,
+   "drawing_paths": 21042,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A1b类",
+     "n_rows": 3,
+     "n_cols": 57,
+     "cell_total": 63,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9993,
+     "low_quality": false,
+     "grid_bbox": [
+      104.7,
+      275.5,
+      1004.2,
+      490.4
+     ],
+     "status": "ok",
+     "key": "P122_T0",
+     "merge_group": "MG239",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "市牧19 上层桥面预制板规格表",
+     "n_rows": 4,
+     "n_cols": 4,
+     "cell_total": 16,
+     "filled_cells": 16,
+     "text_cells": 0,
+     "ocr_cells": 16,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9945,
+     "low_quality": false,
+     "grid_bbox": [
+      521.0,
+      685.7,
+      706.2,
+      737.3
+     ],
+     "status": "ok",
+     "key": "P122_T1",
+     "merge_group": "MG240",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 123,
+   "page_index": 253,
+   "drawing_paths": 8818,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A1a桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9993,
+     "low_quality": false,
+     "grid_bbox": [
+      529.0,
+      654.6,
+      858.0,
+      739.7
+     ],
+     "status": "ok",
+     "key": "P123_T0",
+     "merge_group": "MG241",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 124,
+   "page_index": 255,
+   "drawing_paths": 8715,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A1b桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9921,
+     "low_quality": false,
+     "grid_bbox": [
+      541.0,
+      631.3,
+      870.1,
+      702.3
+     ],
+     "status": "ok",
+     "key": "P124_T0",
+     "merge_group": "MG242",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 125,
+   "page_index": 257,
+   "drawing_paths": 8570,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A2a桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.999,
+     "low_quality": false,
+     "grid_bbox": [
+      529.0,
+      654.6,
+      858.0,
+      725.5
+     ],
+     "status": "ok",
+     "key": "P125_T0",
+     "merge_group": "MG243",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 126,
+   "page_index": 259,
+   "drawing_paths": 8552,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A2b桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9981,
+     "low_quality": false,
+     "grid_bbox": [
+      528.2,
+      654.6,
+      857.2,
+      725.5
+     ],
+     "status": "ok",
+     "key": "P126_T0",
+     "merge_group": "MG244",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 127,
+   "page_index": 261,
+   "drawing_paths": 8532,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3a桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9993,
+     "low_quality": false,
+     "grid_bbox": [
+      529.0,
+      654.6,
+      858.0,
+      739.7
+     ],
+     "status": "ok",
+     "key": "P127_T0",
+     "merge_group": "MG245",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 128,
+   "page_index": 263,
+   "drawing_paths": 8429,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3b桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9988,
+     "low_quality": false,
+     "grid_bbox": [
+      533.8,
+      651.0,
+      862.9,
+      722.0
+     ],
+     "status": "ok",
+     "key": "P128_T0",
+     "merge_group": "MG246",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 129,
+   "page_index": 265,
+   "drawing_paths": 8588,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3c桥面板钢筋数量表",
+     "n_rows": 5,
+     "n_cols": 7,
+     "cell_total": 35,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.98,
+     "low_quality": false,
+     "grid_bbox": [
+      529.0,
+      654.6,
+      770.2,
+      739.7
+     ],
+     "status": "ok",
+     "key": "P129_T0",
+     "merge_group": "MG247",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 130,
+   "page_index": 267,
+   "drawing_paths": 8489,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3d桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9929,
+     "low_quality": false,
+     "grid_bbox": [
+      533.8,
+      651.0,
+      862.9,
+      736.1
+     ],
+     "status": "ok",
+     "key": "P130_T0",
+     "merge_group": "MG248",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 131,
+   "page_index": 269,
+   "drawing_paths": 8589,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3e桥面板钢筋数量表",
+     "n_rows": 5,
+     "n_cols": 7,
+     "cell_total": 35,
+     "filled_cells": 35,
+     "text_cells": 0,
+     "ocr_cells": 35,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9843,
+     "low_quality": false,
+     "grid_bbox": [
+      529.4,
+      654.6,
+      770.6,
+      739.7
+     ],
+     "status": "ok",
+     "key": "P131_T0",
+     "merge_group": "MG249",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 132,
+   "page_index": 271,
+   "drawing_paths": 8490,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A3f桥面板钢筋数量表",
+     "n_rows": 4,
+     "n_cols": 9,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9992,
+     "low_quality": false,
+     "grid_bbox": [
+      531.6,
+      651.0,
+      860.7,
+      736.1
+     ],
+     "status": "ok",
+     "key": "P132_T0",
+     "merge_group": "MG250",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 133,
+   "page_index": 272,
+   "drawing_paths": 12349,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "I-I",
+     "n_rows": 9,
+     "n_cols": 3,
+     "cell_total": 25,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9621,
+     "low_quality": false,
+     "grid_bbox": [
+      203.3,
+      365.4,
+      311.1,
+      630.9
+     ],
+     "status": "ok",
+     "key": "P133_T0",
+     "merge_group": "MG251",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "横向湿接缝钢筋数量表",
+     "n_rows": 9,
+     "n_cols": 6,
+     "cell_total": 44,
+     "filled_cells": 13,
+     "text_cells": 0,
+     "ocr_cells": 13,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9993,
+     "low_quality": false,
+     "grid_bbox": [
+      448.0,
+      365.4,
+      748.7,
+      692.4
+     ],
+     "status": "ok",
+     "key": "P133_T1",
+     "merge_group": "MG252",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 134,
+   "page_index": 273,
+   "drawing_paths": 9653,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "59桥面板现浇带钢筋布置图",
+     "n_rows": 3,
+     "n_cols": 4,
+     "cell_total": 10,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      147.1,
+      436.5,
+      438.5,
+      495.1
+     ],
+     "status": "ok",
+     "key": "P134_T0",
+     "merge_group": "MG253",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "59桥面板现浇带钢筋布置图",
+     "n_rows": 3,
+     "n_cols": 20,
+     "cell_total": 60,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      864.3,
+      442.2,
+      1077.9,
+      498.8
+     ],
+     "status": "ok",
+     "key": "P134_T1",
+     "merge_group": "MG254",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "纵向湿接缝钢筋数量表",
+     "n_rows": 3,
+     "n_cols": 8,
+     "cell_total": 22,
+     "filled_cells": 21,
+     "text_cells": 0,
+     "ocr_cells": 21,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9928,
+     "low_quality": false,
+     "grid_bbox": [
+      241.7,
+      612.4,
+      563.2,
+      655.0
+     ],
+     "status": "ok",
+     "key": "P134_T2",
+     "merge_group": "MG255",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 135,
+   "page_index": 275,
+   "drawing_paths": 8404,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "母延术入仃道材科衣",
+     "n_rows": 10,
+     "n_cols": 7,
+     "cell_total": 70,
+     "filled_cells": 70,
+     "text_cells": 0,
+     "ocr_cells": 70,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9931,
+     "low_quality": false,
+     "grid_bbox": [
+      877.2,
+      120.5,
+      1099.1,
+      276.4
+     ],
+     "status": "ok",
+     "key": "P135_T0",
+     "merge_group": "MG256",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "人行道板设计图",
+     "n_rows": 6,
+     "n_cols": 11,
+     "cell_total": 66,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      196.5,
+      409.9,
+      348.2,
+      479.8
+     ],
+     "status": "ok",
+     "key": "P135_T1",
+     "merge_group": "MG257",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "Φ16",
+     "n_rows": 6,
+     "n_cols": 3,
+     "cell_total": 18,
+     "filled_cells": 18,
+     "text_cells": 0,
+     "ocr_cells": 18,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9622,
+     "low_quality": false,
+     "grid_bbox": [
+      951.5,
+      444.5,
+      1072.9,
+      529.7
+     ],
+     "status": "ok",
+     "key": "P135_T2",
+     "merge_group": "MG258",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 136,
+   "page_index": 276,
+   "drawing_paths": 4866,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "XI-GSQZ25000DX-e200",
+     "n_rows": 8,
+     "n_cols": 5,
+     "cell_total": 19,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9733,
+     "low_quality": false,
+     "grid_bbox": [
+      284.1,
+      144.7,
+      938.5,
+      444.4
+     ],
+     "status": "ok",
+     "key": "P136_T0",
+     "merge_group": "MG259",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "支座数量表",
+     "n_rows": 5,
+     "n_cols": 3,
+     "cell_total": 15,
+     "filled_cells": 15,
+     "text_cells": 0,
+     "ocr_cells": 15,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9932,
+     "low_quality": false,
+     "grid_bbox": [
+      304.8,
+      577.3,
+      482.5,
+      696.4
+     ],
+     "status": "ok",
+     "key": "P136_T1",
+     "merge_group": "MG260",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 137,
+   "page_index": 278,
+   "drawing_paths": 3606,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "竖向力支座外形尺寸上套筒下套筒等效阻尼比",
+     "n_rows": 6,
+     "n_cols": 20,
+     "cell_total": 120,
+     "filled_cells": 120,
+     "text_cells": 0,
+     "ocr_cells": 120,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9946,
+     "low_quality": false,
+     "grid_bbox": [
+      305.3,
+      225.8,
+      1084.0,
+      357.0
+     ],
+     "status": "ok",
+     "key": "P137_T0",
+     "merge_group": "MG261",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 138,
+   "page_index": 281,
+   "drawing_paths": 19823,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "桥墩盖",
+     "n_rows": 13,
+     "n_cols": 12,
+     "cell_total": 145,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9882,
+     "low_quality": false,
+     "grid_bbox": [
+      688.0,
+      146.2,
+      1071.4,
+      475.5
+     ],
+     "status": "ok",
+     "key": "P138_T0",
+     "merge_group": "MG262",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "全桥支座垫石构造及钢筋布置图",
+     "n_rows": 27,
+     "n_cols": 27,
+     "cell_total": 729,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      152.8,
+      148.8,
+      583.4,
+      579.5
+     ],
+     "status": "ok",
+     "key": "P138_T1",
+     "merge_group": "MG263",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "数重汇总表",
+     "n_rows": 4,
+     "n_cols": 6,
+     "cell_total": 24,
+     "filled_cells": 24,
+     "text_cells": 0,
+     "ocr_cells": 24,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9986,
+     "low_quality": false,
+     "grid_bbox": [
+      702.7,
+      635.4,
+      959.6,
+      692.2
+     ],
+     "status": "ok",
+     "key": "P138_T2",
+     "merge_group": "MG264",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 139,
+   "page_index": 283,
+   "drawing_paths": 15695,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "②",
+     "n_rows": 15,
+     "n_cols": 8,
+     "cell_total": 113,
+     "filled_cells": 3,
+     "text_cells": 0,
+     "ocr_cells": 3,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.8354,
+     "low_quality": false,
+     "grid_bbox": [
+      688.0,
+      160.7,
+      940.8,
+      503.0
+     ],
+     "status": "ok",
+     "key": "P139_T0",
+     "merge_group": "MG265",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "全桥支座垫石构造及钢筋布置图",
+     "n_rows": 18,
+     "n_cols": 18,
+     "cell_total": 324,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      204.5,
+      179.7,
+      493.3,
+      468.5
+     ],
+     "status": "ok",
+     "key": "P139_T1",
+     "merge_group": "MG266",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "数量汇总表",
+     "n_rows": 6,
+     "n_cols": 6,
+     "cell_total": 36,
+     "filled_cells": 36,
+     "text_cells": 0,
+     "ocr_cells": 36,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9734,
+     "low_quality": false,
+     "grid_bbox": [
+      703.7,
+      626.4,
+      961.6,
+      711.5
+     ],
+     "status": "ok",
+     "key": "P139_T2",
+     "merge_group": "MG267",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 140,
+   "page_index": 285,
+   "drawing_paths": 7233,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "全桥支座垫石构造及钢筋布置图",
+     "n_rows": 9,
+     "n_cols": 9,
+     "cell_total": 81,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      233.6,
+      159.1,
+      528.0,
+      453.5
+     ],
+     "status": "ok",
+     "key": "P140_T0",
+     "merge_group": "MG268",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "全桥支座垫石构造及钢筋布置图",
+     "n_rows": 6,
+     "n_cols": 4,
+     "cell_total": 24,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      734.2,
+      190.7,
+      987.9,
+      399.8
+     ],
+     "status": "ok",
+     "key": "P140_T1",
+     "merge_group": "MG269",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "数里汇志衣",
+     "n_rows": 4,
+     "n_cols": 6,
+     "cell_total": 24,
+     "filled_cells": 24,
+     "text_cells": 0,
+     "ocr_cells": 24,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9992,
+     "low_quality": false,
+     "grid_bbox": [
+      725.2,
+      588.2,
+      982.5,
+      645.0
+     ],
+     "status": "ok",
+     "key": "P140_T2",
+     "merge_group": "MG270",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 141,
+   "page_index": 286,
+   "drawing_paths": 9984,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "C 1",
+     "n_rows": 17,
+     "n_cols": 19,
+     "cell_total": 323,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      204.8,
+      153.6,
+      460.1,
+      382.1
+     ],
+     "status": "ok",
+     "key": "P141_T0",
+     "merge_group": "MG271",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "1",
+     "n_rows": 3,
+     "n_cols": 5,
+     "cell_total": 15,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      747.8,
+      183.4,
+      1003.1,
+      234.3
+     ],
+     "status": "ok",
+     "key": "P141_T1",
+     "merge_group": "MG272",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "直径每根长共长共重钢筋编号根数 (Kg) (mm) (mm) (m)",
+     "n_rows": 2,
+     "n_cols": 6,
+     "cell_total": 12,
+     "filled_cells": 12,
+     "text_cells": 0,
+     "ocr_cells": 12,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9992,
+     "low_quality": false,
+     "grid_bbox": [
+      725.8,
+      584.2,
+      958.5,
+      618.1
+     ],
+     "status": "ok",
+     "key": "P141_T2",
+     "merge_group": "MG273",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 142,
+   "page_index": 288,
+   "drawing_paths": 6627,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "5x5=25",
+     "n_rows": 11,
+     "n_cols": 5,
+     "cell_total": 55,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9946,
+     "low_quality": false,
+     "grid_bbox": [
+      773.1,
+      138.2,
+      915.0,
+      393.5
+     ],
+     "status": "ok",
+     "key": "P142_T0",
+     "merge_group": "MG274",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "桥面板处理齿毛，清理浮浆",
+     "n_rows": 2,
+     "n_cols": 2,
+     "cell_total": 4,
+     "filled_cells": 0,
+     "text_cells": 0,
+     "ocr_cells": 0,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      257.7,
+      239.5,
+      445.6,
+      284.9
+     ],
+     "status": "ok",
+     "key": "P142_T1",
+     "merge_group": "MG275",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 143,
+   "page_index": 289,
+   "drawing_paths": 20274,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "全桥排水工程数量表",
+     "n_rows": 13,
+     "n_cols": 4,
+     "cell_total": 41,
+     "filled_cells": 41,
+     "text_cells": 41,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      226.8,
+      512.4,
+      438.7,
+      676.8
+     ],
+     "status": "ok",
+     "key": "P143_T0",
+     "merge_group": "MG276",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 144,
+   "page_index": 290,
+   "drawing_paths": 51496,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A B",
+     "n_rows": 10,
+     "n_cols": 3,
+     "cell_total": 28,
+     "filled_cells": 22,
+     "text_cells": 22,
+     "ocr_cells": 0,
+     "text_coverage": 0.7857,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      272.1,
+      345.3,
+      367.0,
+      745.8
+     ],
+     "status": "ok",
+     "key": "P144_T0",
+     "merge_group": "MG277",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 145,
+   "page_index": 291,
+   "drawing_paths": 45529,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "1200 A B 9×1200=10800 9×1200=10800 12000 12000 支承系统截面示意图(A-A) 锚固组件截面示意图(B-B) 270+4B 预埋钢筋N5 桥面铺装防裂钢筋网焊接搭接板（通铺） B 100 100 150 450",
+     "n_rows": 3,
+     "n_cols": 6,
+     "cell_total": 11,
+     "filled_cells": 1,
+     "text_cells": 1,
+     "ocr_cells": 0,
+     "text_coverage": 0.0909,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      319.8,
+      303.1,
+      797.7,
+      520.6
+     ],
+     "status": "ok",
+     "key": "P145_T0",
+     "merge_group": "MG278",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "伸缩装置每延米材料用量表",
+     "n_rows": 6,
+     "n_cols": 4,
+     "cell_total": 24,
+     "filled_cells": 24,
+     "text_cells": 24,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      136.8,
+      631.8,
+      279.8,
+      749.4
+     ],
+     "status": "ok",
+     "key": "P145_T1",
+     "merge_group": "MG279",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 146,
+   "page_index": 292,
+   "drawing_paths": 49662,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "A B",
+     "n_rows": 4,
+     "n_cols": 2,
+     "cell_total": 3,
+     "filled_cells": 1,
+     "text_cells": 1,
+     "ocr_cells": 0,
+     "text_coverage": 0.3333,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      271.6,
+      314.8,
+      744.7,
+      520.7
+     ],
+     "status": "ok",
+     "key": "P146_T0",
+     "merge_group": "MG280",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "伸缩装置每延米材料用量表",
+     "n_rows": 6,
+     "n_cols": 4,
+     "cell_total": 24,
+     "filled_cells": 24,
+     "text_cells": 24,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      235.8,
+      647.1,
+      350.8,
+      745.4
+     ],
+     "status": "ok",
+     "key": "P146_T1",
+     "merge_group": "MG281",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 147,
+   "page_index": 293,
+   "drawing_paths": 46871,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "9×1200=10800 12000 100 150 450 伸缩装置每延米材料用量表",
+     "n_rows": 9,
+     "n_cols": 4,
+     "cell_total": 33,
+     "filled_cells": 25,
+     "text_cells": 25,
+     "ocr_cells": 0,
+     "text_coverage": 0.7576,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      395.4,
+      323.7,
+      537.5,
+      746.3
+     ],
+     "status": "ok",
+     "key": "P147_T0",
+     "merge_group": "MG282",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 148,
+   "page_index": 312,
+   "drawing_paths": 10552,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "厚度8mm",
+     "n_rows": 31,
+     "n_cols": 9,
+     "cell_total": 261,
+     "filled_cells": 223,
+     "text_cells": 0,
+     "ocr_cells": 223,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9716,
+     "low_quality": false,
+     "grid_bbox": [
+      291.5,
+      255.6,
+      1129.5,
+      695.5
+     ],
+     "status": "ok",
+     "key": "P148_T0",
+     "merge_group": "MG283",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 149,
+   "page_index": 313,
+   "drawing_paths": 11064,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "材质",
+     "n_rows": 41,
+     "n_cols": 4,
+     "cell_total": 164,
+     "filled_cells": 139,
+     "text_cells": 0,
+     "ocr_cells": 139,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9667,
+     "low_quality": false,
+     "grid_bbox": [
+      268.9,
+      139.6,
+      578.5,
+      735.5
+     ],
+     "status": "ok",
+     "key": "P149_T0",
+     "merge_group": "MG284",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "材质",
+     "n_rows": 36,
+     "n_cols": 4,
+     "cell_total": 144,
+     "filled_cells": 124,
+     "text_cells": 0,
+     "ocr_cells": 124,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9672,
+     "low_quality": false,
+     "grid_bbox": [
+      803.0,
+      161.1,
+      1125.1,
+      671.8
+     ],
+     "status": "ok",
+     "key": "P149_T1",
+     "merge_group": "MG285",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 150,
+   "page_index": 314,
+   "drawing_paths": 6730,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "材料数量表一个标准节间（L=3200）",
+     "n_rows": 11,
+     "n_cols": 5,
+     "cell_total": 55,
+     "filled_cells": 53,
+     "text_cells": 0,
+     "ocr_cells": 53,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9917,
+     "low_quality": false,
+     "grid_bbox": [
+      737.5,
+      361.8,
+      890.1,
+      522.0
+     ],
+     "status": "ok",
+     "key": "P150_T0",
+     "merge_group": "MG286",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 151,
+   "page_index": 315,
+   "drawing_paths": 10267,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "监测类别监测内容传感器类型测点数量",
+     "n_rows": 7,
+     "n_cols": 4,
+     "cell_total": 28,
+     "filled_cells": 28,
+     "text_cells": 28,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      373.9,
+      465.1,
+      714.4,
+      714.8
+     ],
+     "status": "ok",
+     "key": "P151_T0",
+     "merge_group": "MG287",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 152,
+   "page_index": 316,
+   "drawing_paths": 6752,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "路灯基座钢筋数量表",
+     "n_rows": 3,
+     "n_cols": 6,
+     "cell_total": 18,
+     "filled_cells": 18,
+     "text_cells": 0,
+     "ocr_cells": 18,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.999,
+     "low_quality": false,
+     "grid_bbox": [
+      492.4,
+      465.3,
+      683.6,
+      519.2
+     ],
+     "status": "ok",
+     "key": "P152_T0",
+     "merge_group": "MG288",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "上层桥面路灯基座材料数量表（新沙高架桥）",
+     "n_rows": 5,
+     "n_cols": 6,
+     "cell_total": 28,
+     "filled_cells": 20,
+     "text_cells": 0,
+     "ocr_cells": 20,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.997,
+     "low_quality": false,
+     "grid_bbox": [
+      740.0,
+      589.0,
+      1122.0,
+      674.2
+     ],
+     "status": "ok",
+     "key": "P152_T1",
+     "merge_group": "MG289",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 153,
+   "page_index": 323,
+   "drawing_paths": 1956,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 1,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "材料号",
+     "n_rows": 11,
+     "n_cols": 8,
+     "cell_total": 70,
+     "filled_cells": 55,
+     "text_cells": 0,
+     "ocr_cells": 55,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.9834,
+     "low_quality": false,
+     "grid_bbox": [
+      331.9,
+      161.6,
+      1014.7,
+      496.5
+     ],
+     "status": "ok",
+     "key": "P153_T0",
+     "merge_group": "MG290",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 154,
+   "page_index": 324,
+   "drawing_paths": 44631,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 2,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "检查车布置表",
+     "n_rows": 2,
+     "n_cols": 4,
+     "cell_total": 8,
+     "filled_cells": 8,
+     "text_cells": 8,
+     "ocr_cells": 0,
+     "text_coverage": 1.0,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      165.9,
+      350.2,
+      377.4,
+      383.5
+     ],
+     "status": "ok",
+     "key": "P154_T0",
+     "merge_group": "MG291",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "下弦检查车主要技术参数表",
+     "n_rows": 17,
+     "n_cols": 2,
+     "cell_total": 34,
+     "filled_cells": 22,
+     "text_cells": 22,
+     "ocr_cells": 0,
+     "text_coverage": 0.6471,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      504.1,
+      355.0,
+      657.6,
+      639.0
+     ],
+     "status": "ok",
+     "key": "P154_T1",
+     "merge_group": "MG292",
+     "continued_from": ""
+    }
+   ]
+  },
+  {
+   "pkg_page": 155,
+   "page_index": 326,
+   "drawing_paths": 35972,
+   "status": "ok",
+   "note": "ok",
+   "n_tables": 3,
+   "tables": [
+    {
+     "表序号": 0,
+     "table_title": "XK",
+     "n_rows": 2,
+     "n_cols": 14,
+     "cell_total": 26,
+     "filled_cells": 1,
+     "text_cells": 0,
+     "ocr_cells": 1,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.6451,
+     "low_quality": true,
+     "grid_bbox": [
+      360.7,
+      205.8,
+      712.6,
+      236.8
+     ],
+     "status": "low_quality",
+     "key": "P155_T0",
+     "merge_group": "MG293",
+     "continued_from": ""
+    },
+    {
+     "表序号": 1,
+     "table_title": "HNNOPN",
+     "n_rows": 4,
+     "n_cols": 16,
+     "cell_total": 64,
+     "filled_cells": 2,
+     "text_cells": 0,
+     "ocr_cells": 2,
+     "text_coverage": 0.0,
+     "ocr_mean_conf": 0.5925,
+     "low_quality": false,
+     "grid_bbox": [
+      643.3,
+      465.0,
+      1046.5,
+      506.8
+     ],
+     "status": "ok",
+     "key": "P155_T1",
+     "merge_group": "MG294",
+     "continued_from": ""
+    },
+    {
+     "表序号": 2,
+     "table_title": "下弦检查车组成",
+     "n_rows": 10,
+     "n_cols": 7,
+     "cell_total": 70,
+     "filled_cells": 62,
+     "text_cells": 62,
+     "ocr_cells": 0,
+     "text_coverage": 0.8857,
+     "ocr_mean_conf": 1.0,
+     "low_quality": false,
+     "grid_bbox": [
+      300.5,
+      612.1,
+      523.6,
+      748.6
+     ],
+     "status": "ok",
+     "key": "P155_T2",
+     "merge_group": "MG295",
+     "continued_from": ""
+    }
+   ]
+  }
+ ],
+ "merge_summary": {
+  "n_groups": 295,
+  "n_multi": 1,
+  "multi_sizes": {
+   "MG235": 2
+  }
+ }
+}

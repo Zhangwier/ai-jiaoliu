@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "verifier": "阶段G2 交付验收子代理",
+    "round": 2,
+    "label": "第2轮(返修后)复验",
+    "timestamp": "2026-10-18",
+    "target": "out/final_v2.xlsx",
+    "target_lastwrite": "2026-10-18 22:02",
+    "readonly": true,
+    "overall": "pass",
+    "round1_overall": "fail",
+    "delta_vs_round1": {
+      "error_value_count": "1 -> 0",
+      "J431": "#VALUE! -> 8694932.46",
+      "subtotal_selfref": "1 -> 0"
+    }
+  },
+  "checks": {
+    "check1_empty_cache": {
+      "pass": true,
+      "empty_cache_formula_count": 0,
+      "total_formula_cells": 11508,
+      "per_sheet_formula_cells": {"合计数量": 72, "主梁数量": 11063, "横隔板": 346, "梁底挡块": 12, "附属预埋件": 15},
+      "examples": []
+    },
+    "check2_errors": {
+      "pass": true,
+      "error_value_count": 0,
+      "error_hits": [],
+      "J431_formula": "=SUM(J403:J430)+SUM(J432:J3777)",
+      "J431_cached": 8694932.45567132,
+      "subtotal_selfref_count": 0,
+      "D140_formula": null,
+      "D140_cached": null,
+      "D140_fixed": true
+    },
+    "check3_structure_merges": {
+      "pass": true,
+      "note": "合并/结构通过；另有1项SUMIF范围待核(非阻塞)",
+      "total_merges": 735,
+      "per_sheet_merges": {"合计数量": 10, "主梁数量": 315, "横隔板": 362, "梁底挡块": 24, "附属预埋件": 24},
+      "template_map_merges": {"合计数量": 10, "主梁数量": 315, "横隔板": 362, "梁底挡块": 24, "附属预埋件": 24},
+      "merge_match_template": true,
+      "sheet_order_ok": true,
+      "block_header_sumif_count": 16,
+      "sumif_range_mismatches": [
+        {"cell": "主梁数量!M403:S403", "actual_range": "G403:G3777", "expected_range": "G403:G430", "severity": "待核", "origin": "模板继承(filled/v1同),非v2引入", "blocking": false}
+      ]
+    },
+    "check4_bucket_coverage": {
+      "pass": true,
+      "bucket_count": 21,
+      "buckets": [0.18, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 30, 32, 36, 40, 44, 48, 50, 60, 80, 100],
+      "requested_set_missing": [],
+      "extra_included": [0.18, 4, 6],
+      "detail_J_total": 9238305.61,
+      "in_bucket_weight": 9238305.61,
+      "out_of_bucket_weight": -0.0,
+      "coverage_pct": 100.0,
+      "actual_thickness_set": [0.18, 4, 6, 8, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 50, 60, 80, 100],
+      "missing_actual_in_buckets": []
+    },
+    "check5_draw_qty": {
+      "pass": true,
+      "residual_tanzhou_2989013_3_hits": 0,
+      "covered_buckets_with_source": 15,
+      "no_source_buckets": [0.18, 6, 10, 30, 50, 60],
+      "no_source_note_text": "未完成:无来源页"
+    },
+    "check6_sample_recalc": {
+      "pass": true,
+      "sample_size": 10,
+      "sample_pool": 2701,
+      "max_rel_err_pct": 0.0,
+      "samples": [
+        {"row": 2744, "L": 9.19, "W": 2.18, "T": 0.18, "Qty": 16, "expect": 0.0005, "actual": 0.0005, "rel_err_pct": 0.0},
+        {"row": 791, "L": 2057, "W": 40, "T": 4, "Qty": 4, "expect": 10.3344, "actual": 10.3344, "rel_err_pct": 0.0},
+        {"row": 2741, "L": 697, "W": 60, "T": 6, "Qty": 2052, "expect": 4041.8695, "actual": 4041.8695, "rel_err_pct": 0.0},
+        {"row": 1883, "L": 500, "W": 1700, "T": 8, "Qty": 2, "expect": 106.76, "actual": 106.76, "rel_err_pct": 0.0},
+        {"row": 2710, "L": 1440, "W": 340, "T": 10, "Qty": 456, "expect": 17525.7216, "actual": 17525.7216, "rel_err_pct": 0.0},
+        {"row": 2050, "L": 600, "W": 1800, "T": 12, "Qty": 2, "expect": 203.472, "actual": 203.472, "rel_err_pct": 0.0},
+        {"row": 459, "L": 1800, "W": 618, "T": 14, "Qty": 4, "expect": 489.011, "actual": 489.011, "rel_err_pct": 0.0},
+        {"row": 2333, "L": 1560, "W": 1200, "T": 16, "Qty": 3, "expect": 705.3696, "actual": 705.3696, "rel_err_pct": 0.0},
+        {"row": 253, "L": 1020, "W": 1700, "T": 20, "Qty": 2, "expect": 544.476, "actual": 544.476, "rel_err_pct": 0.0},
+        {"row": 2247, "L": 1320, "W": 240, "T": 24, "Qty": 10, "expect": 596.8512, "actual": 596.8512, "rel_err_pct": 0.0}
+      ]
+    }
+  },
+  "selfcheck_S1_S7": {
+    "S1_open_see_values": {"pass": true, "note": "空缓存=0"},
+    "S2_no_errors": {"pass": true, "note": "错误值=0；J431已修复；D140已清空；小计自引用=0"},
+    "S3_template_fidelity": {"pass": true, "note": "sheet名序/表头/合并735一致；列宽仅浮点微差；数字格式零差异"},
+    "S4_draw_qty_new_shaba": {"pass": true, "note": "无潭州残留；逐档新沙"},
+    "S5_detail_traceable": {"pass": true, "note": "每档可追到明细行；抽样误差0"},
+    "S6_summary_coverage": {"pass": true, "note": "21桶每厚度有汇总"},
+    "S7_incomplete_isolation": {"pass": false, "status": "partial", "unchanged": true, "note": "缺尺寸1025行已隔离✓；但145行(【待核】126+缺数量19)仍在明细且计入合计(J贡献269762.45)✗；另16行备注空、1行可修"}
+  },
+  "repair_list": [
+    {"id": 1, "severity": "fixed", "cell": "主梁数量!J431", "expected": "=SUM(J403:J430)+SUM(J432:J3777)", "actual": "=SUM(J403:J430)+SUM(J432:J3777)(已修)", "action": "已完成，本轮验证通过", "blocking": false},
+    {"id": 2, "severity": "review", "cell": "主梁数量!M403:S403", "expected": "G403:G430(若块=403..430)", "actual": "G403:G3777", "action": "确认末块设计意图(模板继承)", "blocking": false},
+    {"id": 3, "severity": "suggest", "cell": "主梁数量 行2753..3777", "expected": "清空空公式模板行", "actual": "残留1025行零值公式(H/J/L)", "action": "可选净化", "blocking": false},
+    {"id": 4, "severity": "review", "cell": "主梁数量 明细区【待核】126+缺数量19行", "expected": "待核行不入合计(如需)", "actual": "被SUMIFS计入合计,贡献269762.45", "action": "移出明细或汇总排除", "blocking": false},
+    {"id": 5, "severity": "review", "cell": "合计数量!D/E 档 {0.18,6,10,30,50,60}", "expected": "补来源页或确认分档", "actual": "未完成:无来源页", "action": "回源补录", "blocking": false},
+    {"id": 6, "severity": "review", "cell": "图纸数量聚合口径", "expected": "sum(单件重) vs ×数量 待确认", "actual": "复核数量远大于图纸数量", "action": "业务确认口径", "blocking": false},
+    {"id": 7, "severity": "low", "cell": "各sheet列宽", "expected": "与模板一致", "actual": "浮点微差(LO往返)", "action": "通常忽略", "blocking": false}
+  ],
+  "blocking_count": 0,
+  "review_count": 5,
+  "report": "out/g2_report.md"
+}

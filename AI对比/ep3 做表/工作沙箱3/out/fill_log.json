@@ -1,0 +1,434 @@
+{
+  "filled_file": "d:\\MG\\program\\ai交流\\AI对比\\ep3 做表\\工作沙箱3\\out\\filled.xlsx",
+  "template_file": "d:\\MG\\program\\ai交流\\AI对比\\ep3 做表\\工作沙箱3\\潭州高架桥（计算稿模板）.xlsx",
+  "sheets": {
+    "主梁数量": {
+      "source_category": "主梁",
+      "rows_available": 3758,
+      "cols_written": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "I",
+        "K"
+      ],
+      "cols_skipped_formula": [
+        "H",
+        "J",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "capacity_before": {
+        "data_rows": 412,
+        "range": "4..431(含16个小计行)"
+      },
+      "written_rows": 3758,
+      "written_into_existing": 412,
+      "written_into_new": 3346,
+      "row_ranges_used": [
+        [
+          4,
+          431,
+          "既有数据槽(跳过小计行)"
+        ],
+        [
+          432,
+          3777,
+          "新增溢出行"
+        ]
+      ],
+      "skipped_cells_count": 728,
+      "skipped_cells_reason": {
+        "merged": 728,
+        "formula": 0
+      },
+      "skipped_cells_sample": [
+        [
+          5,
+          "A",
+          "merged"
+        ],
+        [
+          5,
+          "B",
+          "merged"
+        ],
+        [
+          6,
+          "A",
+          "merged"
+        ],
+        [
+          6,
+          "B",
+          "merged"
+        ],
+        [
+          7,
+          "A",
+          "merged"
+        ],
+        [
+          7,
+          "B",
+          "merged"
+        ],
+        [
+          8,
+          "A",
+          "merged"
+        ],
+        [
+          8,
+          "B",
+          "merged"
+        ],
+        [
+          9,
+          "A",
+          "merged"
+        ],
+        [
+          9,
+          "B",
+          "merged"
+        ],
+        [
+          10,
+          "A",
+          "merged"
+        ],
+        [
+          10,
+          "B",
+          "merged"
+        ],
+        [
+          11,
+          "A",
+          "merged"
+        ],
+        [
+          12,
+          "A",
+          "merged"
+        ],
+        [
+          12,
+          "B",
+          "merged"
+        ],
+        [
+          13,
+          "A",
+          "merged"
+        ],
+        [
+          13,
+          "B",
+          "merged"
+        ],
+        [
+          14,
+          "A",
+          "merged"
+        ],
+        [
+          14,
+          "B",
+          "merged"
+        ],
+        [
+          15,
+          "A",
+          "merged"
+        ]
+      ],
+      "unused_data_rows": 0
+    },
+    "横隔板": {
+      "source_category": "横隔板",
+      "rows_available": 0,
+      "written_rows": 0,
+      "untouched": true,
+      "reason": "标准化数据中无 构件类别=横隔板 的行(0)，无来源，保持模板不变"
+    },
+    "梁底挡块": {
+      "source_category": "(无)",
+      "rows_available": 0,
+      "written_rows": 0,
+      "untouched": true,
+      "reason": "标准化数据中无对应 构件类别，无来源，保持模板不变"
+    },
+    "附属预埋件": {
+      "source_category": "预埋件附属/附属",
+      "rows_available": 29,
+      "written_rows": 0,
+      "untouched": true,
+      "reason": "标准化数据中 预埋件附属(排水,12)/附属(伸缩缝,17) 与模板既有排水钢件明细语义不一致，为避免臆造/破坏模板，不填充"
+    },
+    "合计数量": {
+      "source_category": "汇总(厚度)",
+      "rows_available": 66,
+      "written_rows": 0,
+      "untouched": true,
+      "reason": "模板 D/E 图纸数量已有设计值；标准化数据 汇总(厚度) 行按 表×厚度 排列，无法可靠映射到\"按厚度图纸数量\"，未覆盖以避免臆造"
+    }
+  },
+  "structural_changes": [
+    {
+      "sheet": "主梁数量",
+      "type": "insert_data_rows",
+      "insert_at_row": 432,
+      "inserted_count": 3346,
+      "reason": "标准化数据 主梁 3758 行 > 模板数据槽 412，超出容量 +3346 行",
+      "merges_moved": [
+        {
+          "from": [
+            432,
+            432,
+            1,
+            3
+          ],
+          "to": [
+            3778,
+            3778,
+            1,
+            3
+          ]
+        },
+        {
+          "from": [
+            433,
+            433,
+            1,
+            3
+          ],
+          "to": [
+            3779,
+            3779,
+            1,
+            3
+          ]
+        }
+      ],
+      "formulas_copied_to_new_rows": {
+        "count": 10038,
+        "pattern": [
+          "H=(E/1000)*(F/1000)*(G/1000)*7850",
+          "J=H*I",
+          "L=A"
+        ]
+      },
+      "formulas_updated": {
+        "block16_SUMIF_M403:S403": "SUMIF(G403:G430,..)->SUMIF(G403:G3777,..)",
+        "block16_subtotal_J431": "SUM(J403:J430)->SUM(J403:J3777)",
+        "grand_total_rows_moved": "行432..435 下移 3346 行并平移其内部引用"
+      },
+      "status": "待确认"
+    }
+  ],
+  "unmapped_data": {
+    "其他": 85,
+    "桥面板": 32,
+    "附属": 17,
+    "预埋件附属": 12,
+    "钢筋": 7,
+    "汇总(厚度)": 66,
+    "note": "以上类别共 219 行未使用（无对应模板 sheet 或语义不匹配）"
+  },
+  "self_check": {
+    "template_formula_counts": {
+      "合计数量": 39,
+      "主梁数量": 1025,
+      "横隔板": 347,
+      "梁底挡块": 12,
+      "附属预埋件": 15
+    },
+    "filled_formula_counts": {
+      "合计数量": 39,
+      "主梁数量": 11063,
+      "横隔板": 347,
+      "梁底挡块": 12,
+      "附属预埋件": 15
+    },
+    "template_total_formula_cells": 1438,
+    "filled_total_formula_cells": 11476,
+    "per_sheet_delta": {
+      "合计数量": 0,
+      "主梁数量": 10038,
+      "横隔板": 0,
+      "梁底挡块": 0,
+      "附属预埋件": 0
+    },
+    "formula_cells_not_decreased": true,
+    "formula_columns_hardcoded_total_in_filled": 27,
+    "formula_columns_hardcoded_sample": [
+      [
+        "U4",
+        142867.8
+      ],
+      [
+        "U33",
+        141450.9
+      ],
+      [
+        "U59",
+        141854
+      ],
+      [
+        "U85",
+        142224
+      ],
+      [
+        "U111",
+        142601.8
+      ],
+      [
+        "U137",
+        142948.6
+      ],
+      [
+        "U163",
+        143322.8
+      ],
+      [
+        "U189",
+        145490.9
+      ],
+      [
+        "U218",
+        142969.3
+      ],
+      [
+        "U247",
+        141423.8
+      ],
+      [
+        "U273",
+        141859.2
+      ],
+      [
+        "U299",
+        142196.9
+      ],
+      [
+        "U325",
+        142628.9
+      ],
+      [
+        "U351",
+        142975.6
+      ],
+      [
+        "U377",
+        143349.9
+      ],
+      [
+        "U403",
+        145535.5
+      ],
+      [
+        "H3778",
+        "差异"
+      ],
+      [
+        "L3778",
+        "复核合计"
+      ],
+      [
+        "L3779",
+        "图纸合计"
+      ],
+      [
+        "M3779",
+        19292.4
+      ],
+      [
+        "N3779",
+        650669.9
+      ],
+      [
+        "O3779",
+        401058.9
+      ],
+      [
+        "P3779",
+        738162.3
+      ],
+      [
+        "Q3779",
+        329413.6
+      ],
+      [
+        "R3779",
+        36172.8
+      ]
+    ],
+    "introduced_hardcoded_over_formula": [],
+    "introduced_hardcoded_count": 0,
+    "merged_cells_template": {
+      "合计数量": 10,
+      "主梁数量": 315,
+      "横隔板": 362,
+      "梁底挡块": 24,
+      "附属预埋件": 24
+    },
+    "merged_cells_filled": {
+      "合计数量": 10,
+      "主梁数量": 315,
+      "横隔板": 362,
+      "梁底挡块": 24,
+      "附属预埋件": 24
+    },
+    "merged_cells_preserved": {
+      "合计数量": [
+        10,
+        10
+      ],
+      "主梁数量": [
+        315,
+        315
+      ],
+      "横隔板": [
+        362,
+        362
+      ],
+      "梁底挡块": [
+        24,
+        24
+      ],
+      "附属预埋件": [
+        24,
+        24
+      ]
+    },
+    "key_cell_formula_status": {
+      "M403": "FORMULA",
+      "J431": "FORMULA",
+      "M3778": "FORMULA",
+      "V3778": "FORMULA",
+      "M3779": "VALUE:19292.4",
+      "M3780": "FORMULA",
+      "T3779": "FORMULA",
+      "H3777": "FORMULA",
+      "J3777": "FORMULA",
+      "L3777": "FORMULA"
+    },
+    "main_sheet_max_row": 3781
+  },
+  "notes": []
+}

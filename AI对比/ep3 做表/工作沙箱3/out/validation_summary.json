@@ -1,0 +1,101 @@
+{
+  "overall": "fail",
+  "overall_note": "公式与格式保真通过；错误值、按厚度汇总、总重三项失败。根因：主梁汇总行下移(432-435→3778-3781)后，合计数量跨表引用未平移(仍指 M432..S432, 现为空)；26行校验incomplete文本坏值致 J 列 #VALUE 级联。",
+  "validated_file": "d:\\MG\\program\\ai交流\\AI对比\\ep3 做表\\工作沙箱3\\out\\filled.xlsx",
+  "template_file": "d:\\MG\\program\\ai交流\\AI对比\\ep3 做表\\工作沙箱3\\潭州高架桥（计算稿模板）.xlsx",
+  "recalc_method": "LibreOffice headless (soffice.exe) 重算成功; 坏值为 #VALUE 处用 pandas/公式语义回退复算",
+  "checks": {
+    "1_formula_presence": {
+      "status": "pass",
+      "template_formula_counts": {"合计数量": 39, "主梁数量": 1025, "横隔板": 347, "梁底挡块": 12, "附属预埋件": 15},
+      "filled_formula_counts": {"合计数量": 39, "主梁数量": 11063, "横隔板": 347, "梁底挡块": 12, "附属预埋件": 15},
+      "template_total": 1438,
+      "filled_total": 11476,
+      "any_sheet_reduced": false,
+      "formula_column_cells_checked": 1092,
+      "formula_column_cells_broken": 0,
+      "note": "M:S SUMIF 仅覆盖厚度 12/14/16/20/24/30/40，大量非标准厚度行不计入任何桶"
+    },
+    "2_error_values": {
+      "status": "fail",
+      "filled_error_count": 44,
+      "filled_value_errors": 43,
+      "template_original_errors": 1,
+      "introduced_errors": 43,
+      "template_original_error_cells": ["横隔板!D140 (=#REF! -> #NAME?)"],
+      "introduced_error_cells": [
+        "主梁数量!N403", "主梁数量!O403", "主梁数量!Q403", "主梁数量!T403", "主梁数量!V403",
+        "主梁数量!J431", "主梁数量!J3399-J3408", "主梁数量!J3434", "主梁数量!J3477-J3482",
+        "主梁数量!J3505-J3508", "主梁数量!J3629-J3631", "主梁数量!J3634", "主梁数量!J3635",
+        "主梁数量!N3778", "主梁数量!O3778", "主梁数量!Q3778", "主梁数量!T3778", "主梁数量!V3778",
+        "主梁数量!F3779", "主梁数量!H3779", "主梁数量!N3780", "主梁数量!O3780", "主梁数量!Q3780", "主梁数量!T3780"
+      ],
+      "root_cause_rows": 26,
+      "root_cause_desc": "26行(校验incomplete)数量/厚列含文本: I='了','乙','C','t=44','32(套)','1.5%焊缝重(kg)','合计' 等",
+      "sample_positions": {"I3399": "t=44", "I3401": "合计", "I3434": "了", "I3508": "乙", "I3629": "32(套)", "I3635": "1.5%焊缝重(kg)"}
+    },
+    "3_thickness_summary_diff": {
+      "status": "fail",
+      "mechanism": "合计数量 G5..G12 = 主梁数量!M432..S432(现为空, 汇总已移3778) + 横隔板值 -> 主梁贡献=0",
+      "per_thickness": [
+        {"thickness": 12, "sumif_cell": "主梁数量!M3778", "sumif_value": 311890.53, "sumif_source": "recalc", "heji_recheck": 304010.92, "heji_recheck_cell": "合计数量!G5", "diff": -311890.53},
+        {"thickness": 14, "sumif_cell": "主梁数量!N3778", "sumif_value": "#VALUE!", "sumif_fallback": 3101000.12, "sumif_source": "fallback", "heji_recheck": 0, "heji_recheck_cell": "合计数量!G6", "diff": -3101000.12},
+        {"thickness": 16, "sumif_cell": "主梁数量!O3778", "sumif_value": "#VALUE!", "sumif_fallback": 195876.77, "sumif_source": "fallback", "heji_recheck": 72966.58, "heji_recheck_cell": "合计数量!G7", "diff": -195876.77},
+        {"thickness": 20, "sumif_cell": "主梁数量!P3778", "sumif_value": 919200.24, "sumif_source": "recalc", "heji_recheck": 251914.09, "heji_recheck_cell": "合计数量!G8", "diff": -919200.24},
+        {"thickness": 24, "sumif_cell": "主梁数量!Q3778", "sumif_value": "#VALUE!", "sumif_fallback": 1422140.91, "sumif_source": "fallback", "heji_recheck": 20329.6, "heji_recheck_cell": "合计数量!G9", "diff": -1422140.91},
+        {"thickness": 30, "sumif_cell": "主梁数量!R3778", "sumif_value": 0, "sumif_source": "recalc", "heji_recheck": 2411.52, "heji_recheck_cell": "合计数量!G11", "diff": 0},
+        {"thickness": 40, "sumif_cell": "主梁数量!S3778", "sumif_value": 390297.93, "sumif_source": "recalc", "heji_recheck": 8038.72, "heji_recheck_cell": "合计数量!G12", "diff": -390297.93}
+      ],
+      "heji_H_diff_recalc": {"H5": -17767.48, "H6": -650669.9, "H7": -400695.42, "H8": -743172.21, "H9": -329414.6, "H11": -36172.78, "H12": -110929.78},
+      "heji_H_diff_template": {"H5": 1524.91434759996, "H6": -0.0043200000654906, "H7": 363.514643199975, "H8": -5009.95276800008, "H9": -0.967999999935273, "H11": 0.0199999999967986, "H12": 0.139999999999418}
+    },
+    "4_total_weight_diff": {
+      "status": "fail",
+      "main_J_sum_kg": 9238305.61,
+      "main_J_sum_source": "逐格数值求和/回退复算 (T3778=#VALUE 不可用)",
+      "main_T3778": "#VALUE!",
+      "heji_gangliang_blueprint_total_kg": 2989013.3,
+      "heji_gangliang_blueprint_total_cell": "合计数量!F15",
+      "heji_gangliang_recheck_total_kg": 700137.64,
+      "heji_gangliang_recheck_total_cell": "合计数量!G15",
+      "heji_gangliang_recheck_total_template_kg": 2985837.4751028,
+      "diff_kg": 6249292.31,
+      "diff_rate_pct": 209.1,
+      "summary_rows": {"主梁数量!M432": null, "主梁数量!N432": null, "主梁数量!M3778": 311890.53, "主梁数量!N3778": "#VALUE!", "主梁数量!T3779": 2285699.9}
+    },
+    "5_format_fidelity": {
+      "status": "pass",
+      "merges_template": {"合计数量": 10, "主梁数量": 315, "横隔板": 362, "梁底挡块": 24, "附属预埋件": 24},
+      "merges_filled": {"合计数量": 10, "主梁数量": 315, "横隔板": 362, "梁底挡块": 24, "附属预埋件": 24},
+      "merge_area_diffs": {"合计数量": [0, 0], "主梁数量": [2, 2], "横隔板": [0, 0], "梁底挡块": [0, 0], "附属预埋件": [0, 0]},
+      "merge_diff_detail": "主梁 A432:C432/A433:C433 随汇总行下移为 A3778:C3778/A3779:C3779, 计数不变",
+      "fill_diffs": 0,
+      "style_signature_diffs": {"合计数量": 0, "主梁数量": 39, "横隔板": 0, "梁底挡块": 0, "附属预埋件": 0},
+      "style_diff_location": "主梁数量 物理行432-435(被汇总行下移腾空), 位置性差异",
+      "moved_summary_row_style_diff": 0,
+      "new_rows_without_border": 0,
+      "new_rows_count": 3346
+    },
+    "6_missing_fields": {
+      "status": "warn",
+      "main_data_rows": 3758,
+      "empty_per_field": {"板件名称": 2223, "宽": 1025, "长": 1017, "梁板编号": 922, "位置": 421, "厚": 331, "数量": 85, "材质": 13},
+      "rows_with_any_empty_required": 2580,
+      "notes_fail_rows": 142,
+      "notes_incomplete_rows": 256,
+      "notes_blank_rows": 0,
+      "source_norm": {"total_rows": 3977, "status": {"pass": 3439, "incomplete": 396, "fail": 142}, "pending_true": 3522, "pending_false": 455},
+      "source_norm_main": {"rows": 3758, "status": {"pass": 3360, "incomplete": 256, "fail": 142}, "pending_true": 3406, "pending_false": 352},
+      "unfilled_sheets": ["横隔板", "梁底挡块", "附属预埋件", "合计数量"],
+      "unfilled_reason": "fill_log.json: 无可靠来源/语义不符, 按'无来源则不动'处理"
+    }
+  },
+  "pending_items": [
+    "合计数量 跨表引用未随汇总行下移平移(仍指 主梁数量!M432..S432) -> 复核数量丢失主梁贡献",
+    "26行 校验incomplete 文本坏值(数量列非数值) -> J 列 43处 #VALUE!",
+    "结构扩展标记为'待确认'(溢出3346行并入第16块)",
+    "既有16块内 A/B 合并导致非锚点未落值(728格跳过)",
+    "横隔板/梁底挡块/附属预埋件/合计数量 4 sheet 未填",
+    "主梁复核总重 9,238,305.61 kg 与图纸基线 2,989,013.3 kg 差 209%"
+  ]
+}
