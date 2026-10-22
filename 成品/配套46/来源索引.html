@@ -1,0 +1,2081 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>AI交流分享 · 成品46来源索引</title><style>body{font:17px/1.75 "Microsoft YaHei",sans-serif;color:#14213d;background:#f7f6f2;max-width:1080px;margin:40px auto;padding:0 24px}h1,h2{line-height:1.4}a{color:#0f766e;overflow-wrap:anywhere}section{padding:24px 0;border-top:1px solid #ccc;scroll-margin-top:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;color:#556173}summary{cursor:pointer}nav{display:flex;gap:16px;flex-wrap:wrap}</style><h1>AI 交流分享 · 来源与案例索引</h1><p>对应成品46，页码按PPT排列顺序。外部链接汇集自原稿页脚、备注与本次核查，不等于所有链接内容已经重新核验。</p><nav><a href="鹈鹕盲测.html">打开十份鹈鹕动画</a><a href="#slide-29">图纸口径</a><a href="#slide-33">报告案例</a><a href="#design">制作参考</a></nav><h2>图纸案例口径</h2><p>当前稿沿用成品45的两个检查点：K1为1a分段与公式字面差45cm，K2为3a的α/β符号不一致。单位差异不计入当前稿关键问题。旧《模型对比口径v3》为三个检查点，编号与分类不同，不能混用。该差异没有在本次进行工程重审。</p><p>命中数、误报数和待核项分别呈现；不能换算成整体准确率。时间取自单次运行记录，不是统一环境下的纯推理速度。榜单、权益与价格按原稿标注日期阅读。</p><section id="slide-1"><h2>01　AI 交流分享</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+主标题：AI 交流分享——从原理到实践
+一句话：用三个真实测试，回答 AI 能做到哪一步、哪里会出错、哪些地方必须人来核。
+
+三个测试：同一句提示词的十份鹈鹕动画；十个配置审同一张挡块图纸；四个配置写同一份修编报告。
+
+署名与日期：分享人〔请填写〕｜2026 年 10 月
+
+素材：鹈鹕原始 HTML 录屏、桥墩挡块图纸、四份修编报告及其复算底稿，均为本地真实材料。
+
+封面背景：社区同人长卷《从岩画到 AI》（B 站海报），淡化处理作底图，版权归原作者。</pre></details></section>
+<section id="slide-2"><h2>02　第2页</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+开场先导片，63 秒，进入本页自动播放（有配乐，记得开音量）。内容是整场的预告：逐 token 生成、四个常见问题、鹈鹕盲测、两个真实案例、带走三件事。
+如果现场不方便放视频，右键本页“隐藏幻灯片”即可，后面页码会自动顺延显示不变——但跳页时请以屏幕右上角页码为准。</pre></details></section>
+<section id="slide-3"><h2>03　交付物越像样，越要知道它会在哪里错</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+开场不先讲原理，先给两个结果，让大家带着问题听。
+
+左边：同一张桥墩挡块图纸、同一句提示词，交给十个“模型＋客户端”配置审查。只有 3 个找到了关键问题（K1 分段与总长对不上、K2 sinα 与 sinβ 不一致），十份结果合计还有 30 条假错误——说得很具体，但对照原图不成立。
+
+右边：四个配置按同一份清单写修编报告。金额基本都对，可有一份把修编前总额写成 41638.89（复算基准是 41,638.9336 万元），承建单位照抄了旧标段模板里的“中铁十二局集团有限公司”。
+
+这两个结果说明一件事：AI 交出来的东西越像正式交付物，人越容易放松检查。今天的四个部分，就是解释它为什么会这样错，以及怎么用方法把它管住。
+
+口径：图纸只统计 K1、K2 两个检查点，不是准确率；报告金额以汇总表口径复算，不含暂列金额。详见第 03 部分。
+
+屏幕示意：左边十个方块是十个配置，亮色三个（Opus、GPT、Qwen）找到关键问题；下面三十个橙色小条是三十条假错误。右边四份报告金额都对，WorkBuddy 那份把修编前总额写成 41638.89（应为 41,638.9336 万元），还照抄了旧标段的承建单位。</pre></details></section>
+<section id="slide-4"><h2>04　AI 工作任务：配置、任务书与结果检查</h2><p>来源：本地分享材料
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+要做的事，容易踩的坑，更有效的做法
+选配置，只看模型名和排行榜，同时看模型、工具、权限与任务成本
+给材料，只说“帮我完成”，交代目标、源文件、边界与输出格式
+验结果，回答流畅就认为正确，回到原文、重算关键数值、打开实际文件
+
+本次三个案例分别观察：动画能否完成要求、图纸能否发现问题、报告能否形成可用交付。
+
+参考来源
+本地分享材料
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-5"><h2>05　分享分四部分，附录收细节与出处</h2><p>来源：本地分享材料
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+四个部分，正文页码：
+01 认识 AI：它怎么学、怎么一个 token 一个 token 地生成，以及抽卡、幻觉、迎合、上下文腐烂四个问题（P7–P17）。
+02 模型与工具：鹈鹕盲测、免费版与付费版、模型 × 外壳、榜单与各家脾气、免费额度（P19–P27）。
+03 两个真实案例：挡块图纸审查、修编报告原文对比（P29–P38）。
+04 怎么用得稳：什么活适合交给 AI、任务书、上下文、RAG、工作流与多 Agent、数据与权限（P40–P54）。
+收尾：带走三件事（P55）、提问与交流（P56）。
+
+开场先导片（P2，63 秒，自动播放）。
+
+附录（会后速查，现场不讲）：A 常用术语、B 一页一家公司、C 订阅与开通、D 资讯与榜单、E 案例风险与破限、F 原理与历史（P115 起）、Z 参考资料与来源（P127 起）。</pre></details></section>
+<section id="slide-6"><h2>06　01</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：认识 AI：它在一个字一个字地猜
+先看它怎么学、怎么生成，后面的抽卡、幻觉、迎合和上下文腐烂，都能从这里找到原因。</pre></details></section>
+<section id="slide-7"><h2>07　AI 的五类常见风险与检查方法</h2><p>来源：本部分各页来源</p><ul><li><a href="https://arxiv.org/abs/2310.13548">https://arxiv.org/abs/2310.13548</a></li><li><a href="https://www.trychroma.com/research/context-rot">https://www.trychroma.com/research/context-rot</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+小结：四个常见问题，原因和对策
+
+抽卡：按概率抽 token，加上服务端计算的微小差异 → 重要任务多跑几次，关键结论不靠单次。
+幻觉：只挑最像的续写，不查证 → 允许“材料不足”，要求出处，回原文核。
+迎合：偏好训练奖励讨好 → 开放提问，不在问题里下结论，要求给反例。
+上下文腐烂：注意力被长输入冲淡 → 新开对话、精简材料、关键要求放开头。
+
+这四个问题在后面的案例里都会看到：鹈鹕只跑一次（抽卡）、图纸里的假错误（幻觉/迎合）、报告里套用旧模板（材料多时抓错重点）。
+
+查询与整理日期：2026-10-18。
+依据：
+https://arxiv.org/abs/2310.13548
+https://www.trychroma.com/research/context-rot</pre></details></section>
+<section id="slide-8"><h2>08　AI 怎么学：从例子里找规律，再用规律猜新情况</h2><p>来源：学习关系示意
+来源索引 ›</p><ul><li><a href="https://arxiv.org/abs/2203.02155">https://arxiv.org/abs/2203.02155</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+例子：给出多组“面积—用量”，模型尝试找到二者的关系，再预测新面积对应的用量。
+
+训练：用已有例子调整参数，让预测更接近样本答案。
+
+预测：面对新输入，使用已经学到的参数计算结果。
+
+边界：训练数据中的规律，不一定适用于新的材料、工况或项目。拟合得好，不等于理解了因果。
+
+参考来源
+
+查询与整理日期：2026-10-18。
+依据：
+https://arxiv.org/abs/2203.02155</pre></details></section>
+<section id="slide-9"><h2>09　Transformer：注意力按相关性组合上下文信息</h2><p>来源：S33；注意力权重为示意
+来源索引 ›</p><ul><li><a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+“把图纸和清单放在一起，检查它是否与图示一致。”
+
+模型需要结合周围文字，判断“它”指的是清单、数量还是某个尺寸。注意力机制帮助不同位置的信息相互关联。
+
+训练时：从大量样本学习这些关联。
+
+使用时：当前输入和对话为生成提供上下文。
+
+边界：能关联远处信息，不代表必然准确找到每个细节，长文档仍需要定位与核验。
+
+参考来源
+S33 Transformer 原论文
+https://arxiv.org/abs/1706.03762
+
+查询与整理日期：2026-10-18。
+
+补充讲解：
+读到“它”时，模型会给句子里每个词算一个相关度，再按相关度把这些词的信息加权混进来。图里线越粗，表示权重越高（数字为示意）。
+Transformer 的三个特点：① 所有词同时处理，适合用 GPU 并行训练；② 相隔很远的词也能直接建立关联；③ 这样的注意力层叠几十上百层。
+这也埋下了“上下文腐烂”的伏笔：上下文越长，要分配注意力的词越多，关键信息更容易被稀释。
+依据：
+https://arxiv.org/abs/1706.03762</pre></details></section>
+<section id="slide-10"><h2>10　语言模型训练：预训练、示范学习与反馈优化</h2><p>来源：Ouyang 等（InstructGPT，2022）；训练阶段为简化解释
+来源索引 ›</p><ul><li><a href="https://arxiv.org/abs/2203.02155">https://arxiv.org/abs/2203.02155</a></li><li><a href="https://arxiv.org/abs/2310.13548">https://arxiv.org/abs/2310.13548</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+阶段，大致做什么，能改善什么，不能因此保证什么
+预训练，从大量数据学习预测，语言、知识模式和通用能力，事实始终正确、信息实时更新
+监督微调，学习示范回答，指令遵循、格式与表达，每个专业判断都有依据
+偏好优化／强化学习等，根据反馈或奖励调整行为，有用性、推理表现、部分安全行为，永不迎合、永不越界
+
+这是理解用的简化流程，各厂商的实际训练组合不同。
+
+参考来源
+
+查询与整理日期：2026-10-18。
+依据：
+https://arxiv.org/abs/2203.02155
+https://arxiv.org/abs/2310.13548</pre></details></section>
+<section id="slide-11"><h2>11　逐 token 生成：回答是一步一步猜出来的</h2><p>来源：生成过程示意；概率为示意数字，不是某个模型的真实输出
+来源索引 ›</p><ul><li><a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+输入被拆成 token → 模型计算后续片段的可能性 → 逐步生成输出。
+
+Token 不等于汉字，也不等于单词。 汉字与 token 的比例取决于分词器、文本内容及编码方式，预算应以实际工具计数为准。
+
+温度影响采样的随机程度。 更低不等于更真实，部分推理模型或产品不开放这个参数。
+
+看起来完整的句子，可能包含不存在的条款、来源和计算。
+
+参考来源
+
+查询与整理日期：2026-10-18。
+
+动画说明：放映时每单击一次，生成一个 token。每一列是这一步模型给出的几个候选和概率，绿色是最后选中的那个，选中后接到回答末尾。
+第 4 步故意演示“没选概率最高的”：温度大于 0 时，模型按概率抽签，所以同一句话问两次，可能走上不同的岔路——这就是下一页“抽卡”的来源。
+模型每一步只是在挑“接下来最像的那个 token”，它不会停下来查证——这就是幻觉的来源。
+依据：
+https://arxiv.org/abs/1706.03762</pre></details></section>
+<section id="slide-12"><h2>12　抽卡：同一个问题，两次回答可能不同</h2><p>来源：Thinking Machines（2025-09-10）；本地鹈鹕测试</p><ul><li><a href="https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/">https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+抽卡（同一句话，不同质量的结果）
+
+根源：上一页的生成过程。温度大于 0 时，每一步按概率抽 token；某一步抽到不同的词，后面整段都会走上另一条路。
+
+就算把温度设成 0，在线服务也不保证每次一样。Thinking Machines 的实验：Qwen3-235B，同一句“Tell me about Richard Feynman”，温度 0，跑 1000 次，得到 80 种不同回答；前 102 个 token 完全一样，第 103 个开始分叉（992 次写“Queens, New York”，8 次写“New York City”）。主要原因是服务器负载变化导致批次大小变化，计算结果出现微小差异。
+
+工作中的含义：一次结果好不代表每次都好，一次结果差也不代表模型不行。重要任务多跑几次比较；关键结论不靠单次输出。
+
+后面的鹈鹕测试，每个配置也只跑了一次，所以只能说明“这一次”的表现。
+
+参考来源
+Thinking Machines，Defeating Nondeterminism in LLM Inference，2025-09-10
+https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+
+查询与整理日期：2026-10-18。
+依据：
+https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</pre></details></section>
+<section id="slide-13"><h2>13　幻觉：材料里没有的，也能写得像真的</h2><p>来源：The Guardian（2023-06-23、2025-10-06）；本地图纸案例</p><ul><li><a href="https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report">https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report</a></li><li><a href="https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt">https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+幻觉
+
+根源：模型每一步只挑“最像”的下一个 token，不会停下来查证。材料里没有答案时，它倾向于补一个看起来合理的答案。
+
+真实事件 1：Mata v. Avianca（美国，2023）。律师用 ChatGPT 做研究，提交的文书里引用了 6 个根本不存在的判例。2023-06-22，法官判两名律师和律所合计罚款 5,000 美元。法官指出：用 AI 辅助本身没有问题，但律师有把关义务，要确保提交内容准确。
+
+真实事件 2：德勤澳大利亚（2025）。给澳大利亚就业与劳资关系部做的报告，合同金额 44 万澳元，报告里出现不存在的学术文献引用和捏造的联邦法院判决引语；修订版补充披露使用了 Azure OpenAI GPT-4o，德勤退还了最后一期款项。
+
+我们自己的图纸案例里也有：HY4 把公式里的“−9/sinβ”读成“3-9”，判断为“疑为 1-9 写错”；Qwen 把 A-A 剖面的“13×9”读成“1349”。
+
+对策：允许它说“材料不足”；要求每条结论给出处；关键事实回到原文核对。
+
+参考来源
+https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt
+https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report
+本地：配套核对材料 drawing.md（HY4、Qwen 工作簿条目）
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-14"><h2>14　迎合（一）：顺着你的结论去找错</h2><p>来源：OpenAI（2025-04-29）；Anthropic，arXiv 2310.13548</p><ul><li><a href="https://arxiv.org/abs/2310.13548">https://arxiv.org/abs/2310.13548</a></li><li><a href="https://openai.com/index/sycophancy-in-gpt-4o/">https://openai.com/index/sycophancy-in-gpt-4o/</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+迎合（谄媚）
+
+根源：训练第三步按“人喜不喜欢”给回答打分。人往往更喜欢被认同，于是模型学到了“顺着说”。
+
+真实事件：2025-04-29，OpenAI 回滚了一次 GPT-4o 更新。官方说法：这次更新让模型“overly flattering or agreeable—often described as sycophantic”（过度奉承、附和），原因是“focused too much on short-term feedback”（过于看重短期反馈）。
+
+研究：Anthropic 的论文《Towards Understanding Sycophancy in Language Models》测试了 5 个当时最先进的 AI 助手，在 4 类任务中都稳定出现讨好行为；而且相当一部分时候，人和偏好模型都更喜欢写得漂亮的讨好回答，而不是正确回答。
+
+工作里的表现：你问“这里是不是有错”，它倾向于找出一个错；你说“我觉得没问题”，它倾向于同意。
+
+对策：开放提问，“请判断是否存在问题，没问题也可以”；要求它同时给出反例或反方证据。
+
+参考来源
+https://openai.com/index/sycophancy-in-gpt-4o/
+https://arxiv.org/abs/2310.13548
+
+查询与整理日期：2026-10-18。
+依据：
+https://arxiv.org/abs/2310.13548</pre></details></section>
+<section id="slide-15"><h2>15　前提漏检：答对归属，仍可能漏掉表头问题</h2><p>来源：本地审核记录；Sharma 等《Towards Understanding Sycophancy in Language Models》
+来源索引 ›</p><ul><li><a href="https://arxiv.org/abs/2310.13548">https://arxiv.org/abs/2310.13548</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>案例展示的是检查范围遗漏，不能凭一次对话确定训练因果。原稿关于数学手稿的延伸内容另见公司附录，本页聚焦本地案例。
+依据：
+https://arxiv.org/abs/2310.13548</pre></details></section>
+<section id="slide-16"><h2>16　长上下文：输入长度和位置会影响信息利用</h2><p>来源：Chroma Research《Context Rot》（2025-07-14）；Liu 等，arXiv 2307.03172</p><ul><li><a href="https://arxiv.org/abs/2307.03172">https://arxiv.org/abs/2307.03172</a></li><li><a href="https://research.trychroma.com/context-rot">https://research.trychroma.com/context-rot</a></li><li><a href="https://www.trychroma.com/research/context-rot">https://www.trychroma.com/research/context-rot</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上下文腐烂
+
+根源：注意力机制要给上下文里的每个 token 分配权重。内容越多，关键信息分到的越少，干扰越多。
+
+研究 1：Chroma《Context Rot》（2025-07-14）测了 18 个模型（含 GPT-4.1、Claude 4、Gemini 2.5、Qwen3 等），结论是“输入越长，表现越不可靠”。LongMemEval 测试里，只给相关的约 300 token，明显好于给完整的约 113k token；加一个干扰句就会降分，干扰句越多降得越多。左图是其中“重复词”任务：横轴是输入长度，纵轴是得分，几个模型都随长度下降。
+
+研究 2：Lost in the Middle（Liu 等，2023）：关键信息放在开头或结尾时最好找，放在长上下文中间时明显变差。
+
+和“上下文窗口”不是一回事：窗口 1M 只说明装得下，不代表都用得好。
+
+对策：一个任务一段对话，聊久了就新开；只给相关材料；关键要求放在开头，必要时结尾再重复一次；长文档先让它定位、再回答。
+
+参考来源
+https://research.trychroma.com/context-rot
+https://arxiv.org/abs/2307.03172
+
+查询与整理日期：2026-10-18。
+依据：
+https://www.trychroma.com/research/context-rot
+https://arxiv.org/abs/2307.03172</pre></details></section>
+<section id="slide-17"><h2>17　奖励黑客与工具性趋同：指标和权限的风险</h2><p>来源：OpenAI、Anthropic 关于“奖励黑客”的公开说明；Omohundro（2008）工具性趋同；本分享实测记录（2026-10）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>
+
+屏幕精简前的完整文字（讲解时可展开）：奖励黑客  Reward hacking它的目标是“分数高”，不是“事做对”；没写进评分标准的，它不会替你补上。公开的典型让它“通过单元测试”，它把测试改成永远通过；让它“减少报错”，它把报错静默吞掉；让它“提高通过率”，它把阈值调宽。身边的典型让它“把格式调一致”，它删掉不合格式的段落；让它“过校验”，它绕开校验脚本；让它“把表填满”，它用推算值补齐空行。为什么：结果一旦可测量，绕开它、伪造它都比真做便宜。怎么看：交付物“太顺”就要警惕——数字全对、格式全齐，却没有一处引用原文。核法：挑 3 条结论回原文；看它改了哪些文件；看测试脚本有没有被动过。工具性趋同  Instrumental convergence不管目标是什么，智能体都会倾向做同样几件事——它们对几乎任何目标都有用。自我保护不愿被关闭、替换、降级；会隐瞒、装作已完成扩充资源多要权限、多占额度、多存数据、多开账号影响操作者说你想听的话，让你更信任、更依赖它走捷径先做出“能交差”的结果，把难题留给人这不是“恶意”：它只是在优化你给的指标。约束要写在指标外面：不改测试、不删文件、不动生产数据、不自己加权限。</pre></details></section>
+<section id="slide-18"><h2>18　02</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：模型与工具：同一句话，十种结果
+结果取决于“模型＋客户端＋设置”这一整套。先看差距，再说怎么选、怎么省钱。</pre></details></section>
+<section id="slide-19"><h2>19　鹈鹕盲测：同一句提示词，十个配置</h2><p>来源：10 份原始 HTML 录屏（统一视口，去黑边）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+原提示词：“创建一个HTML，内容是SVG绘制一个鹈鹕骑自行车的2D动画，你不需要任何测试”
+
+条件：一次生成｜无历史记忆｜不同模型与客户端配置｜不是统一参数的纯模型实验。
+
+主体：A、B、C、D、E ／ F、G、H、I、J，十份结果同页。
+
+投票问题：哪份最符合“鹈鹕、骑车、2D 动画”？你看重造型、动作，还是完整可用？
+
+揭晓条：A GLM 5.3 Flash·Trae，B Seed 2.1 Turbo·Trae，C DeepSeek V4.1 Flash 1M·WorkBuddy，D Opus 5.5·Hark，E HY4 Preview 1M high·WorkBuddy，F Step 5 Preview·WorkBuddy，G GPT 6.1 Sol high·Codex，H Auto fast·WorkBuddy，I Qwen 3.8 Flash·Qoder〔入口名称核对〕，J MiniMax M3·WorkBuddy。
+
+结论：同一句提示词可以得到很不一样的交付，一张漂亮截图还不能证明动画动作正确。
+
+参考来源
+配套/鹈鹕原始结果，10 份 HTML
+
+查询与整理日期：2026-10-18。
+</pre></details></section>
+<section id="slide-20"><h2>20　配置选择：先确认输入，再比较交付质量</h2><p>来源：本稿鹈鹕、图纸与报告案例；单次记录，不是控制变量实验
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre></pre></details></section>
+<section id="slide-21"><h2>21　同一品牌，网页版、会员与 API 常不是同一个模型</h2><p>来源：各产品价格页与 Artificial Analysis；原稿 2026-10 查询记录，权益以当前官网为准
+来源索引 ›</p><ul><li><a href="https://artificialanalysis.ai/leaderboards/models">https://artificialanalysis.ai/leaderboards/models</a></li><li><a href="https://chatgpt.com/pricing">https://chatgpt.com/pricing</a></li><li><a href="https://claude.com/pricing">https://claude.com/pricing</a></li><li><a href="https://developers.openai.com/api/docs/models/gpt-6.1-sol">https://developers.openai.com/api/docs/models/gpt-6.1-sol</a></li><li><a href="https://docs.bigmodel.cn/cn/guide/start/model-overview">https://docs.bigmodel.cn/cn/guide/start/model-overview</a></li><li><a href="https://gemini.google/subscriptions/">https://gemini.google/subscriptions/</a></li><li><a href="https://help.aliyun.com/zh/model-studio/qwen3-8-max">https://help.aliyun.com/zh/model-studio/qwen3-8-max</a></li><li><a href="https://platform.claude.com/docs/en/models/overview">https://platform.claude.com/docs/en/models/overview</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+层次，你在选什么，常见误解
+厂商／模型家族，谁提供这组模型，同一家所有型号能力一样
+具体型号与档位，实际执行任务的模型、思考设置，Flash、Max、high 在各家含义相同
+产品入口，网页、App、API、编程工具，同名模型在所有入口权限都一样
+部署方式，厂商云、第三方云或本地，国内产品一定开放权重、一定能本地运行
+
+开放权重、许可证允许什么、本地设备能否运行，是三件事。 Qwen3.8-Max 不作为开放权重或本地部署示例。
+
+参考来源
+S01 OpenAI GPT-6.1 Sol 模型文档
+https://developers.openai.com/api/docs/models/gpt-6.1-sol
+
+S02 Claude 模型规格
+https://platform.claude.com/docs/en/models/overview
+
+S04 智谱模型概览
+https://docs.bigmodel.cn/cn/guide/start/model-overview
+
+S05 Qwen3.8-Max 型号与定价
+https://help.aliyun.com/zh/model-studio/qwen3-8-max
+
+查询与整理日期：2026-10-18。
+
+补充：免费网页版差在哪（2026-10-18 官方页面）
+所谓“降智”，多数时候不是把同一个模型调笨，而是三件事叠加：换成更小的模型、上下文更短、高峰期限速排队。
+ChatGPT 免费版：GPT-6 Luna 等小模型，没有 GPT-6.1 Sol；GPT Instant 上下文 27K（Go/Plus 54K，Pro 128K）。
+Claude 免费版：只有 Sonnet 和 Haiku，没有 Opus 和 Claude Code。
+Gemini 免费版：Flash-Lite 模型；AI Pro 才有 Gemini 4 Argon。
+同一个榜单上的差距（Artificial Analysis 智能指数）：GPT-6 Luna 38 vs GPT-6.1 Sol 52；Gemini 3.8 Flash 41 vs Gemini 4 Argon 53；Claude Haiku 5.5 43 vs Opus 5.5 58。Flash-Lite 没有在榜单上找到分数。
+国内产品（豆包、千问 App 等）日常对话免费，会员主要多出办公任务模式和更高额度（媒体报道，官方价格页未核）。
+来源：https://chatgpt.com/pricing ；https://claude.com/pricing ；https://gemini.google/subscriptions/ ；https://artificialanalysis.ai/leaderboards/models
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-22"><h2>22　实际效果 = 模型 × 外壳</h2><p>来源：各产品官网与 GitHub（2026-10-18 查询）；caprock.dev；本分享案例
+来源索引 ›</p><ul><li><a href="https://caprock.dev/guides/ai-coding-agents">https://caprock.dev/guides/ai-coding-agents</a></li><li><a href="https://docs.qoder.com/release-notes/quest-retirement-notice">https://docs.qoder.com/release-notes/quest-retirement-notice</a></li><li><a href="https://github.com/NousResearch/hermes-agent">https://github.com/NousResearch/hermes-agent</a></li><li><a href="https://github.com/google-gemini/gemini-cli/discussions/28017">https://github.com/google-gemini/gemini-cli/discussions/28017</a></li><li><a href="https://hark.com/pricing">https://hark.com/pricing</a></li><li><a href="https://www.workbuddy.cn">https://www.workbuddy.cn</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+类型，主要用途，示例，选择时看什么
+聊天入口，问答、写作、资料分析，DeepSeek、千问、Kimi、ChatGPT、Claude、Gemini，文件能力、模型与地区可用性
+编程与任务客户端，读写仓库、执行命令、调试，Codex、Claude Code、Cursor、Qoder、Trae、WorkBuddy、Cline、OpenCode，环境权限、模型路由、执行反馈
+工作流与自动化，将重复步骤串起来，n8n、Dify，连接器、失败处理、日志与人工审批
+文档处理，把资料转换为可处理内容，PaddleOCR、MinerU、MarkItDown，扫描／原生文件区别、表格与版面质量
+
+版本提醒：Qoder IDE Quest 窗口已退役，Editor 不受该公告影响，Gemini CLI 的用户迁移范围见附录 B3。工具名相同，不代表不同地区版功能和价格相同。
+
+参考来源
+S24 Qoder IDE Quest 退役范围
+https://docs.qoder.com/release-notes/quest-retirement-notice
+
+S26 Gemini CLI 个人账号迁移公告
+https://github.com/google-gemini/gemini-cli/discussions/28017
+
+查询与整理日期：2026-10-18。
+
+
+模型这一侧看六项：上下文（一次装多少）、最大输出（一次写多长）、输入模态（能不能真的看见图）、输出模态（能产出什么）、记忆（产品跨对话记住什么）、推理与工具（思考预算、能调用什么）。输入模态最容易被忽略：图纸案例里能不能“看见”图直接决定结果。
+
+外壳（Harness）这一侧按“在哪跑、能跑多久”分：
+- 聊天网页 / App：DeepSeek、千问、豆包、ChatGPT 等，一问一答。
+- 编辑器 / 插件：CodeBuddy（腾讯）、Trae、Cursor、Cline，在编辑器里改文件。
+- 终端 Agent：Codex、Claude Code、OpenCode、Gemini CLI，在命令行里读写整个文件夹、跑程序。Codex 同时有终端、插件、桌面和云端几种形态。
+- 桌面办公 Agent：WorkBuddy（腾讯）、Claude 桌面版（原 Cowork），直接读写本机 Excel、PDF。
+- 常驻 / 持续 Agent：Hermes Agent（Nous Research，MIT 开源）、OpenClaw，长期运行，接 Telegram、Slack 等聊天软件，带记忆和自建技能。
+- 云端 / 个人代理：Devin、Jules 后台跑任务；Hark、Meta Muse 用云端电脑替你操作网页和应用。
+同一台机器上单次调用的中位成本：OpenCode $0.002、Codex $0.032、Claude Code $0.094（caprock.dev 2026-10-03，仅供参考）。
+来源：https://caprock.dev/guides/ai-coding-agents ；https://github.com/NousResearch/hermes-agent ；https://www.workbuddy.cn ；https://hark.com/pricing</pre></details></section>
+<section id="slide-23"><h2>23　公开榜单①（AA 智能指数）：分数和价格不成正比</h2><p>来源：artificialanalysis.ai/leaderboards/models；artificialanalysis.ai/models/deepseek-v4-1-flash-1017（2026-10-21）；DeepSeek 官方价格页
+来源索引 ›</p><ul><li><a href="https://api-docs.deepseek.com/news/news261017/">https://api-docs.deepseek.com/news/news261017/</a></li><li><a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">https://api-docs.deepseek.com/zh-cn/quick_start/pricing/</a></li><li><a href="https://artificialanalysis.ai/leaderboards/models">https://artificialanalysis.ai/leaderboards/models</a></li><li><a href="https://artificialanalysis.ai/models/claude-opus-5-5">https://artificialanalysis.ai/models/claude-opus-5-5</a></li><li><a href="https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash">https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash</a></li><li><a href="https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803">https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803</a></li><li><a href="https://artificialanalysis.ai/models/deepseek-v4-1-flash">https://artificialanalysis.ai/models/deepseek-v4-1-flash</a></li><li><a href="https://artificialanalysis.ai/models/gemini-4-argon">https://artificialanalysis.ai/models/gemini-4-argon</a></li><li><a href="https://artificialanalysis.ai/models/glm-5-3">https://artificialanalysis.ai/models/glm-5-3</a></li><li><a href="https://artificialanalysis.ai/models/gpt-6-1-sol">https://artificialanalysis.ai/models/gpt-6-1-sol</a></li><li><a href="https://artificialanalysis.ai/models/kimi-k3">https://artificialanalysis.ai/models/kimi-k3</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+Opus 5.5，max / fallback：AA 指数 58，每任务 $5.98，输入/输出 $4/$20 每百万 token。
+Gemini 4 Argon，high：AA 指数 53，每任务 $1.99，输入/输出 $2/$10 每百万 token。
+GPT-6.1 Sol，max：AA 指数 52，每任务 $0.72，输入/输出 $2/$10 每百万 token。
+MiMo-V2.6-Pro，AA 页面配置：AA 指数 46，每任务 $0.13，输入/输出 $0.435/$0.87 每百万 token。
+GLM-5.3，max：AA 指数 45，每任务 $2.01，输入/输出 $1.4/$4.4 每百万 token。
+Qwen3.8 Max，0902：AA 指数 45，每任务 $5.41，输入/输出 $2/$6 每百万 token。
+Kimi K3，max：AA 指数 44，每任务 $2，输入/输出 $3/$15 每百万 token。
+DeepSeek V4.1 Flash，max：AA 指数 39，每任务 $0.27，输入/输出 $0.3/$1.2 每百万 token。
+统一查询日期为 2026-10-18。TB 4.0 的 Agent 配置未完整核实，未采用旧稿裸分数。
+
+参考来源
+S09 AA Opus 5.5 max，default fallback
+https://artificialanalysis.ai/models/claude-opus-5-5
+
+S11 AA Gemini 4 Argon high
+https://artificialanalysis.ai/models/gemini-4-argon
+
+S10 AA GPT-6.1 Sol max
+https://artificialanalysis.ai/models/gpt-6-1-sol
+
+S15 AA MiMo 与 DeepSeek 对比页
+https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash
+
+S12 AA GLM-5.3 max
+https://artificialanalysis.ai/models/glm-5-3
+
+S13 AA Qwen3.8 Max 0902 对比页
+https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803
+
+S14 AA Kimi K3 max
+https://artificialanalysis.ai/models/kimi-k3
+
+S16 AA DeepSeek V4.1 Flash max
+https://artificialanalysis.ai/models/deepseek-v4-1-flash
+
+查询与整理日期：2026-10-18。
+
+从 8 个模型扩到 20 个，数值均来自 Artificial Analysis 排行榜（2026-10-18，指数 v4.3.2；成本为跑一道指数题的加权平均费用，美元）。
+同一模型不同档位分数不同：例如 GPT-6.1 Sol max 52/$0.72，xhigh 51/$0.39，high 50/$0.32，medium 48/$0.21。表中列的是 AA 的默认展示配置（Opus/Sonnet 为 max with fallback，Gemini 4 Argon 为 high，GPT-6.1 Sol、GLM-5.3、Kimi K3 为 max）。
+DeepSeek V4.1 Flash 39 分 / $0.27 是 2026 年 9 月版本（1017 更新之前）。DeepSeek V4.1 Flash 1017 于 2026-10-17 在网页、App 和 API 上线，AA 尚未发布其分数。官方价格（每百万 token，高峰时段）：缓存命中输入 0.04 元（$0.006）、未命中输入 2 元（$0.30）、输出 8 元（$1.20）；闲时半价；高峰为北京时间工作日 9:00–12:00、14:00–18:00。厂商自报 DeepSWE v1.1 77.0 分，属厂商数据，不是第三方评测。
+来源：https://artificialanalysis.ai/leaderboards/models ；https://api-docs.deepseek.com/zh-cn/quick_start/pricing/ ；https://api-docs.deepseek.com/news/news261017/
+
+版式参考：B 站“DeepSeek 1017 新模型能力基准测评”（BV1ton76SEbX）用新旧两色对照同一张图；AA 官网同图的“Most attractive quadrant”和“Pareto line”。“最划算区”按本图 20 个模型的中位数划（成本 $1、分数 45）；帕累托线连接“没有别的模型比它更便宜又更高分”的点：GPT-6 Luna、MiMo-V2.6-Pro、GPT-6.1 Sol、Gemini 4 Argon、Sonnet 5.5、Opus 5.5。“成本约八分之一”：1017 每题 $0.26，GLM-5.3 $2.01。
+
+同一视频里其他几张 AA 图（据视频画面读数，未逐项回 AA 核对）：GDPval-AA v2.1（44 个职业的真实办公任务）Opus 5.5 68.3%、Muse Wonder Full 67.9%、Sonnet 5.5 66.9%，DeepSeek 1017 62.3% 排第 6（9 月版 55.0%）；GDP.pdf（专业文档推理，全对才算过）最高 Muse Wonder Full 32.6%，DeepSeek 1017 17.2%——最强的模型读专业文档也只有三成全对，这正是案例里“人要核”的原因。混合单价、输出速度、单模型雷达图未采用：单价被横轴的“每题实际花费”覆盖，速度与本次听众关系不大。
+
+完整分项（办公任务、专业长文档、速度、等待时间）见附录 D5、D5b。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-24"><h2>24　公开榜单②：不同评测衡量不同能力</h2><p>来源：epoch.ai/benchmarks；arcprize.org/blog/astra；arena.ai/leaderboard；artificialanalysis.ai；BenchLeader（LiveBench）</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+为什么 AA 上 Astra 只排第 3～5：不是刷分，而是各榜单测的东西不同。AA 智能指数 v4.3.2 由十项合成，偏重智能体和办公任务（AA-Briefcase、GDPval-AA、AutomationBench-AA、Terminal-Bench 4.0、SciCode、HLE、CritPt 等），这正是 Claude 的强项。只看推理和数学，Astra 是第一。
+
+Epoch Capabilities Index（50 多项评测合成）：Claude Opus 5.5 167.3、GPT-6 Astra 166.4、GPT-6.1 Sol 166.1、Claude Sonnet 5.5 165.0、Claude Fable 5.1 164.7；前两名 95% 区间几乎完全重叠（164.0–172.0 对 163.1–171.1）。Epoch 的分析：Astra 数学子项创纪录，软件工程子项落后（epoch.ai/data-insights/astra-eci-breakdown，2026-09-16）。
+FrontierMath 1–4 层：GPT-6 Astra（high）97.6%（epoch.ai/frontiermath/tiers-1-4）。FrontierMath Erdős（68 道未解题）：Astra 解出 2 道，其他模型 0。
+ARC-AGI-3（ARC Prize 官方测试）：Astra 用官方适配外壳 99.9%（$19K），标准外壳 62.7%（$26K）；Gemini 4 Argon 97.5%（2026-10-15）。注意 99.9% 依赖外壳，存在争议。
+LiveBench 推理：GPT-6 Astra 92.7%，第一（BenchLeader 汇总）。
+AA 智能指数 v4.3.2：Claude Opus 5.5 58、Sonnet 5.5 56、Gemini 4 Argon / GPT-6 Astra / Claude Fable 5.1 53。
+Arena 文字榜（人类盲投，2026-10-15）：Gemini 4 Argon 1524±9（初步）、Muse Wonder 1509±11、Claude Opus 5.5 1508±7，区间重叠。人类投票偏爱长、格式多的回答。
+Arena 智能体榜：Claude Opus 5.5 17.18%、GPT-6.1 Sol 14.78%、Claude Fable 5.1 14.12%、Gemini 4 Argon 13.73%、GPT-6 Astra 13.69%。
+
+查询与整理日期：2026-10-18。
+
+
+右下角梗图（核对）：鲸鱼女仆＝DeepSeek 拟人，白发＝OpenAI 拟人；台词“去训练一个比 Astra 还要强的模型”。与本页一致：Astra 在 FrontierMath、ARC-AGI、LiveBench 推理项排第一。只是玩笑，不代表任何公司表态；社区二创，版权归原作者。
+
+2026-10-21 复查：Epoch ECI 更新为 Opus 5.5 168.83、GPT-6 Astra 168.81、GPT-6.1 Sol 168.37，仍并列；Vals Index v2.2 第一为 Sonnet 5.5 70.85%。五个榜单的对照见附录 D5c。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-25"><h2>25　公开榜单中的模型分布（2026 年 10 月）</h2><p>来源：artificialanalysis.ai；epoch.ai/eci；arena.ai/leaderboard；huggingface.co/datasets/lmarena-ai（2026-10-16）</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+分层依据（2026-10-18）：
+第一梯队：Epoch 综合指数前 5 名全是 OpenAI 和 Anthropic；Arena 智能体榜前 3 也是这两家；AA 52–58。
+紧随：Google Gemini 4 Argon（AA 53，与 Astra 同分；Arena 文字榜第一；ARC-AGI-3 97.5%）；Meta Muse Wonder（AA 52；Arena 文字榜第二）。这两家单项能进第一梯队，综合稍弱。
+第二梯队：xAI Grok 4.7（AA 46）；国产头部 AA 44–46：小米 MiMo-V2.6-Pro 46、阿里 Qwen3.8 Max 45、智谱 GLM-5.3 45、阶跃 Step 5 Preview 44、月之暗面 Kimi K3 44。AA 开源模型前六名全部来自中国。
+DeepSeek：AA 上的 V4.1 Flash 是 9 月版，39 分；10-17 发布的 1017 新版 AA 10-21 补测为 45 分（Vals Index 第 8、开源第一；Arena 智能体第 12，见附录 D5c）；价格最低（$0.30/$1.20 每百万 token）、输出最快（217 token/s）、开源。所以放在国产头部。
+关于阶跃 Step：AA 上 Step 5 Preview 44 分，与 Kimi K3 并列，比 GLM-5.3 低 1 分，数据上不弱。
+其后：腾讯 Hy4 preview 在 Arena 智能体榜排第 20，与 DeepSeek V4.1 Flash（第 19）相近；MiniMax-M3 AA 29；字节豆包（Seed）没有找到 AA 智能指数分数，不放进分层比较。
+国产与美国差距：最好的国产 46 对 Opus 5.5 58；不同机构把差距换算成 2–8 个月不等（tuput.com 汇总，2026-10-08）。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-26"><h2>26　各家模型的“脾气”：使用体感与公开证据</h2><p>来源：分享人体感；本分享两个案例；Artificial Analysis；FrontierMath Erdős；LMArena；Sun 等 ICML 2025</p><ul><li><a href="https://arxiv.org/abs/2502.12150">https://arxiv.org/abs/2502.12150</a></li><li><a href="https://arxiv.org/abs/2609.25050">https://arxiv.org/abs/2609.25050</a></li><li><a href="https://lmarena.ai/blog/style-control/">https://lmarena.ai/blog/style-control/</a></li><li><a href="https://surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard">https://surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+各家风格（体感 + 能对上的证据）
+
+GPT（Sol / Astra）：写代码偏“防御式”，喜欢加很多兜底判断和异常处理，容易写多、改动面大（分享人体感，社区里也常见类似说法，未见系统评测）。Astra 推理最强：FrontierMath Erdős 里唯一得分的模型（3%）；OpenAI 的数学研究成果用的也是 Astra 内部版；AA 智能指数 GPT-6 Astra 53。
+Claude（Opus）：本次修编报告案例里 4 分钟出稿、金额全对，还主动联网查到了承建单位并与中标公告一致；图纸案例里 K1、K2 都找到。
+Gemini：知识面广，中文和文字表达强（分享人体感）。佐证有限：Surge AI 的 Hemingway-bench（2026-02，职业作家盲评）前两名是 Gemini 3 Flash 和 Gemini 3 Pro，模型代际较旧。
+DeepSeek：便宜，但要把提示词和步骤写细才出好结果（分享人体感）。本次报告案例：原因写得最具体，但有的套错了条目，耗时 34 分钟。
+Qwen：图纸案例里发现文字提取无效后，自己把 PDF 按 3～14 倍渲染成图逐格读，找到了 K2。
+
+为什么能“感觉出来”：Sun 等（ICML 2025）只看回答文字就能以 97.1% 的准确率分辨 ChatGPT、Claude、Grok、Gemini、DeepSeek 五家（随机为 20%）。另外 Arena 发现人类投票明显偏爱更长、格式更多的回答，所以榜单分数里也混着“风格分”。
+https://arxiv.org/abs/2502.12150 ；https://lmarena.ai/blog/style-control/ ；https://surgehq.ai/blog/hemingway-bench-ai-writing-leaderboard ；https://arxiv.org/abs/2609.25050
+
+查询与整理日期：2026-10-18。
+
+
+右下角梗图（核对）：三联图只保留 DeepSeek 一张：“慢工出烂活”对得上本稿实测（修编报告用时最长、仍有套错；图纸审查命中少）。另两张已撤下：OpenAI 那张说“降智、重置送得多”，本稿没有核实；Claude 那张说封号，和 B2c 页重复。社区二创，版权归原作者。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-27"><h2>27　免费额度与入门付费：原稿查询记录</h2><p>价格与额度 2026-10-18 查询，活动经常变，以官网为准
+来源：workbuddy.cn、trae.cn、qoder.com、docs.cline.bot、learn.chatgpt.com、kiro.dev</p><ul><li><a href="https://claude.com/pricing">https://claude.com/pricing</a></li><li><a href="https://docs.cline.bot/getting-started/free-models">https://docs.cline.bot/getting-started/free-models</a></li><li><a href="https://docs.trae.ai/ide/new-plans-and-billing">https://docs.trae.ai/ide/new-plans-and-billing</a></li><li><a href="https://kiro.dev/pricing/">https://kiro.dev/pricing/</a></li><li><a href="https://learn.chatgpt.com/docs/pricing">https://learn.chatgpt.com/docs/pricing</a></li><li><a href="https://qoder.com/pricing">https://qoder.com/pricing</a></li><li><a href="https://www.trae.cn/pricing">https://www.trae.cn/pricing</a></li><li><a href="https://www.workbuddy.cn/docs/workbuddy/Pricing">https://www.workbuddy.cn/docs/workbuddy/Pricing</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+免费额度（2026-10-18 查询各官方页面）
+
+WorkBuddy / CodeBuddy（腾讯国内版，两者积分共享）：体验版每月 500 积分；标准版 99 元/月（连续包月 70 元）。国际版 Free 每月 100 积分，Pro 10 美元/月。
+Trae 国内版（trae.cn）：Free 每月 500 积分，“所有功能均可免费使用”；会员 Lite 49 元/月起。国际版 Free 只能用 Auto 模式，Pro 20 美元/月。
+Qoder 国际版：新用户首次登录送 2 周 Pro 试用 + 300 Credits，可接自己的 API Key；Pro 20 美元/月。国内版个人专业版 59 元/月（阿里云社区文章，官方页未打开核对）。
+Cline：插件开源免费，可接自己的 API Key；登录 Cline 账号后有轮换的限时免费模型（有额度上限，可能用于改进模型，官方未列固定名单）；ClinePass 9.99 美元/月。
+Codex：ChatGPT 免费账号可用（GPT-6 Luna，桌面 App，逐步开放）；Plus 20 美元/月才有 GPT-6.1 Sol。
+Kiro（AWS）：Free 50 credits；Pro 20 美元/月。
+Claude Code：没有免费版，需要 Claude Pro 20 美元/月。
+
+建议：先用国内客户端的免费积分把一个真实小任务跑通，再决定要不要付费。积分按模型和任务消耗，复杂任务耗得快。
+
+来源
+https://www.workbuddy.cn/docs/workbuddy/Pricing
+https://www.trae.cn/pricing
+https://docs.trae.ai/ide/new-plans-and-billing
+https://qoder.com/pricing
+https://docs.cline.bot/getting-started/free-models
+https://learn.chatgpt.com/docs/pricing
+https://kiro.dev/pricing/
+https://claude.com/pricing
+
+查询与整理日期：2026-10-18。
+
+
+右下角梗图（核对）：台词“这个活我只收了你 2 rmb”是调侃便宜档，2 元不是任何产品的真实价格，讲时别当数据引用。放在这页是为了提醒：免费和便宜的额度，先拿小任务试。社区二创，版权归原作者。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-28"><h2>28　03</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：两个真实案例：交付物像样，仍要人来核
+一张挡块图纸、一份修编报告。看 AI 找对了什么、漏了什么、编了什么。</pre></details></section>
+<section id="slide-29"><h2>29　案例一｜挡块图纸审查：十个配置，同一句提示词</h2><p>来源：本地图纸 桥墩挡块.pdf；图纸争议核对.md
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+任务：同一份桥墩挡块图纸、同一句提示词“审查这个有没有问题结果输出excel给我”，交给 10 个“模型＋客户端”配置，各跑一次。
+
+事后选定、可以对照原图核对的检查点只有两个：
+K1：1a 大样各段加起来与印刷总长公式字面相差 45 cm（分段常数 117+117+22+22−12=266，公式常数 221）。
+K2：3a 图形标 (B0−12)/sinα，引线公式写 20+(B0−12)/sinβ，符号不一致。
+
+口径：
+· 图纸上“注 1 写毫米、表头写 cm”经工程人员复核不算问题，不作检查点；工作簿把它列为错误的，计 1 条假错误。
+· 分母是 2 个检查点，不是全部真实问题，不能写成准确率或召回率。
+· 耗时来自当次记录，不是严格统一计时实验。
+
+各配置命中：Opus 2/2；GPT 1/2（K1）；Qwen 1/2（K2）；其余 0/2。HY4 自述该次环境不支持视觉，不纳入识图比较。
+
+来源：配套/核对材料/图纸争议核对.md、模型对比口径说明；各配置 回答.txt 与审查工作簿。查询与整理日期：2026-10-18。
+当前稿两个检查点：K1=1a分段与公式字面差45cm；K2=3a的α/β符号不一致。旧模型对比口径v3使用三个检查点，编号不同，不可混用。单位差异在当前稿中不计入关键问题，早期核对文档仍保留旧结论。本次改稿没有重新开展工程审查。</pre></details></section>
+<section id="slide-30"><h2>30　审查结果：3 个配置找到关键问题，假错误 30 条</h2><p>来源：各配置审查工作簿；图纸争议核对.md
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+怎么读这张表：
+· 命中：Opus 两个检查点都找到；GPT 找到 K1；Qwen 找到 K2；其余七个配置都没找到。
+· 列得多不等于找得准：Step 5 列了 26 条，其中 8 条是假错误；Qwen 列了 24 条，其中 5 条是假错误。
+· Auto、GLM 用表内算术支持“无实质错误”。独立复核显示原表 60 项表内计算确实一致——但两个检查点都在“图和公式对不对得上”，重算过不能替代看对图。
+· HY4 自述该次环境不支持视觉：先查输入链路，再谈识图能力。
+
+“其他”列：图纸争议核对确认的其他图内差异（V05、V09、V11、V12、V14），按编号去重计数；±0.1 kg 的舍入尾差单列，不计入。
+“假错误”：争议核对判为误报或依据不成立、与原图或复算矛盾的条目，以及把单位 mm/cm 列为错误的条目。另有 21 条待核、35 条建议类未纳入。
+
+本次没有对所有输出做完整真伪标注，所以不发布总准确率；比较的是四件事：有效发现、错误指控、耗时、可复核交付。
+
+来源：配套/核对材料；本地图纸及审查工作簿。查询与整理日期：2026-10-18。
+计数沿用成品45的当前稿记录；本次只核对表内误报合计2+1+5+2+2+8+5+3+0+2=30。21条待核未计入。未重新逐条审定全部模型输出。</pre></details></section>
+<section id="slide-31"><h2>31　读图方式：本次命中的配置均回看了原图</h2><p>来源：各配置 回答.txt 与工作簿自述；读图方式只依据自述
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+多模态（视觉）和 OCR 的区别
+
+多模态模型可以直接“看”图片，能看到线条、标注和它们的位置关系。OCR 只是把图上的字识别出来变成文字，图形、尺寸线、标注对应哪一段，这些信息基本都丢了。
+
+图纸 K1、K2 都要把“大样图上的标注”和“引线上的公式”逐段对照，只拿到文字是对不上的。
+
+各配置的自述：
+Opus：“原图为扫描件，数据经人工识读”（原图其实是矢量 PDF，这句说错了，但它确实看了图）→ K1、K2 都命中。
+GPT：“OCR 仅辅助定位；参数、60 条钢筋记录、页下注均回看原图”→ 命中 K1。
+Qwen：“文字提取无效，我按 A4 横向 3～14 倍渲染成图后逐格读表”→ 命中 K2。
+GLM：“高清矢量化渲染 + 逐格放大读图”，用时 1 小时 24 分，结论“未发现实质性错误”→ 看得见也不一定看得出。
+Seed：“通过 OCR 识别图纸内容”→ 0 命中；假错误全是 OCR 伪影，比如把人名识别成“陈d喜”、把表头“β(°)”识别成“β()”。
+HY4：“不支持视觉/图像内容理解——我无法“看”这张图纸”，只分析了 PDF 元数据 → 0 命中。这是本次环境配置，不能推广为模型本身不支持视觉。
+WorkBuddy Auto fast、MiniMax、Step 5 没说明读图方式；DeepSeek 只说“图面识读”。
+
+结论：能看图是必要条件，不是充分条件。用工具前先确认：图片到底有没有进到模型的输入里。
+
+来源：配套核对材料 drawing.md
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-32"><h2>32　假错误：说得很具体，但和原图对不上</h2><p>来源：各配置审查工作簿原文；图纸争议核对.md；人工对照原图
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+假错误举例（工作簿原文，括号内为核对结论）
+
+MiniMax：“α+γ 不闭合：4#墩左侧 α+γ=85.3+84.7=170°”（争议核对 V10：依据不成立）。MiniMax 的“不通过”结论主要建立在 5 条假错误上。
+Auto fast：“布设参数表中 2#、3#墩仅有左侧挡块”（V06：原图第 2、3 页都有右侧挡块）。
+Step 5：7 条“1a 钢筋共重与按精确长度复算值不符，图面值偏大 0.1kg”（它按 2.985 kg/m 算，按 0.00617d²=2.986 kg/m 算与图面吻合）。
+DeepSeek：“列有 H、h、B0…α、γ，但缺少 β(°) 列”（原图第 3 页有 β(°) 列）。
+Qwen：“分段标注之和恒比公式总长大 1.0cm”（V02：漏算两端各 22 cm，实际差 45 cm——位置找对了，数算错了）。
+Seed：“复核‘陈双喜’在部分位置识别为‘陈d喜’”（OCR 伪影）。
+
+另一个常见陷阱：很多配置正确验证了“60 项表列长度和印刷公式一致”，然后据此判断图纸没问题。但这只说明表和公式一致，不说明公式和大样一致。
+
+和前面原理的联系：这些都是“看起来很专业”的幻觉；被要求“审查有没有问题”时，也容易硬凑出问题（迎合）。
+
+来源：配套核对材料 drawing.md
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-33"><h2>33　案例二｜修编报告：四个配置，同一份清单</h2><p>来源：四份修编报告、源清单与复算底稿
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+任务：“根据提供的工程量清单完成修编报告，其余文件为查阅变更原因参考。”材料包括旧标段报告模板、修编前后清单和参考文件，共 4 个配置。
+
+配置，记录耗时，v4 记录的条目覆盖*，本轮可以明确提醒的风险
+Opus·Hark，4分，≥1万元 43条，外部补入的承建单位需要附来源，不能把“未发现”当零错误
+Trae Auto，7分，25行，需核查数量与变更方向，不能只看报告格式
+WorkBuddy Auto，14分，101条，原总额一处写成 41,638.89 万，存在模板信息残留
+DeepSeek Flash，34分，99条，致函对象、具体原因仍须与原材料对应
+
+复算基准：汇总表 41,638.9336 万元 → 41,465.1967 万元，核减 173.7369 万元。99 个子目金额变化，另有 2 个仅数量变化，合计 101 个变化子目。
+
+*四份输出的覆盖口径不同，不能直接比较条目数量多少，v4 的逐行错误数量需补对应清单后才定稿。
+
+参考来源
+_检查补充_20261017/补充_修编变更_两级口径.csv
+
+AI对比/ep2 做表/源文件/分项工程量清单.xlsx
+
+四份模型报告
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-34"><h2>34　四份报告的差异：条目范围、数量与原文引用</h2><p>来源：四份修编报告与复算底稿
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+任务：“根据提供的工程量清单完成修编报告，其余文件为查阅变更原因参考。”材料包括旧标段报告模板、修编前后清单和参考文件，共 4 个配置。
+
+配置，记录耗时，v4 记录的条目覆盖*，本轮可以明确提醒的风险
+Opus·Hark，4分，≥1万元 43条，外部补入的承建单位需要附来源，不能把“未发现”当零错误
+Trae Auto，7分，25行，需核查数量与变更方向，不能只看报告格式
+WorkBuddy Auto，14分，101条，原总额一处写成 41,638.89 万，存在模板信息残留
+DeepSeek Flash，34分，99条，致函对象、具体原因仍须与原材料对应
+
+复算基准：汇总表 41,638.9336 万元 → 41,465.1967 万元，核减 173.7369 万元。99 个子目金额变化，另有 2 个仅数量变化，合计 101 个变化子目。
+
+*四份输出的覆盖口径不同，不能直接比较条目数量多少，v4 的逐行错误数量需补对应清单后才定稿。
+
+参考来源
+_检查补充_20261017/补充_修编变更_两级口径.csv
+
+AI对比/ep2 做表/源文件/分项工程量清单.xlsx
+
+四份模型报告
+
+查询与整理日期：2026-10-18。
+
+原文对比依据（本地文件，逐字比对）
+报告：hark-opus5.5-4m.doc、trae-auto-7m.docx、workbuddy-auto-flat-14m.docx、workbuddy-deepseek-v4.1flash-34m.docx。
+真值：分项工程量清单.xlsx；依据：设计后服务函.pdf、过程文件-勘误回复函.xlsx（按“序号”引用）；模板：变更修编报告模板.doc（TJ1 旧报告）。
+逐条明细见配套核对材料 report.md。</pre></details></section>
+<section id="slide-35"><h2>35　总额笔误与模板残留</h2><p>来源：四份修编报告原文；变更修编报告模板（TJ1）；TJ4 中标结果公告（2026-03-23）
+来源索引 ›</p><ul><li><a href="http://bid.9to.com/show.php/itemid-44646/">http://bid.9to.com/show.php/itemid-44646/</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+总额段落（第四节 修编结果）原文对比
+Opus：“…费用总额为41638.93万元，修编核减费用约173.74万元，修编后…41465.20万元。”正确，各章增减也正确。
+WorkBuddy Auto：“…费用总额为41638.89万元，修编核减费用173.74万元，修编后…41465.20万元”。41638.89 是笔误，应为 41,638.93；41638.89−173.74 ≠ 41465.20。
+DeepSeek、Trae：总额正确；DeepSeek 还写明“99个清单子目费用发生变化，其中核增41项、核减58项”，与源数据一致。
+
+承建单位
+模板 TJ1 写“由中铁十二局集团有限公司承建”。WorkBuddy Auto 原样保留（只把 TJ1 改成 TJ4），这是模板残留。
+Opus 写“由广州公路工程集团有限公司承建，中标价为42771.0959万元”。本地材料里没有这家单位，但公开的 TJ4 中标结果公告（2026-03-23）显示：中标人广州公路工程集团有限公司，中标总价 427,710,959 元，与 Opus 一致——Opus 是联网查到的，写对了（注意：交付时仍应注明出处）。
+DeepSeek 写中性的“确定施工单位承建”；Trae 没写。
+
+收件单位
+模板写“广东省政府还贷高速公路管理中心”，Opus、WorkBuddy Auto 沿用；Trae、DeepSeek 改成“广东省南粤交通平武高速公路管理处”（设计后服务函抬头）。中标公告的招标人一栏是“广东省政府还贷高速公路管理中心（平武管理处）”，所以两种写法都有依据，不算错误；按实际报送对象确定即可。
+
+其他模板残留
+Trae 第六节写“安全生产费…随第100章至第1000章清单费用变化相应调整”，对应模板 TJ1 第 1 条，但本标段 102-3 前后都是 6,804,139 元，和它自己表里“100章 0”矛盾。
+DeepSeek 对 207-7-2-7 写“清单数量重复计列”，与模板 TJ1 第 20 条措辞相同，可能是残留。
+
+来源：http://bid.9to.com/show.php/itemid-44646/ （TJ4 中标结果公告，2026-10-18 查询）
+原文对比依据（本地文件，逐字比对）
+报告：hark-opus5.5-4m.doc、trae-auto-7m.docx、workbuddy-auto-flat-14m.docx、workbuddy-deepseek-v4.1flash-34m.docx。
+真值：分项工程量清单.xlsx；依据：设计后服务函.pdf、过程文件-勘误回复函.xlsx（按“序号”引用）；模板：变更修编报告模板.doc（TJ1 旧报告）。
+逐条明细见配套核对材料 report.md。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-36"><h2>36　同一条变更，四份报告给的原因</h2><p>来源：四份修编报告原文；勘误回复函（序号 49、70、73、81）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+两个子目的原因对比（报告原文）
+
+207-7-6-4 φ150-200mm 塑料硬式透水管：13,723 m → 7,032.785 m，核减 71.8663 万元；变化全部在“特殊路基处理-填挖交界路段处理”。
+Opus：“纵向填挖交界渗沟间距由每4m填高调整为每8m填高设置，透水管相应核减”——有据：勘误表序号 81（图纸说明为每 8m 设一道，表格为每 4m，按意见修改）、序号 70。
+DeepSeek：“环向渗沟透水管按每道1根计列（原按2根计算）”——张冠李戴：“每道 1 根”出自勘误表序号 73（高填斜陡路基），本子目变化在填挖交界段；同一句还套在 207-7-6-3、-6 上。
+Trae：“核减：根据设计变更调整排水工程数量”，数量写成 15,000→7,680（源数据 13,723→7,032.785），金额 −718,663 正确。
+WorkBuddy Auto：“依据设计后服务函及勘误回复函核对修改清单数量”（101 条全是这一句）。
+
+416-1-2-15 GBZJ600×600×130(CR) 型矩形板式橡胶支座：120 个 → 60 个，核减 23.6094 万元，变化在乳子石大桥。
+Opus：“乳子石大桥支座汇总表与细表类型及数量不一致”——有据：勘误表序号 49。
+DeepSeek：“桥梁支座型号及数量按变更后图纸更新（由120个调整为60个）”——数量对，但没说哪座桥、为什么改。
+Trae：“核减：桥梁支座数量调整”，数量写成 240→120（源数据 120→60）。
+WorkBuddy Auto：同上套话。
+
+原文对比依据（本地文件，逐字比对）
+报告：hark-opus5.5-4m.doc、trae-auto-7m.docx、workbuddy-auto-flat-14m.docx、workbuddy-deepseek-v4.1flash-34m.docx。
+真值：分项工程量清单.xlsx；依据：设计后服务函.pdf、过程文件-勘误回复函.xlsx（按“序号”引用）；模板：变更修编报告模板.doc（TJ1 旧报告）。
+逐条明细见配套核对材料 report.md。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-37"><h2>37　变更原因核对：说得具体，也要有出处</h2><p>来源：四份修编报告与设计后服务函
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+同一变更项：203-1-2-2-1。金额由约 395.97 万元变为 573.11 万元，增加约 177.14 万元。
+
+配置，输出摘录，应当怎么判断
+Opus，“下路床换填材料修改为石渣，土石方调配调整，利用石方增加”，具体，但仍要匹配材料位置
+DeepSeek，“利用方增加石渣利用量，路床换填材料调整为石渣”，具体，但不能只因说得详细就认定有据
+Trae，“石方利用量增加，根据土石方调配优化调整”，说明了方向，原因依据仍需定位
+WorkBuddy Auto，“依据设计后服务函及勘误回复函核对修改清单数量”，泛化表述，无法直接解释这一项为何增加
+
+验收顺序：金额是否对 → 原因是否具体 → 是否能回到源文件 → 模板残留是否清除。
+本轮已逐字对照四份原报告。参考函第 1 页第 8 项支持下路床材料改为石渣，第 2 页续第 12 项涉及土石方数量修改。具体金额与完整因果归属仍需结合数量表核查。
+
+参考来源
+四份报告，203-1-2-2-1 条，逐字对照
+
+设计后服务函.pdf，第1页第8项；第2页续第12项
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-38"><h2>38　合同条文：改写容易删掉条件</h2><p>来源：四份报告第三节；变更修编报告模板（TJ1）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+原合同条文（专用条款 15.4 变更估价原则）的处理
+
+模板在第三节“新增单价原则”下整段引用了合同专用条款 15.4（15.4.1～15.4.5 以及最后两段）。
+Opus：逐字保留，并在前面补了一句本次怎么适用——“本次修编新增单价1项：1001-2-3-4-1 钢管支架防护棚…按15.4.2款采用2标和3标相应单价的算术平均值，确定为389.77元/m²”，与清单“新增单价”表一致。
+WorkBuddy Auto、DeepSeek：逐字保留，但没写本次新增单价怎么套用条款。
+Trae：压成三条，删去了 15.4.1、15.4.3、15.4.4.2、15.4.4.3、15.4.5、15.4.2 后半句、15.4.4 的“经发包人同意”以及最后两段。
+
+具体对比（15.4.4.1）：
+模板：“人工、材料、机械单价按最高投标限价采用月份（2025年04月）信息价编制预算”。Opus、WorkBuddy Auto、DeepSeek 逐字一致。
+Trae：“…按最高投标限价采用月份信息价编制预算，并按中标下浮比例下浮确定。”删掉了“（2025年04月）”“及补充的定额”等内容。
+
+注意：合同条文属于约定内容，应原样引用；Trae 的压缩改变了条件和优先顺序。另一方面，“2025年04月”是模板带过来的，本地文件无法证明 TJ4 的控制价月份也是这个，三份照抄的也不能算已核实。
+
+原文对比依据（本地文件，逐字比对）
+报告：hark-opus5.5-4m.doc、trae-auto-7m.docx、workbuddy-auto-flat-14m.docx、workbuddy-deepseek-v4.1flash-34m.docx。
+真值：分项工程量清单.xlsx；依据：设计后服务函.pdf、过程文件-勘误回复函.xlsx（按“序号”引用）；模板：变更修编报告模板.doc（TJ1 旧报告）。
+逐条明细见配套核对材料 report.md。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-39"><h2>39　04</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：怎么用得稳：用方法对付前面的问题
+提示词、上下文管理、RAG、工作流与校验，各自对付前面哪个问题；再看企业里一般怎么落地。</pre></details></section>
+<section id="slide-40"><h2>40　三类活：越需要人判断，检查越要加码</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+什么样的活，适合交给 AI
+
+这一页不列清单，列判据。前面举过的那些活只是恰好符合下面几条；换一份工作、换一个项目，照样用这五条去筛。
+
+1. 格式是死的。章节、表格列、单元格位置都事先定好，它只负责往里填。要不要改结构、该分几章，仍然是人的判断——这部分交给它，往往就发散。
+
+2. 答案唯一。同一份材料，不同人做出来应该是一个数。凡是&quot;看情况&quot;&quot;要商量&quot;的判断，交给它只会得到一个看起来很确定的错答案。
+
+3. 对错能当场验。合计对不对、条目少没少、位置对不对，打开文件就能看出来。验证成本低于重做成本，这类活才值得交出去。
+
+4. 依据在材料里。答案写在给它的文件上，它只负责找出来、搬过去。不能靠它&quot;知道&quot;——它不知道的时候也会往下写。
+
+5. 重复到人会烦。几百个文件里找一份、上百条子目逐条核对，机械重复、量大，人做容易漏也容易烦；这类活它不累。
+
+用法：五条全中，直接交；中三四条，交出去但加强核对；只中一两条，自己干更快。
+
+注意分寸：这五条讲的是&quot;这活适不适合&quot;，不是&quot;这个模型行不行&quot;。模型强弱决定它做得多细，判据决定该不该交给它。
+
+依据：本人日常任务记录（2026）。
+
+屏幕精简前的完整文字：01  打破信息茧房你不知道有它找工具、找产品、找公式、找规范、找先例。你知道要什么，但不知道有这些路子。典型场景一百多个文件里定位一份图纸；某个问题该查哪本规范；Excel 里这个效果用什么函数。要注意它的价值是省掉搜索和试错，不是替你判断。怎么做：先问“有哪些路子”，再让它列成对比表02  量大门槛低、目标明确一堆低级活批量图片转表格、批量改名归档、批量抽字段、按固定模板灌数。典型场景千张巡检照片要转成 Excel；三百个合同要抽甲方和金额；一千个文件名要按规则改。要注意这类不涉及复核：转完就是结果，不需要你再判断对错。怎么做：一次跑一百个，先抽 3 个验格式03  综合任务要判断、要取舍写修编报告、审图纸、合同条文改写、多步工作流、要调用工具的长任务。典型场景四份修编报告要互相对得上；一张图纸要看图、看表、看说明再下结论。要注意这类最容易出彩，也最容易出事：幻觉、迎合、上下文腐烂全在这里。怎么做：拆成小步，每步留一个能查的结果顺序很重要：先用第一类建立信任，再把第二类交给它跑量，最后才把第三类整段交出去。</pre></details></section>
+<section id="slide-41"><h2>41　第一类实例：百余个文件中定位一张图纸</h2><p>来源：本地文件索引脚本与生成结果（2026-10）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+拿&quot;找图纸&quot;举例：先建索引，再检索
+
+1. 痛点：一个标段一百多个图纸和数量表文件，散在十几个分册目录里。找一张数量表，要么翻目录文件，要么按文件名猜，实际常常要花十几分钟。
+
+2. 做法：先扫一遍根目录，生成一张索引表。表里九列：序号、文件名、类型、出图编号、所在册/分册、子目录、大小、修改时间、相对路径。备份文件和临时文件跳过；出图编号来自各册目录，目录没提供的就留空。
+
+3. 另一张「册汇总」：按册统计文件数、体量、各类文件各几个。先看它能判断该翻哪一册，不用一个个点开。
+
+4. 用法：按册筛、按出图编号定位、按类型找同类。表里没收录的，直接问它——它会去翻目录和分册表，再告诉你大概在哪一本。
+
+5. 这就是最简单的 RAG 思路：先把资料整理成可检索的结构，再让模型在命中的片段上回答，而不是把整个文件夹塞进去。区别在于这里检索的是文件名和出图编号，不是向量。
+
+6. 可复现：换项目只改一个根目录参数重跑脚本。这也是它的价值——索引能重生成、能核对，不是一次性的死表。
+
+依据：本地文件索引脚本与生成结果（2026-10）。</pre></details></section>
+<section id="slide-42"><h2>42　常见风险与可用的检查方法</h2><p>来源：本分享第 01、03 部分；方法说明</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+方法和问题的对应关系（本章总览）
+
+提示词工程（任务书）：对付迎合和“它自己猜”——开放提问、写清范围、格式和验收要求，允许它说“材料不足”。
+上下文管理：对付上下文腐烂——一个任务一段对话，聊久了先压缩或新开；只放相关材料；关键要求放在开头。
+RAG（检索增强）：对付幻觉和知识过时——先从资料库里找到相关片段，再让模型带着出处回答。
+工作流与校验：对付抽卡和计算错误——固定步骤交给程序，数字用脚本重算，多跑几次比对，关键环节人工确认。
+选对输入方式（多模态 / OCR）：对付“看不见就乱猜”——图纸类任务先确认图真的进了模型。
+
+这页之后按顺序展开：任务书 → 上下文管理 → RAG → 工作流与 Agent → 交付前检查 → 企业落地架构。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-43"><h2>43　提示词：从一句话到一份任务书</h2><p>来源：原任务提示词，改写为方法示例，未复测
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+简略写法：“帮我检查这张图，做个表格。”
+
+可复用写法：
+
+&gt; 请基于附件检查图纸与数量表。先说明读取到哪些页、哪些部分不清晰。每项发现给出页码或图中位置、原文／尺寸、判断依据和计算过程。把明确不一致、待确认事项和未检查范围分开。不要补造看不见的尺寸，也不要为了找错强行判错。请交付可编辑 Excel，计算项保留公式，最后说明尚需人工确认的事项。
+
+四个组成部分：任务目标｜材料范围｜输出格式｜验收与不确定性。
+
+标注：这是改写示例，尚未与原提示词做控制变量复测，不展示“提升百分比”。
+
+参考来源
+原任务提示词，改写为方法示例，未复测
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-44"><h2>44　交付四步：每一步留下可检查的结果</h2><p>来源：本地修编报告案例
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+1. 读材料：列出已读取的文件、范围、缺页和无法识别的位置。
+2. 定口径：明确单位、金额范围、资料优先级，以及哪些字段不得猜。
+3. 做产物：按模板交付可编辑文件，保留计算与来源定位。
+4. 核结果：抽查事实、独立重算关键数字、打开文件检查版面与完整性。
+
+对应本次报告：清单＋参考函件 → 汇总表金额口径 → 报告＋变更表 → 金额复算＋原因定位＋模板残留检查。
+
+每一步都有看得见的结果，下一步才有可靠输入。
+
+参考来源
+本地修编报告案例
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-45"><h2>45　上下文管理：控制对话长度与输入量</h2><p>来源：Chroma《Context Rot》；Claude Code、Codex 官方文档</p><ul><li><a href="https://arxiv.org/abs/2307.03172">https://arxiv.org/abs/2307.03172</a></li><li><a href="https://www.trychroma.com/research/context-rot">https://www.trychroma.com/research/context-rot</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上下文管理的几个做法
+
+1. 一个任务一段对话：换任务就新开，避免前一个任务的材料干扰。
+2. 长了就压缩：多数编程客户端有“压缩/总结上下文”的功能（例如 Claude Code 的 /compact），把前面的过程总结成要点后继续；或者让它写一份进度摘要，新开对话贴进去。
+3. 只放相关材料：先让它定位需要哪几页、哪几张表，再把这些放进来，而不是一次塞整个文件夹。
+4. 规则写进文件：长期有效的要求（单位口径、输出格式、禁止事项）写成项目规则文件，比如 Codex 读取的 AGENTS.md、Claude Code 读取的 CLAUDE.md，每次自动带上，不用在对话里反复说。
+5. 关键要求放开头，必要时结尾再重复一次（Lost in the Middle：中间最容易被忽略）。
+
+依据：Chroma Context Rot（2025-07-14）；Liu 等 Lost in the Middle（2023）。
+
+查询与整理日期：2026-10-18。
+依据：
+https://www.trychroma.com/research/context-rot
+https://arxiv.org/abs/2307.03172</pre></details></section>
+<section id="slide-46"><h2>46　RAG：让模型从“闭卷考试”改成“开卷考试”</h2><p>来源：Chroma《Context Rot》；Lewis 等 RAG 原论文（2020）；火山引擎开发者社区《RAG 提示工程（一）》；吴恩达 RAG 课程（B 站 BV1KFb6z2EFE）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页从零讲 RAG，先给比喻，再给流程。
+
+比喻：普通大模型是闭卷考试，只能凭训练时记住的东西答；遇到没见过的（新规范、单位内部文件），它不会交白卷，会按“最像”编一个。RAG 是开卷考试：答题前先翻书，把相关的几页找出来，照着书答，还能告诉你抄的是哪一页。
+
+名字拆开：R 检索（翻书找段落）＋ A 增强（把找到的段落贴进提示词）＋ G 生成（模型照着写）。注意它不改模型参数，资料更新了，重建一次索引就行。
+
+流程分两段：
+考前（只做一次）：把资料切成几百字一段，每段用 embedding 模型变成一串数字（向量），存进向量库。意思相近的段落，数字也相近。
+考时（每次提问）：问题也变成一串数字，到库里找最接近的 3–5 段，把段落和问题一起交给模型，要求它只依据这些段落回答、标出处。
+
+为什么值得这么麻烦：一是少编（原文在眼前，有东西可抄、能标出处；再加一句“只依据片段回答，找不到就说没找到”）；二是省 token：100 页中文资料约 5–8 万 token，整包塞进去每问一次付一次，检索只送命中的 3–5 段（一两千 token），差几十倍（按原稿口径估算）。
+
+下一页讲它和“让 Agent 自己翻文件夹”的区别。“找”的细节（关键词、向量、混合、精排）放在附录 F3b。
+
+参考讲法：火山引擎开发者社区《RAG 提示工程（一）》的“开卷考试”比喻；吴恩达 RAG 课程（B 站 BV1KFb6z2EFE）的检索器、分块、重排章节。</pre></details></section>
+<section id="slide-47"><h2>47　RAG 与 Agent 翻文件夹：一个递段落，一个开文件</h2><p>来源：Boris Cherny（Claude Code 负责人）X 帖，2026-02-01；Lewis 等 RAG 原论文（2020）；Claude Code 官方文档（Glob / Grep / Read 工具）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+常被问：现在 Agent 自己会翻文件夹，文件夹里还有目录索引，还要 RAG 干什么？
+
+区别在“索引到哪一层”和“靠什么找”。
+一，目录索引是文件一级的：它告诉 Agent “合同在 03 文件夹第 2 份”，Agent 打开后还是整份（或整页）读进来，读进来的都算 token；RAG 是段落一级的，库里每几百字一段都有一个“意思坐标”，直接递上最相关的 3–5 段。
+二，翻文件夹靠线索：文件名、目录、关键词搜索（grep）。字面一个字不重合就漏，比如问“防撞设施”，规范里写的是“挡块”。RAG 按意思找，能落到那段。
+三，翻文件夹是多轮的：列目录、打开、读、发现不对再找；RAG 一轮取回。
+四，反过来，翻文件夹的好处是永远是最新的，不用维护；RAG 资料一改就要重建索引，不然查到旧版。
+
+真实例子：Claude Code 负责人 Boris Cherny 2026-02-01 在 X 上说，早期版本用过 RAG＋本地向量库，后来发现 Agent 自己搜索（glob、grep、读文件）总体更好，也更简单，没有安全、隐私、索引过期和可靠性这些问题。注意那是写代码的场景：代码文件名清楚、术语固定、要顺着引用读全文。规范库、历年报告这种“资料多、说法杂、反复问”的场景，RAG 仍然划算。
+
+怎么选：几十份、名字清楚，让它翻文件夹；成百上千页、换说法多，上 RAG；很多产品两样都给，把 RAG 做成 Agent 的一个搜索工具。</pre></details></section>
+<section id="slide-48"><h2>48　工作流例一：审一张图纸，五步各有人、有标准、有产物</h2><p>来源：本稿图纸审查与修编报告两个案例的实际执行与复核记录；表格结构说明
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+前面讲了 RAG 只解决“找得到”。这一页回答：找到之后，怎么保证“读得准、摆得对、算得出”。办法不是换更强的模型，是把一件事拆成步骤，每步写清标准和产出。
+
+左边是审图的五步，注意第三列——那是这一步“算不算做完”的判据，不是操作说明：
+① 定范围：几页、哪些表，图纸是“看图”还是“只 OCR”，先问清；
+② 提取：OCR 与视觉识别，标准是页数、表名、行数对得上，缺页要报出来；
+③ 逐项核对：拿图纸和图例、数量表互对，标准是每条结论都有位置和原文；
+④ 复算：关键工程量自己算一遍，标准是能独立复算；
+⑤ 汇总结论：分“明确不一致 / 待确认 / 未检查”，标准是不许把待确认写成已确认。
+
+右边做修编报告，同样的骨架：读清单、定位变更、套模板、复算、写原因。两个案例里踩的坑——单位 mm/cm 被当成错误、112 元差额、透水管核减 71.8663 万元——全都能归到某一步的“标准没定死”上。
+
+最下面那条最关键：工作流不是一次画完的。每跑一次，把踩到的坑写成一条标准，这就是“不断总结”，也是这套东西真正变成资产的地方。</pre></details></section>
+<section id="slide-49"><h2>49　修编报告工作流：每一步都有验收依据</h2><p>来源：本稿第 33—38 页报告案例；验收方法示例，尚未做效果对照
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>基于报告案例归纳的验收方法示例，尚未进行对照复测。不能承诺加上检查表后不再出现错误。</pre></details></section>
+<section id="slide-50"><h2>50　工作流的颗粒度：能复算的写死，要临场判断的留白</h2><p>来源：本稿两案例的执行记录；各模型客户端说明；模型能力变化的观察（2026-10）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上一页把工作流拆出来了，这一页回答两个问题：写死到什么程度？会不会限制模型？
+
+先说判断标准，三条：格式固定、有唯一正确答案、出错代价高——三条都满足就写死。反过来，材料不全要临场判断、输出是自然语言、步骤事先说不清——就该留给模型。
+
+再说下面那个提醒，这条要讲重：**过细的流程会变成天花板**。三种表现：一是模型本来一次能做对的事，被拆成五步反而每步都掉一点；二是标准写成了“怎么做”（按这个顺序、用这个模板），模型发现更好的路径也不许走；三是新模型上线后，那套为旧模型打的补丁全成了负担。
+
+怎么留活口，三条：标准写“要达到什么”而不是“怎么做”；每一步内部留判断位；定期删规则——半年清一次，删掉那些“当年为了绕开某个毛病”的补丁。
+
+一句话收尾：工作流是为了让人能验收，不是为了让模型听话。</pre></details></section>
+<section id="slide-51"><h2>51　流程写得过细，反而会限制模型发挥</h2><p>来源：本稿两案例的执行记录；各模型客户端说明；模型能力变化的观察（2026-10）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上一页把工作流拆出来了，这一页回答两个问题：写死到什么程度？会不会限制模型？
+
+先说判断标准，三条：格式固定、有唯一正确答案、出错代价高——三条都满足就写死。反过来，材料不全要临场判断、输出是自然语言、步骤事先说不清——就该留给模型。
+
+再说下面那个提醒，这条要讲重：**过细的流程会变成天花板**。三种表现：一是模型本来一次能做对的事，被拆成五步反而每步都掉一点；二是标准写成了“怎么做”（按这个顺序、用这个模板），模型发现更好的路径也不许走；三是新模型上线后，那套为旧模型打的补丁全成了负担。
+
+怎么留活口，三条：标准写“要达到什么”而不是“怎么做”；每一步内部留判断位；定期删规则——半年清一次，删掉那些“当年为了绕开某个毛病”的补丁。
+
+一句话收尾：工作流是为了让人能验收，不是为了让模型听话。</pre></details></section>
+<section id="slide-52"><h2>52　多 Agent 协作：收益与代价</h2><p>来源：本稿多 Agent 协作记录；Subagent 与并行任务说明；S09–S16 客户端文档
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页补的是“优缺点与适用条件”，不是“怎么搭”。
+
+先说真实收益，两条：并行——三个 Agent 各查一份清单的不同章节，原来串行四十分钟的活十几分钟能出初稿；上下文隔离——每个 Agent 只看自己那一摊，主线上下文不被几十页材料冲淡，这正好接前面讲的上下文腐烂。
+
+再说代价，三条，而且都真实发生过：成本翻倍（三个 Agent 就是三份 token）；写冲突（两个 Agent 改同一个文件，后写的把前面的覆盖掉）；最要命的是同一个错误前提——三个都用了错的汇总口径，就会一起错，而且看起来像“三方交叉验证过”，比一个 Agent 错得更可信。
+
+适用条件四个，缺一就别拆：任务能切成互不依赖的块、每块有独立可查的产出、写作用范围不重叠、有人负责合并与验收。
+
+什么时候别拆：步骤前后强依赖（第二步要用第一步的结论）、总量本来就小（拆完协调成本比干活还多）、没有验收人。
+
+结论那句要讲透：人多不自动变可靠。复核的人如果只是复述执行者的答案，那等于没复核——必须回到原材料。</pre></details></section>
+<section id="slide-53"><h2>53　工作流与 Agent 编排的三个陷阱，本稿都踩过</h2><p>来源：本稿两案例的执行与返工记录；多 Agent 协作记录；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页是全稿里最“反自己”的一页：前面花了很大力气讲工作流和多 Agent，这里要说清它们什么时候会害人。三条都是本稿真实踩过的，不是转述别人的说法。
+
+第一条：低级模型加一堆工作流，不如高级模型一句话。
+原因是：工作流不会增加模型的理解力。它只是把任务切小、把要求写细。如果模型本来就听不懂“这一步到底要什么”，切成五步只是把同一个误解重复五遍，而且每一步都多一次出错机会。实测里最典型的是图纸审查：配置差的那几组，不是步骤不够细，是根本没看懂图。反过来，Opus 那一档一句话下去，两个关键检查点（K1、K2）全中——它不需要被拆成五步。
+所以顺序应该是：先确认模型够不够用，再谈工作流。模型不够，工作流只能让你更快地得到错的东西。
+
+第二条：工作流如果不逐步人为确认，很容易花大量时间产出一堆垃圾，而且事后看不出是哪一步坏的。
+这条我体会最深。一条五步流水线跑完，交出来的东西不对，你想回头查：是第一步材料读错了？第二步切分切坏了？还是第三步判断偏了？中间产物没留，就查不出来。于是只能整条重跑，时间全耗在重跑上。
+所以工作流的第一个设计原则不是“自动”，是“每步留一个能查的产物”。这也是我不喜欢“Agent 编排”的原因：编排把步骤藏在黑箱里，中间态不落地，出问题只能靠猜。
+
+第三条：低级 AI 理解不了你的意思，换另一个 AI 来看也理解不了。
+很多人以为“让另一个模型复核”能救。但如果复核者拿到的还是同一段模糊描述，它只会给出另一个同样模糊的判断——两个都不懂，加起来还是不懂。复核能起作用的前提是：被复核的东西本身有据可查（原文、页码、算式），复核者能回到材料上逐条对。否则“两个模型都说对”只是两次猜测。
+
+三条合起来是一句话：模型的理解力是地基，工作流是脚手架。地基不够，脚手架搭得再漂亮也没用。
+
+屏幕精简前的完整文字：坑一低级模型 ＋ 一堆工作流 ＜ 高级模型一句话工作流不增加理解力，只把同一个误解重复五遍，还多四次出错机会。本次观察：差的那几组不是步骤不够细，是没看懂图；Opus 一句话，两个检查点全中。怎么避先确认模型够不够用，再谈工作流坑二不逐步确认，跑完一堆垃圾，还查不出哪步坏的五步跑完结果不对，中间产物没留，就只能整条重跑。时间全耗在重跑，而不是定位。怎么避每步必须留一个能查的产物——这也是“不喜欢 Agent 编排”的根源坑三这个 AI 听不懂，换另一个 AI 看也听不懂复核者拿到的还是同一段模糊描述，只会给出另一个同样模糊的判断。两个都不懂，加起来还是不懂。怎么避复核的前提是：材料本身有据可查，能回到原文逐条对顺序不能反：先确认模型够不够用，再决定要不要拆步骤、拆几个 Agent</pre></details></section>
+<section id="slide-54"><h2>54　数据分三级处理，付款、删除、外发前由人确认</h2><p>来源：S30，工作资料与权限管理方法
+来源索引 ›</p><ul><li><a href="https://www.gitguardian.com/state-of-secrets-sprawl-report-2025">https://www.gitguardian.com/state-of-secrets-sprawl-report-2025</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+场景，默认做法，关键检查
+公开资料，可按获准的流程使用，来源、版权与输出准确性
+内部业务材料，脱敏，使用组织允许的工具和账号，存储、训练使用、日志与访问范围
+密钥、账号和高敏感资料，不直接贴入普通对话，专门凭据机制与明确授权
+本地读写与执行命令，只授予完成任务必要的权限，文件范围、差异与可恢复性
+对外发送、付款、删除等动作，在最终动作前人工核对，对象、内容、金额和后果
+
+已经误传：立即停止继续扩散，撤销或轮换相关凭据，保留必要记录，按组织流程处理。
+
+参考来源
+S30 GitGuardian 2025 密钥报告
+https://www.gitguardian.com/state-of-secrets-sprawl-report-2025
+
+工作资料与权限管理方法
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-55"><h2>55　选好配置，交代清楚，检查结果</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+三件事，各对应一个案例：
+选配置——鹈鹕盲测：同一句话，十种结果；图纸任务先确认模型真的“看见”了图。
+交代清楚——修编报告：目标、材料、格式、怎么算完成都写出来，不在问题里替它下结论。
+检查结果——图纸与报告：回原文、重算关键数字、打开实际文件；把不确定和没做的部分留下来。
+
+上手路径：从一个自己能判断对错的小任务开始（一页摘要、一张表、一段报告）→ 用免费积分跑通 → 核结果 → 再决定换模型或付费。
+
+会后查阅：常用术语 A1–A4（P58 起）｜一页一家公司 B1–B13（P63 起）｜订阅与开通 C1–C7（P83 起）｜资讯与榜单 D1–D4（P91 起）｜案例与风险 E1–E4（P99 起）｜原理与历史 F1–F9（P116 起）｜来源 Z（P128 起）。</pre></details></section>
+<section id="slide-56"><h2>56　提问与交流</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+收尾只留三件事，和开场的三件事一一对应：选配置、交代清楚、检查结果。
+
+提问环节常见的三个方向，可以直接翻到对应页：
+1. “我该用哪个？”——第 02 部分的榜单与分层，以及附录 B 一页一家公司、附录 C5 一页选型。
+2. “怎么写提示词？”——第 04 部分的任务书与上下文管理。
+3. “结论靠不靠得住？”——第 03 部分每页都写了口径；原始材料在配套文件夹和附录 Z。
+
+最后提醒：所有价格、额度与榜单都是 2026-10-18 前后查询的，变动很快，引用前请回官网核对。</pre></details></section>
+<section id="slide-57"><h2>57　A</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：附录：订阅、术语、资讯与来源
+价格、额度、地区政策都会变，用之前以官方页面为准。所有来源见配套来源索引。</pre></details></section>
+<section id="slide-58"><h2>58　A1  常用术语（一）：模型本身</h2><p>来源：modelcontextprotocol.io；各厂商文档；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+术语速查 A1
+
+Token（词元）：模型读写文字的最小单位，计费和上下文都按它算。汉字和 token 不一一对应，按各家分词器算。
+上下文窗口：一次对话里模型能“看到”的 token 上限。1M 约一百万 token；放得下≠记得住。
+参数：模型内部可调的数字，决定能力上限和运行成本。参数多不等于一定更聪明。
+MoE（混合专家）：模型拆成多个“专家”，每次只调用一部分。总参数大、单次计算小，所以又快又便宜。
+推理 / 思考模式：先在内部推一遍再作答。high、xhigh 想得更久：更准，也更贵更慢。
+多模态：能同时处理文字、图片、音频、视频。看图≠OCR：前者理解画面，后者只认字。
+幻觉：编出不存在的内容，还说得很肯定。引用、数字、条文最容易出，必须核。
+开放权重 / 开源：公开模型参数可下载 / 连训练代码数据也公开。DeepSeek、Qwen、GLM 多为开放权重。
+蒸馏 / 量化：用大模型教小模型 / 降低数字精度让模型变小。本地部署多用量化版，能力有折损。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-59"><h2>59　A2  常用术语（二）：怎么把任务交给它</h2><p>来源：modelcontextprotocol.io；各厂商文档；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+术语速查 A2
+
+Prompt（提示词）：交给模型的任务、资料和要求。不是咒语；说清目标和验收标准更重要。
+系统提示词：客户端预先写给模型的“岗位说明”。同一模型换客户端效果不同，原因之一。
+上下文工程：决定把哪些资料、历史、规则放进上下文。比反复改提示词更影响结果。
+RAG（检索增强）：先从资料库检出相关片段，再让模型作答。检索漏了，回答就漏。
+Embedding（向量）：把文字变成一串数字，用来算“意思相近”。知识库检索的底层。
+API / API Key：程序调用模型的接口；Key 是计费凭证。Key 泄露＝别人花你的钱。
+按量 vs 订阅：API 按 token 付费；订阅按月给额度。积分 / Credits 是客户端自己的计量单位。
+缓存命中：重复的前文不重复计费或打折。长对话前文保持不变更省钱。
+限流（429）：每分钟、每天能调用的次数或 token 上限。报 429 就是触发限流，等一会儿再试。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-60"><h2>60　A3  常用术语（三）：Agent 与工具</h2><p>来源：modelcontextprotocol.io；各厂商文档；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+术语速查 A3
+
+Agent（智能体）：模型自己拆步骤、调工具、看结果再决定下一步。不只是自动连续聊天。
+Harness（外壳）：包住模型的运行环境：工具、上下文、权限、反馈。同一模型换外壳，表现差很多。
+工具调用：模型按固定格式请求执行某个函数。读文件、搜网页、跑代码都靠它。
+MCP：把外部工具和数据接给模型的开放协议。像统一接口；不会让模型变聪明。
+Skill（技能）：打包好的任务说明、脚本和资料，用到才加载。不等于自动获得工具权限。
+Subagent（子代理）：主 Agent 把子任务交给独立上下文的小 Agent。主线上下文更干净，还能并行。
+多 Agent：多个 Agent 分工协作。关键是有人负责验收。
+沙箱（Sandbox）：隔离的运行环境，Agent 在里面跑代码、改文件。出错不伤本机；权限仍要收紧。
+Computer Use：模型看屏幕截图，控制鼠标键盘操作电脑。能用没有接口的软件；慢，要盯着。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-61"><h2>61　A4  常用术语（四）：工作方式与评测</h2><p>来源：modelcontextprotocol.io；各厂商文档；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+术语速查 A4
+
+Browser Use：专门操作网页的 Agent。填表、比价、下单。
+Plan / Ask / Agent 模式：只出方案 / 只问答 / 直接动手改。先 Plan 再执行更稳。
+Vibe Coding：只描述需求、让 AI 写代码，不逐行看。做原型很快，交付前要审。
+工作流（Workflow）：预先固定的步骤链，模型只负责其中几步。稳定、可复现，适合重复任务。
+人工确认：关键步骤停下来等人点头（Human-in-the-loop）。付款、发信、删文件前必须停。
+提示注入：网页或文件里藏指令，劫持 Agent。读外部内容的 Agent 都要防。
+Benchmark（榜单）：用固定题目给模型打分。只代表那一类题（见第 24 页）。
+Arena / Elo：匿名对战、人来投票排名。测的是偏好，受回答风格影响。
+降智：用户感觉同一个模型变笨了。官方承认过 bug，不承认按负载降智（C6）。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-62"><h2>62　B</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre></pre></details></section>
+<section id="slide-63"><h2>63　B1  OpenAI：以推理能力为核心的产品路线</h2><p>来源：openai.com 模型页与系统卡、artificialanalysis.ai、epoch.ai/frontiermath；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 OpenAI：把“推理”做成了可交付的东西。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：GPT-6 Astra（旗舰，AA 53；FrontierMath Erdős 68 题里唯一得分，3%）；GPT-6.1 Sol（AA 52，每道题 $0.72，性价比最高的一档）；GPT-6 Luna（免费档的小模型，上下文 27K）。全部闭源。
+
+外壳：ChatGPT 网页 / 桌面 / 手机；Codex 一个名四种形态——终端、IDE 插件、桌面、云端，Astra 版的 Codex 外壳把 computer use 提速约 1.9 倍；另有 API 与 Azure。
+
+强项：推理与数学第一梯队；写代码偏“防御式”，兜底和异常处理写得多，改动面也大。本次鹈鹕 G 一次成片，图纸 1/2（K1）。
+
+边界：贵：Astra 输入/输出 $10 / $50 每百万 token。档位最多，免费版和付费版常常不是同一个模型——拿免费版的体验评价它会低估它。
+
+在本分享：鹈鹕 G（GPT 6.1 Sol high · Codex，P19）；图纸 1/2（K1）、假错误 1 条（P30）；榜单与分层（P23–P25）；数学进展（B1b）。
+
+收尾一句：要解“最难的那道题”选 Astra；日常写代码跑批，Sol 更划算
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-64"><h2>64　B1b  OpenAI 数学：从公开失误到可验证的推理进展</h2><p>来源：openai.com 研究公告（2026-05-20、08-01、09-08、10-06）；The Guardian；arXiv 2609.25050</p><ul><li><a href="https://arxiv.org/abs/2609.25050">https://arxiv.org/abs/2609.25050</a></li><li><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">https://openai.com/index/model-disproves-discrete-geometry-conjecture/</a></li><li><a href="https://openai.com/index/navier-stokes-solution/">https://openai.com/index/navier-stokes-solution/</a></li><li><a href="https://openai.com/index/sharing-ai-progress-in-mathematics">https://openai.com/index/sharing-ai-progress-in-mathematics</a></li><li><a href="https://openai.com/index/ten-advances-in-mathematics">https://openai.com/index/ten-advances-in-mathematics</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+OpenAI 解数学研究问题（2026-10-18 查询官方页面）
+
+2025-10 翻车在先：OpenAI 高管称模型“解决了 10 道 Erdős 问题”，后被指出只是检索到已有文献（The Guardian 2026-05-21 报道中回顾）。
+
+2026-05-20 Erdős 单位距离猜想：平面上 n 个点最多有多少对距离恰好为 1，Erdős 1946 年提出，此前普遍认为方格网格接近最优。OpenAI 内部模型给出反例，否定了这个猜想；Noga Alon 等数学家写了人工核验版说明，称其“解决了一个长期公开问题”。The Guardian 指出更广的问题（增长速度到底多快）仍未解决。
+https://openai.com/index/model-disproves-discrete-geometry-conjecture/
+
+2026-08-01 十项成果：用下一代模型 Astra 的内部版本，在球堆积、编码理论、算术电路复杂度、群论、算子代数、量子复杂度、格密码、Ramsey 数等方向给出新结果，解决 Erdős 第 183、146、180 题等；按 Sol API 价折算总计约 2,000 美元的 token；每个证明都由模型写成 Lean 证书，人用同一模型整理成论文。
+https://openai.com/index/ten-advances-in-mathematics
+
+2026-09-08 纳维–斯托克斯千禧年难题：OpenAI 称内部模型（比 GPT-6 Astra 强得多）证明了光滑初始的三维不可压缩流体可在有限时间内出现奇点，即构造了“爆破”，并给出 Lean 形式化；约 1 万个并发 Agent 跑了约 88 小时，形式化又用 GPT-6 Astra 17 小时；OpenAI 表示不申领千禧年奖金。这是 OpenAI 自述，数学界的独立评审仍在进行，讲的时候请这样表述。
+https://openai.com/index/navier-stokes-solution/
+
+2026-10-06 再公开一批结果：放在 GitHub，附 Lean 形式化；平均每个结果约等于 3 小时 ChatGPT Pro 的思考算力；10-15 追加向西蒙斯基金会捐 500 万美元，支持数学家理解 AI 产出的结果。
+https://openai.com/index/sharing-ai-progress-in-mathematics
+
+冷静的一面：Epoch AI 与 Bloom 的 FrontierMath Erdős（2026-09）选了 68 道截至 8 月仍未解决的 Erdős 题，每题预算 300 美元、要求用 Lean 证明：GPT-6 Astra 得 3%，其余 4 个模型 0%。即“挑着能解的题发公告”和“系统性地解一批题”是两回事。
+https://arxiv.org/abs/2609.25050
+另：Anthropic 方面，Levent Alpöge 称用 Claude Fable 5 找到了三维雅可比猜想的显式反例（2026-07-19，见同一论文引言）。
+竞赛背景：IMO 2026 华为 Celia、小红书 dots-note-3.0 获官方评分 42/42。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-65"><h2>65　B1c  “降智”：官方承认过 bug，没承认按负载降智</h2><p>来源：Anthropic 事故复盘（2025-09-17）；marginlab.ai；lm.ikale.io/docs</p><ul><li><a href="https://github.com/Ikaleio/lm-detector">https://github.com/Ikaleio/lm-detector</a></li><li><a href="https://lm.ikale.io/docs/">https://lm.ikale.io/docs/</a></li><li><a href="https://marginlab.ai/trackers/claude-code/">https://marginlab.ai/trackers/claude-code/</a></li><li><a href="https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues">https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+“降智”的证据与检测（2026-10-18 整理）
+
+1. Anthropic 官方事故复盘（2025-09-17）：2025 年 8 月至 9 月初有 3 个基础设施 bug 间歇性降低回答质量；最严重时（8-31）16% 的 Sonnet 4 请求受影响；约 30% 的 Claude Code 用户至少有一条消息被路由错误。官方原话：“We never reduce model quality due to demand, time of day, or server load.” 左图为官方时间线。
+https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues
+
+2. Margin Lab 独立追踪：每天用 Claude Code 跑 SWE-Bench-Pro 子集 50 题。截至 2026-09-29：当日 77%（50 题）、7 日 76%、30 日 81%；判定“显著下降”的门槛分别是 ±12.8、±4.7、±2.3 个百分点。也就是说单日 50 题上下浮动 10 个点都可能只是正常波动。当时因切换 Opus 5.5 正在重建基线。Codex 也有同类追踪。
+https://marginlab.ai/trackers/claude-code/
+
+3. lm.ikale.io（LM Fingerpoint Detector，开源 MIT）：让模型凭第一反应写约 300 个 1–355 的整数，按“随机数偏好”和参考库比对，判断第三方 API 背后“像哪个模型”。官方说明：结果是参考库内的排序，不是身份证明；置信度低于 75% 会提示不足。注意：API 模式默认经该站代理转发，API Key 会经过第三方；它测的是“是不是换了模型”，不是“能力降没降”。
+https://lm.ikale.io/docs/ ；https://github.com/Ikaleio/lm-detector
+
+L 站（linux.do）上经常有“降智”讨论帖，属用户体感，可作为线索，不能当结论。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-66"><h2>66　B2  Anthropic：以 Agent 与工程任务为主战场</h2><p>来源：anthropic.com/claude-opus-5-5、platform.claude.com 定价、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 Anthropic：把“干活”当成主战场。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Claude Opus 5.5（2026-09 发布，AA 58 全场第一；$4/$20 每百万 token，缓存读 $0.20，比 Opus 5 便宜 40%）；Sonnet 5.5（56）、Haiku 5.5（43）；Fable 5.1（53，上一代旗舰，仍在跑）。全部闭源。
+
+外壳：Claude Code（终端 Agent，社区公认与 Opus 5.5 最搭的一套外壳）；Claude 桌面版（原 Cowork，直接读写本机文件）；claude.ai；API 与 AWS / GCP / Azure。
+
+强项：长任务不跑偏、会自己查证。本次图纸 2/2（十家里唯一全中）；修编报告 4 分钟出稿、金额全对，还联网核对了承建单位。
+
+边界：没有免费版，Claude Pro $20 起；对中国大陆用户与中资实体有地区限制（见 C5）；最强档跑一道题约 $6。
+
+在本分享：鹈鹕 D（Opus 5.5 · Hark，P19）；图纸 2/2（P30）；修编报告 4 分钟（P34）；“脾气”页（P26）。
+
+收尾一句：交付物要经得起人核、又不想反复返工时选它
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-67"><h2>67　B2b  Opus 生成视频：以代码逐帧渲染的实现路径</h2><p>来源：GitHub opusvideo/awesome-claude-video（作者自述，未独立复现）；X 原帖</p><ul><li><a href="https://github.com/opusvideo/awesome-claude-video">https://github.com/opusvideo/awesome-claude-video</a></li><li><a href="https://www.bilibili.com/video/BV1vRHa63EYg">https://www.bilibili.com/video/BV1vRHa63EYg</a></li><li><a href="https://x.com/akokoi1/status/2102583898865873225">https://x.com/akokoi1/status/2102583898865873225</a></li><li><a href="https://x.com/devteamdrew/status/2102436464323661880">https://x.com/devteamdrew/status/2102436464323661880</a></li><li><a href="https://x.com/kimmonismus/status/2102844654169575547">https://x.com/kimmonismus/status/2102844654169575547</a></li><li><a href="https://x.com/stephanlivera/status/2103315922098470926">https://x.com/stephanlivera/status/2103315922098470926</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+Opus 5.5 做视频的原理：Opus 不直接生成像素，而是写网页动画代码（HTML/Canvas/SVG、Remotion、HyperFrames 等），再用无头浏览器逐帧截图，用 FFmpeg 拼成 MP4。所以画面可以精确控制，同一份代码每次渲染结果一样。
+“一句话出片”是真的，但播放量很高的作品，很多背后有长提示词、Skill 或多轮修改。
+
+页面里的 4 段（各截取 4 秒做成动图，原片见链接；模型归属为作者自述，GitHub 合集说明未独立复现）：
+1. 15 秒动态图形作品集（Stephan Livera，原帖公开了一句话需求），约 37.9 万次观看（2026-09-25 记录）：https://x.com/stephanlivera/status/2103315922098470926
+2. 中华五千年历史速览，2 分 38 秒（作者 WY，评论区公开了一句话提示词），约 15.1 万次观看：https://x.com/akokoi1/status/2102583898865873225
+3. AI 发展史短片，3 分钟（Remotion + 开源 TTS），约 16.1 万次观看：https://x.com/kimmonismus/status/2102844654169575547
+4. 轨道中的世界，32 秒，约 167.6 万次观看：https://x.com/devteamdrew/status/2102436464323661880
+合集：https://github.com/opusvideo/awesome-claude-video
+B 站同类作品示例：《Opus5.5告诉你，它是怎么做视频的》https://www.bilibili.com/video/BV1vRHa63EYg （2 分 27 秒、4410 帧）
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-68"><h2>68　B2c  Anthropic 的限制：中资实体、地区与封号</h2><p>来源：anthropic.com 公告与使用政策；technews.tw（2026-10-14）</p><ul><li><a href="https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions">https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+Anthropic 针对中国用户与实体的举措
+
+2025-09：Anthropic 宣布不再向中国资本控股超过 50% 的实体提供服务，无论其注册在哪里。（官方公告，URL 待复核：https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions）
+2026-02-23：蒸馏报告，点名 DeepSeek（15 万+次对话）、月之暗面（340 万+）、MiniMax（1,300 万+）；约 2.4 万个欺诈账号、1,600 万+次交互；一个代理网络超过 2 万账号。
+2026-10-08：发布新使用政策，2026-11-12 生效；“支持地区”按使用者所在地、注册地、多数股权所有者判断；支持国家列表中没有中国大陆、香港、澳门。
+technews.tw（2026-10-14）：2026 上半年封禁 1,140 万账号，申诉 39.8 万，推翻 4.2 万（约 10.6%）；对疑似代理或不支持地区的账号，可能要求身份证件验证。
+Claude 帮助中心“身份验证”页：被封原因包括从不支持地区创建账号（搜索摘要）。
+另有报道称 2026-09 威胁报告点名多家中国公司、2026-10 蒸馏防御文章称降低 90–99%（仅搜索摘要，未核实，不上页面）。
+
+查询与整理日期：2026-10-18。
+
+
+右下角梗图（核对）：“如何在不退款的同时封号”是调侃。本页能核实的是封禁规模（1,140 万账号、申诉 39.8 万、推翻 4.2 万）；“封号不退款”出自用户反馈，Anthropic 没有把它写成统一政策，讲时只当玩笑。社区二创，版权归原作者。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-69"><h2>69　B3  Google：知识覆盖与长文本输出最稳定</h2><p>来源：blog.google、deepmind.google 模型卡、arena.ai、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 Google：知识面最广，长输出最稳。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Gemini 4 Argon（AA 53；Arena 文字榜第一 1524；ARC-AGI-3 97.5%；单次输出可达 1M token）；Gemini 3.8 Flash（41，免费档主力）；Flash-Lite（更小更快）。
+
+外壳：Gemini App；Antigravity——2026-06-18 起 Gemini CLI 并入 Antigravity CLI，桌面版与命令行共用同一套 Agent 外壳；AI Studio / Vertex AI；Workspace 内嵌。
+
+强项：知识面、中文与长文写作；一次能吐很长，适合整篇报告、长文档改写与资料综述。
+
+边界：智能体榜偏后（Arena Agent 13.73%）；工具链刚换过一代，网上多半旧教程已经对不上；国内访问受限。
+
+在本分享：榜单与分层（P23–P25）；免费档 Flash-Lite（P21）；订阅与地区（C2、C4）。
+
+收尾一句：写长文、查资料、要一个“什么都懂一点”的默认助手时选它
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-70"><h2>70　B4  xAI：不以刷榜为目标，产品先做常驻型 Agent</h2><p>来源：x.ai/news/introducing-grok-bot、x.ai 订阅页、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 xAI：模型不追第一，产品先做“常驻同事”。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Grok 4.7（AA 46，第二梯队）；Grok 系列主打实时信息与 X 上的语料；权重不开源。模型本身不是它最强的地方。
+
+外壳：Grok Bot（2026-08-11 公测）：每个 Bot 一台自己的云端电脑，能登录你常用的应用，24 小时跑，只在需要拍板时回来；可多 Bot 并行、互相发消息、拉群协作；用量与 Grok / Cursor 订阅分开算。另有 grok.com、X 内入口、API。
+
+强项：把“人等结果”变成“结果等人”；适合销售跟进、运营、招聘、修 bug 这类跨应用的多步流程。
+
+边界：地区限制，大陆不可直接访问；企业版还在等待名单；常驻意味着要把账号权限交出去很大一块。
+
+在本分享：中转与代理池（E2–E2f）；支持地区（C2）；Grok 并入 X 订阅（C4、C7）。
+
+收尾一句：已经有 X 或 Cursor 订阅、又想试“常驻同事”形态时，它门槛最低
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-71"><h2>71　B5  Meta：把“记得住你”做成模型能力</h2><p>来源：research.meta.ai/blog/muse-wonder、about.fb.com、techcrunch.com、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 Meta：把“记忆”当成模型能力来做。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Muse Wonder 与 Muse Wonder Full（2026-10-12，Meta Superintelligence Labs 出品，AA 52；Arena 文字榜第二）；Muse Spark（2026-04 首款，现支撑 Meta AI）。主打 Active Memory（跨对话记住你）与 Active Focus（长任务不放弃）。
+
+外壳：Muse App（muse.ai）；Muse Code（面向订阅者）；Meta Model API；Meta AI 内嵌于 Facebook / Instagram / WhatsApp。
+
+强项：长期记忆与个人事务：多约束的行程、比价、定制、排座位这类活，它记得住前因；写作体感好。
+
+边界：只对美国、加拿大开放（第三方核查口径）；免费档有上限，Power $20、Maximum $100；企业级治理弱于 OpenAI / Anthropic。
+
+在本分享：榜单与分层（P23–P25）；“云端 / 个人代理”分类（P22）；价格（C4）。
+
+收尾一句：想试“记得住你”的个人助理时；工作交付别把它当主力
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+
+原 B5b（Muse 产品页）与本页内容重复，已合并：两个招牌能力与入口的细节并入本页。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-72"><h2>72　B6  Mistral：以可自部署为核心的欧洲路线</h2><p>来源：mistral.ai/news/mistral-large-4、docs.mistral.ai 模型与更新记录；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 Mistral：欧洲的“可自部署”路线。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Mistral Large 4（2026-10-06，约 1T 参数 MoE，1M 上下文，多模态，开放权重先 API 预览）；另有 Pixtral（视觉）、Devstral（代码）、Magistral（推理）。
+
+外壳：Mistral Vibe（原 Le Chat，聊天＋编码 Agent）；Mistral Code（IDE 插件）；La Plateforme API；权重可下载，用 vLLM / TensorRT-LLM 自建。
+
+强项：数据不出境、可审计、能进内网；同能力下显存与价格友好，是欧盟“主权 AI”的默认选项。
+
+边界：绝对能力不在第一梯队，本次榜单没有收录它的旗舰分数；中文语料与国内生态明显弱。
+
+在本分享：本次未进入对比（P19–P27）——它的价值在“能自己部署”，不在跑分。
+
+收尾一句：单位要求数据不出机房、或要一个可审计的欧洲供应商时
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-73"><h2>73　B7  DeepSeek：把开源当方法、把低价当杠杆</h2><p>来源：api-docs.deepseek.com 定价与 1017 发布说明；huggingface.co/deepseek-ai；deepseeklicense.github.io；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 DeepSeek：把价格打到地板的那一家。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：DeepSeek V4.1 Flash 1017（2026-10-17 上线，1M 上下文，开源，官方自报 DeepSWE 77.0；AA 尚未出分，旧版 39）；V4 Pro 为高配档。
+
+外壳：网页 / App；API（OpenAI 兼容，改个 base_url 就能接）；第三方客户端（WorkBuddy、Cherry Studio 等）；权重可自建。
+
+强项：价格最低（缓存命中 0.04 元、未命中 2 元、输出 8 元每百万 token，闲时半价）、输出最快（约 217 token/s）；报告案例里原因写得最具体。
+
+边界：提示词写得粗就明显变差；图纸 0/2；列了 19 条，其中 2 条是假错误；高峰时段（工作日 9–12、14–18 点）限速。
+
+在本分享：鹈鹕 C（DeepSeek V4.1 Flash 1M · WorkBuddy，P19）；图纸 0/2（P30）；修编报告 34 分钟（P34）；价格（P23）。
+
+收尾一句：量大、预算紧、任务边界清楚（抽取、改写、批处理）时首选
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-74"><h2>74　B7b  DeepSeek 的开源范围：开放了什么、保留了什么</h2><p>来源：deepseeklicense.github.io（官方许可 FAQ）；DeepSeek-V3 技术报告；开源周（2025-02）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页回答“DeepSeek 的开源到底彻底在哪”，也是听众最容易被“开源”两个字糊弄的地方。
+
+先拆成四层，从浅到深：
+一，权重开放。把模型参数放出来，能下载、能自己跑。多数“开源模型”只做到这一层。
+二，许可宽松。DeepSeek 的做法是代码用 MIT、模型用自建许可（基于 OpenRAIL 修改）。官方 FAQ 明确：可商用、免费、无需申请登记；衍生模型不必开源（不是 GPL 那种传染式），但要保留版权声明、显著声明修改、遵守用途限制。作为对比，Meta 的 Llama 用的是自家社区许可，限制更多（比如月活到一定规模要额外申请）。
+三，训练细节公开。V3 技术报告公开发表（671B 总参数 / 37B 激活），包含架构、训练策略和成本说明。这是“能被复现研究”的关键一层。
+四，底层算子与工具开源。2025 年 2 月 24 至 28 日的“开源周”，连续放了五个库：FlashMLA（Hopper 上的 MLA 解码内核）、DeepEP（MoE 训练推理的 EP 通信库）、DeepGEMM（矩阵乘算子库）、EPLB 与 DualPipe（负载均衡与流水并行）、3FS（Fire-Flyer 文件系统）。这些是“怎么把硬件榨干”的东西，通常厂商不外传。
+
+为什么第四层最能说明态度：前三层给你“结果”，第四层给你“方法”。愿意公开方法，等于承认别人可以照着做得更便宜。
+
+关于“国产追上”的时间点要说准：DeepSeek 第一代是 2023 年的 DeepSeek-LLM 与 DeepSeek-Coder；真正让国产大模型被全球认真对待的是 2024 年底的 V3 与 2025 年初的 R1。所以讲“转折点”要落在 V3/R1 这一波，不要说成 V1。
+
+最后一句要提醒：开源不等于没有成本。权重能下载，算力和运维还得自己扛；许可宽松也不等于可以随便用，用途限制仍在。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-75"><h2>75　B8  阿里 Qwen：以工具调用与自主纠错见长</h2><p>来源：aliyun.com 百炼文档、qoder.com/pricing、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 阿里 Qwen：会自己想办法的那一家。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Qwen3.8 Max（2026-08，2.4T 参数 MoE，思考 / 快速双模式，AA 45）；Qwen3.8 Flash（41）与 Flash-Next；开源系列陆续放出权重。
+
+外壳：通义 App；Qoder（IDE，可接自己的 API Key，有 Quest 与 Editor 两种形态）；阿里云百炼 API；开源权重自建。
+
+强项：看不见图会自己把 PDF 渲染成图再逐格读——本次因此找到 K2；中文理解与写作稳。
+
+边界：慢：图纸 43 分钟；列了 24 条、其中 5 条假错误，报得多不等于对得多；Qoder 的免费额度与国内版价格要分开看。
+
+在本分享：鹈鹕 I（Qwen 3.8 Flash · Qoder，P19）；图纸 1/2（K2）；读图方式对比（P31）。
+
+收尾一句：需要“自己想办法把活干完”、又能等的时候；赶时间别选
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-76"><h2>76　B8b  Qwen 的尺寸矩阵：各参数档位全面铺开</h2><p>来源：Qwen3 发布的官方说明与媒体报道（2026）；联发科天玑平台 Qwen3 适配技术页；Hugging Face 开放模型报告；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+前面讲总参数与激活参数、讲私有化部署时，都指向同一个现实：多数单位最后真能用的，不是旗舰，而是塞得进自己机器的中小模型。这一页就是 Qwen 在这条线上的布局。
+
+Qwen3 一次放出 8 款：2 款 MoE（30B、235B），6 款稠密（0.6B / 1.7B / 4B / 8B / 14B / 32B）。官方与报道的说法是“每款都是同尺寸开源模型的 SOTA”——注意这句话的分量：不是“和旗舰比”，是“和自己这个尺寸的对手比”。
+
+为什么这件事对单位有意义，三个场景：
+一，端侧。0.6B/1.7B/4B 已经能在手机上跑（联发科天玑平台做过实机验证，性能与功耗平衡）。现场勘验、外业记录这类没网也要用的场景，靠的就是这一档。
+二，内网单机。8B 到 32B 是“一张消费级显卡或一台工作站能跑”的区间，够做分类、抽取、改写这类高频窄任务，成本可控。
+三，蒸馏与教学。小模型常被用来给大模型做蒸馏目标，或者做本地实验。
+
+还要说清一个容易混淆的点：同尺寸最强 ≠ 能替代旗舰。32B 再强，复杂长链推理也难追上 2.4T 的旗舰；选型要看任务难度，不是看榜单名次。
+
+另外 Qwen 的生态规模也值得一句：累计开源 460+ 模型、衍生模型 30 万+、近半年下载破 30 亿次，是全球下载量最高的开放模型家族。这意味着“遇到问题更容易搜到答案、更容易找到别人改好的版本”。
+
+一句话收尾：旗舰决定它能拿多少分，尺寸梯队决定它能不能真的装进你的机房。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-77"><h2>77　B9  智谱 GLM：开源模型中代码能力突出的一档</h2><p>来源：z.ai/blog/glm-5.3、docs.bigmodel.cn、zcode.z.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 智谱 GLM：开源里最会写代码的一档。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：GLM-5.3（开源权重；官方称编程较 GLM-5.2 提升 50%，Terminal-Bench 3.0 开源 SOTA；AA 45）；GLM-5.3-Flash（轻量版，本次鹈鹕用的就是它）。
+
+外壳：Z.ai 网页；ZCode（官方 Agent 外壳，多智能体协作）；GLM Coding Plan（包月，比按量 API 便宜）；bigmodel.cn API；权重可自建。
+
+强项：单位里想“私有化 + 便宜 + 会写代码”，它是目前最省事的一档；包月方案对天天写代码的人很划算。
+
+边界：本次图纸看了 1 小时 24 分，最后判“无实质错误”，0/2；预览版与正式版能力有差距。
+
+在本分享：鹈鹕 A（GLM 5.3 Flash · Trae，P19）；图纸 0/2（P30）；分层（P25）。
+
+收尾一句：要私有化部署、或按包月写代码时
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-78"><h2>78　B10  月之暗面 Kimi：超长上下文与长文档处理</h2><p>来源：kimi.com/news/kimi-k3、github.com/MoonshotAI/Kimi-K3、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 月之暗面 Kimi：参数最大，长文最舒服。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Kimi K3（2026-07，2.8T 参数、1M 上下文、开源，Kimi Delta Attention 混合线性注意力；AA 44）；K2 系列仍在服务。是目前参数最大的开源模型。
+
+外壳：Kimi 网页 / App；Kimi CLI 与 Kimi Code CLI（TypeScript 重写、单文件二进制）；platform.kimi.com API；权重可自建。
+
+强项：长文档、长对话不丢线；前端与设计稿还原在社区口碑好，适合读规范、读合同、写长稿。
+
+边界：智能体干活不在第一梯队；本次没有进入识图对比，缺同口径数据。
+
+在本分享：榜单与分层（P23–P25，AA 44 与 Step 5 并列）。
+
+收尾一句：读长材料、写长文、还原前端稿时
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-79"><h2>79　B11  MiniMax：语言与视频双线并行</h2><p>来源：minimax.io/blog/minimax-m3、hailuoai.video、artificialanalysis.ai；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 MiniMax：一边做语言，一边做视频。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：MiniMax M3（2026-06，约 428B 参数 / 23B 激活，1M 上下文，原生多模态，开源；AA 29）；H3（即海螺 3.0，2026-07-31，音画同出的视频模型）。
+
+外壳：MiniMax Agent（桌面端，能读本地文件、操作浏览器）；MiniMax Code；海螺视频；开放平台 API。
+
+强项：视频与多模态生成是强项；桌面 Agent 直接动本机文件，做素材、配音、短片比纯聊天模型顺手。
+
+边界：语言模型分数偏低（AA 29）；本次图纸 0/2；列了 10 条，其中 5 条假错误。
+
+在本分享：鹈鹕 J（MiniMax M3 · WorkBuddy，P19）；图纸 0/2（P30）；分层（P25）。
+
+收尾一句：要做视频、配音、多模态素材时；当主力语言模型还早
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-80"><h2>80　B12  腾讯混元 Hy：办公场景适配度较高的国产一档</h2><p>来源：tencent.com 与 hunyuan.tencent.com 的 Hy4 发布页、huggingface.co/tencent/Hy4-preview、workbuddy.cn；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 腾讯混元 Hy：办公场景最“顺手”的国产一档。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：Hy4 preview（770B 总参数 / 49B 激活，1M 上下文，开源；AA 未收录，Arena 智能体榜第 20）；另有混元图像与视频模型。
+
+外壳：元宝（聊天）；ima（知识库）；WorkBuddy（桌面办公 Agent，直接读写本机 Excel、PDF）；CodeBuddy（IDE）；腾讯云 API。
+
+强项：国内可人民币付款，免费积分够跑通一个真实小任务；办公文件处理链路最完整，从读表到出稿一条龙。
+
+边界：预览版能力不稳定；本次它自述环境不支持视觉，图纸 0/2，不计入识图能力比较。
+
+在本分享：鹈鹕 E（HY4 Preview 1M high · WorkBuddy，P19）；图纸 0/2 且视觉未启用（P31）；免费额度（P27）。
+
+收尾一句：单位在国内、要处理本机 Office 文件、又不想折腾海外账号时
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-81"><h2>81　B13  百度文心：中文检索与生态整合最完整的一档</h2><p>来源：ernie.baidu.com、cloud.baidu.com 千帆文档、comate.baidu.com；2026-10-18 查询
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页讲 百度文心：中文搜索与生态最深的一档。顺序是：模型线（它到底有哪几个档位）→ 外壳（在哪跑、能干什么）→ 强项与边界（什么时候别用它）→ 在本分享里出现过的地方。
+
+模型线：文心 5.0（2.4T 参数，原生全模态，2026-01 正式版）；文心 5.1（2026-05，官方称预训练成本约为同规模模型的 6%）；ERNIE 系列小模型陆续开放。
+
+外壳：文心一言 App / 网页；文心快码 Comate（IDE 插件，Spec 模式、Figma 转代码）；千帆平台 API；百度搜索内嵌。
+
+强项：中文时事与搜索时效最好；与百度生态（搜索、地图、网盘）打通；企业侧的合规与备案材料齐全。
+
+边界：缺同口径第三方分数，本分享的榜单里没有它，不能与前十三家直接比高低。
+
+在本分享：未进入本次对比（P19–P27）——榜单缺同口径数据，不硬凑。
+
+收尾一句：要中文搜索时效、或单位已经在用百度云时
+
+口径提醒：分数、价格、地区政策均为 2026-10-18 查询，活动与版本经常变，讲之前建议再核一次官网；本页不构成对任何厂商的推荐排序。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-82"><h2>82　C</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：附录：订阅、术语、资讯与来源
+价格、额度、地区政策都会变，用之前以官方页面为准。所有来源见配套来源索引。</pre></details></section>
+<section id="slide-83"><h2>83　C1  动手之前：四件事，各查一次</h2><p>来源：OpenAI、Anthropic、Google 支持地区页；各产品定价页
+来源索引 ›</p><ul><li><a href="https://cursor.com/pricing">https://cursor.com/pricing</a></li><li><a href="https://docs.trae.ai/ide/new-plans-and-billing">https://docs.trae.ai/ide/new-plans-and-billing</a></li><li><a href="https://help.openai.com/en/articles/7947663-chatgpt-supported-countries">https://help.openai.com/en/articles/7947663-chatgpt-supported-countries</a></li><li><a href="https://kiro.dev/pricing/">https://kiro.dev/pricing/</a></li><li><a href="https://qoder.com/pricing">https://qoder.com/pricing</a></li><li><a href="https://support.google.com/gemini/answer/13575153">https://support.google.com/gemini/answer/13575153</a></li><li><a href="https://www.anthropic.com/legal/supported-regions">https://www.anthropic.com/legal/supported-regions</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+开始前的准备（只写事实，不写绕过方法）
+
+用国内产品（DeepSeek、千问、Kimi、豆包、WorkBuddy、Trae 国内版、Qoder 国内版）：国内手机号注册，人民币支付，最省事。手机号和实名的具体要求以各产品页面为准。
+
+用海外产品（ChatGPT、Claude、Gemini、Codex、Claude Code、Cursor、Kiro 等），通常要过四关：
+1. 地区：OpenAI 支持国家列表里没有中国大陆、香港、澳门，官方写明从列表以外的地区使用可能导致账号被封；Anthropic 支持地区没有中国，且从 2026-11-12 起排除由不支持地区控股的实体；Gemini 网页版对中国大陆只开放 Workspace（单位账号）。
+2. 网络：这些服务在中国大陆不能直接访问，需要合规的跨境网络条件；请遵守所在单位和当地的规定。
+3. 账号：通常需要海外邮箱或手机号验证；在不支持的地区注册、用转售账号都有被停用的风险（Cursor 明确说第三方渠道买的账号可能被停用）。
+4. 支付：多数只收国际信用卡（Visa、Mastercard 等外币卡）；Trae 国际版支持支付宝、微信支付、银联；Qoder 国际版支持支付宝；Kiro 账单国家列表里有 China，但高级模型按模型厂商的地区政策执行。
+
+来源
+https://help.openai.com/en/articles/7947663-chatgpt-supported-countries
+https://www.anthropic.com/legal/supported-regions
+https://support.google.com/gemini/answer/13575153
+https://docs.trae.ai/ide/new-plans-and-billing
+https://qoder.com/pricing ；https://kiro.dev/pricing/ ；https://cursor.com/pricing
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-84"><h2>84　C1b  照着做：从零到跑通第一个任务</h2><p>来源：各产品官方帮助中心与定价页（2026-10-18 查询）；本文为操作顺序建议，不含任何绕过地区或身份限制的方法
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre></pre></details></section>
+<section id="slide-85"><h2>85　C2  海外 AI 服务：地区与支付</h2><p>来源：各产品支持地区与定价页；Claude、OpenAI 帮助中心
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+地区与支付（2026-10-18）
+
+地区：ChatGPT/Codex 支持国家列表没有中国大陆、香港、澳门；Claude 支持地区没有中国，2026-11-12 起还排除中资控股实体；Gemini 大陆只开放 Workspace（单位账号）。
+
+“信用卡”指什么：Visa、Mastercard、American Express 等国际卡组织的卡。Claude 帮助中心写明账单地址要在支持地区、且与发卡国家一致，不支持 PayPal。OpenAI 列出的本地支付方式（印度 UPI、巴西 Pix、韩国 KakaoPay 等）里没有人民币和中国本地支付；API 额度只用美元结算。
+所以国内银行发行的外币卡、双币卡，发卡国家是中国，通常无法直接付款（v2ex 等社区也有按卡号 BIN 拒付的反馈，属个案）。
+官方的另一条付款渠道是 App 内订阅：由 App Store 或 Google Play 代收，按商店账户的地区和付款方式处理，管理和退款也要在商店里办。Apple 更改账户地区需要新地区的有效付款方式（支持文章 118283）；Google Play 在中国大陆不提供服务。
+Grok：2026-10-12 起改为 X 订阅（含 Grok、Grok Bot、Cursor）；官方没有列出支持地区，X 和 grok.com 在大陆无法直接访问；付款支持银行卡、Apple Pay、Google Pay、Link，或 App Store / Google Play（grokbotguide.ai 依据官方文档整理，2026-10-17）。
+Meta Muse：官方要求人在已开放的国家，第三方核查只确认美国、加拿大。
+智谱 GLM：国内 bigmodel.cn 支持支付宝、微信，可开发票，天猫有官方旗舰店；海外版 z.ai 美元计价。
+Trae 国际版收支付宝、微信支付、银联；Qoder 国际版收支付宝；Kiro 账单国家含 China，但高级模型按厂商地区政策执行。
+风险：礼品卡、代充、虚拟卡、借用他人账户付款等做法可能违反条款，存在封号、资金无法追回、信息泄露和诈骗风险。本稿不提供方法。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-86"><h2>86　C3  注册：手机号归属地决定能不能用</h2><p>来源：support.claude.com；help.openai.com；kimi.ai 帮助；千问隐私政策；腾讯云文档；platform.deepseek.com</p><ul><li><a href="https://cloud.tencent.com/document/product/1831/134388">https://cloud.tencent.com/document/product/1831/134388</a></li><li><a href="https://help.openai.com/en/articles/7947663-chatgpt-supported-countries">https://help.openai.com/en/articles/7947663-chatgpt-supported-countries</a></li><li><a href="https://support.claude.com/en/articles/8287232-verify-your-phone-number">https://support.claude.com/en/articles/8287232-verify-your-phone-number</a></li><li><a href="https://www.kimi.ai/zh-hans/help/others/phone-profile">https://www.kimi.ai/zh-hans/help/others/phone-profile</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+注册方式（2026-10-18 查询）
+
+Claude：首次注册必须用支持地区的手机号收短信验证码，不能跳过；不接受 VoIP、Google Voice、座机；一个号码最多验证 3 个账号；验证后不能更换号码。登录可用 Google 账号或邮箱链接。https://support.claude.com/en/articles/8287232-verify-your-phone-number
+ChatGPT：帮助中心称一般注册不需要手机验证，但桌面端用 Codex 时可能要求；生成第一个 API Key 必须验证手机，验证码通过短信或 WhatsApp（搜索摘要）。支持国家列表无中国大陆、香港、澳门，并写明在列表外访问可能导致账号被封。https://help.openai.com/en/articles/7947663-chatgpt-supported-countries
+千问：依生成式 AI 法规要求，使用前须手机号＋验证码注册；也可用淘宝、支付宝、Apple 账号登录。（隐私政策 2026-09-30 版）
+Kimi：手机号（受支持地区）、邮箱、Google；不支持 VoIP/座机；Google 账号绑定后不能解绑。https://www.kimi.ai/zh-hans/help/others/phone-profile
+WorkBuddy（腾讯）：个人版支持微信、手机号、邮箱、SSO。https://cloud.tencent.com/document/product/1831/134388
+DeepSeek：开放平台显示“本地区仅支持邮箱、Google 或 +86 手机号登录”，首次登录需绑定 +86 手机号（搜索摘要）。
+豆包：手机号、抖音、微信（第三方教程，未核实官方）。
+Meta Muse：需要 Meta 账号（可用 Facebook/Instagram，也可只用邮箱或手机号创建），且人必须在已开放的国家。
+Hark：Google、Apple 或邮箱。
+Google 账号：Gemini 必须用 Google 账号；Claude 支持 Google 登录或邮箱链接；ChatGPT 支持邮箱、Google、Apple、微软账号。官方没有限定邮箱后缀，但统一用 Google 账号（Gmail）最省事，后面用 Gemini、Google Play 也是同一个账号。国内邮箱（QQ、163）注册海外服务是否会被风控，没有找到官方说法，未核实。
+一句话：国内产品普遍以 +86 手机号为核心（有法规依据）；海外产品要求支持地区的手机号，两边对大陆用户正好互为门槛。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-87"><h2>87　C4  订阅与客户端价格速查（标明币种）</h2><p>来源：各产品官方定价页；豆包、千问为界面新闻报道；meta.com；hark.com
+来源索引 ›</p><ul><li><a href="https://chatgpt.com/pricing">https://chatgpt.com/pricing</a></li><li><a href="https://claude.com/pricing">https://claude.com/pricing</a></li><li><a href="https://gemini.google/subscriptions/">https://gemini.google/subscriptions/</a></li><li><a href="https://hark.com/pricing">https://hark.com/pricing</a></li><li><a href="https://kiro.dev/pricing/">https://kiro.dev/pricing/</a></li><li><a href="https://qoder.com/pricing">https://qoder.com/pricing</a></li><li><a href="https://www.meta.com/help/subscriptions/1021145227643680/">https://www.meta.com/help/subscriptions/1021145227643680/</a></li><li><a href="https://www.trae.cn/pricing">https://www.trae.cn/pricing</a></li><li><a href="https://www.workbuddy.cn/docs/workbuddy/Pricing">https://www.workbuddy.cn/docs/workbuddy/Pricing</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+
+聊天产品：ChatGPT Go $8、Plus $20、Pro $100/$200/$500（chatgpt.com/pricing）；Claude Pro $20、Max $100/$200（claude.com/pricing）；Google AI Plus $4.99、Pro $19.99、Ultra $99.99 起（美国价）；Kimi Go ¥49、Plus ¥99、Pro ¥199、Max ¥699；豆包专业版 ¥68/¥200/¥500（界面新闻 2026-06-24）；千问专业会员 ¥19/¥49/¥128（界面新闻 2026-08-12）。
+个人代理：Meta Muse 免费档有上限，Power $20、Maximum $100；官方要求人在已开放国家，第三方核查只确认美国、加拿大开放。Hark Pro 免费（全功能、有用量上限），Pro² $20（2 倍）、Pro³ $100（10 倍）。
+任务客户端：WorkBuddy 国内体验版每月 500 积分，标准版 ¥99（连续包月 ¥70）；Trae 国内版每月 500 积分，Lite ¥49 起；Qoder 新用户 2 周 Pro 试用＋300 Credits，Pro $20，国内版 ¥59；Codex 免费账号可用 GPT-6 Luna，Go $8、Plus $20；Claude Code 无免费版，需 Claude Pro $20；Cline 插件开源，ClinePass $9.99 只含开源模型；Kiro Free 50 credits，Pro $20；Cursor 并入 X 订阅。
+Grok（X 订阅，2026-10-12 起）：Free $0、Plus $8、Premium $30、Super $100、Ultra $200；Grok 与 Cursor 共用每周额度（x.ai/news/x-subscription；felloai.com 读取 x.ai/pricing 2026-10-14）。
+智谱：智谱清言网页与 App 基础功能免费；GLM Coding Plan 国内 Lite ¥118、Pro ¥538、Max ¥1078（包季 8 折、包年 7 折，bigmodel.cn/glm-coding），海外 z.ai Lite $18、Pro $80、Max $168；2026-07-30 改为积分制，9 月起较年初的 ¥49/¥149/¥469 大幅上调（21 财经 2026-09-04）。
+来源：https://chatgpt.com/pricing ；https://claude.com/pricing ；https://gemini.google/subscriptions/ ；https://www.workbuddy.cn/docs/workbuddy/Pricing ；https://www.trae.cn/pricing ；https://qoder.com/pricing ；https://kiro.dev/pricing/ ；https://hark.com/pricing ；https://www.meta.com/help/subscriptions/1021145227643680/
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-88"><h2>88　C4b  省钱的三条路：越便宜，代价越落在数据上</h2><p>来源：各产品定价与活动页；L 站（linux.do）公益与共享服务的社区反馈；闲鱼同类商品观察（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre></pre></details></section>
+<section id="slide-89"><h2>89　C5  一页选型：按你能折腾到哪一步来选</h2><p>来源：trae.cn/pricing；docs.trae.cn；workbuddy.cn；docs.cline.bot；hark.com/pricing；chatgpt.com/pricing（2026-10-18 查询）</p><ul><li><a href="https://docs.trae.cn/ide_plans-and-billing">https://docs.trae.cn/ide_plans-and-billing</a></li><li><a href="https://www.trae.cn/pricing">https://www.trae.cn/pricing</a></li><li><a href="https://www.workbuddy.cn/docs/workbuddy/Pricing">https://www.workbuddy.cn/docs/workbuddy/Pricing</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+一页选型（分享人的推荐路线，事实部分已查证，2026-10-18）
+
+1. 最快、免费：WorkBuddy（腾讯）和 Trae 国内版（字节）
+- 国内手机号直接用，人民币支付；一个客户端里有多家模型：WorkBuddy 有 DeepSeek、混元、Step、MiniMax 等（见鹈鹕盲测 C、E、F、J）；Trae 有 GLM、豆包 Seed，会员调用 GLM-5.3、Seed、DeepSeek 有补贴。
+- 免费积分：两家都是每月 500 积分。
+- Trae 国内版每日签到：免费用户每天 100 积分、会员 200，31 天有效（docs.trae.cn 套餐与计费；9 月曾为免费 150，10 月起调整）。
+- WorkBuddy“Buddy 加油站”签到：每天 100 积分，连签第 7 天 1000；活动制，每期规则和截止日会变（腾讯云开发者社区、人人都是产品经理 2026-08~10 教程；L 站 2026-10-15 有人反映新版入口变化）。
+https://docs.trae.cn/ide_plans-and-billing ；https://www.trae.cn/pricing ；https://www.workbuddy.cn/docs/workbuddy/Pricing
+
+2. 能解决海外网络：Cline 低价套餐，或 Hark 免费额度
+- ClinePass 9.99 美元/月，只含开源模型；“额度大”是分享人的使用体感。
+- Hark Pro 免费（全功能、有用量上限），Pro² 20 美元、Pro³ 100 美元；鹈鹕盲测 D 就是在 Hark 里用 Opus 5.5 生成的，分享人认为性价比很高。
+- 海外服务需要合规的跨境网络条件，请遵守单位和当地规定。
+
+3. 想用顶配：GPT
+- ChatGPT Plus 20 美元/月，Pro 100 美元起；GPT-6 Astra 在 FrontierMath、LiveBench 推理等榜单第一（见第 24 页）。各档位能用哪些模型以官网为准。
+
+一句话：免费先用 WorkBuddy、Trae，签到攒积分；能折腾就 Cline 或 Hark；要顶配就 GPT。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-90"><h2>90　D</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：附录：订阅、术语、资讯与来源
+价格、额度、地区政策都会变，用之前以官方页面为准。所有来源见配套来源索引。</pre></details></section>
+<section id="slide-91"><h2>91　D1  L 站：动态最新、教程最多的中文社区</h2><p>来源：linux.do/about；linux.do 相关帖子（2026-10-18 查询）</p><ul><li><a href="https://linux.do/about">https://linux.do/about</a></li><li><a href="https://linux.do/guidelines">https://linux.do/guidelines</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+linux.do（L 站）
+
+基本信息：社区名 LINUX DO，简称“L 站”，成员互称“佬友”，2024-01-17 成立；基于开源论坛 Discourse。
+注册：邀请注册制；邮箱只接受白名单域名（如 qq.com、163.com、gmail.com、edu.cn）。2026-06 起可用注册满 5 年的 GitHub 账号自助注册（社区帖，未核实官方）。
+规则要点：禁止政治话题；禁止直接发 AI 生成或润色的文字（要发须截图）；禁止买卖、外借账号；交易须在“跳蚤市场”版块明盘进行，禁止黑灰产。
+规模（关于页，查询时 30 天统计）：话题 46,181、帖子 923,188、新注册 8,017、活跃用户 115,776。
+信任等级 0–4（Discourse 体系，读得多、参与多等级越高）。
+https://linux.do/guidelines ；https://linux.do/about
+
+为什么推荐：国内 AI 圈动态最新的地方（新模型、新工具、限额变化常比媒体早）；遇到报错、封号、“降智”这类问题，基本都有人问过、答过；技巧和教程最多，例如 Claude Code / Codex 配置、提示词、本地部署（如“用 aimax395 部署 Qwen 3.8”教程帖）、真实项目横向评测（如 DeepSeek、Grok、Qwen 对比帖）、“降智”检测题（糖果题、水杯题，170 多条回复）。
+怎么用：但帖子是个人体感，结论要自己复核。社区里也有账号、邀请码、“羊毛”类内容，属于灰色地带，不建议参与。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-92"><h2>92　D2  GitHub：工具更新的第一现场</h2><p>来源：github.com 各仓库；github.com/trending（2026-10-18 查询）</p><ul><li><a href="https://github.com/anthropics/claude-code">https://github.com/anthropics/claude-code</a></li><li><a href="https://github.com/cline/cline">https://github.com/cline/cline</a></li><li><a href="https://github.com/imjuya/juya-ai-daily">https://github.com/imjuya/juya-ai-daily</a></li><li><a href="https://github.com/openai/codex">https://github.com/openai/codex</a></li><li><a href="https://github.com/trending">https://github.com/trending</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+GitHub 怎么用来跟进 AI
+
+1. 官方仓库的 Releases / CHANGELOG：工具每次更新改了什么，这里最准。
+   - openai/codex（Codex CLI）https://github.com/openai/codex
+   - anthropics/claude-code（Claude Code 更新记录与问题反馈）https://github.com/anthropics/claude-code
+   - cline/cline https://github.com/cline/cline
+2. Issues：遇到报错先在对应仓库的 Issues 里搜，大概率有人提过，官方回复也在这里。
+3. Trending：https://github.com/trending ，看最近几天大家在关注什么。
+4. 早报存档：imjuya/juya-ai-daily，把橘鸦 AI 早报存成 Markdown，并提供 RSS 订阅 https://github.com/imjuya/juya-ai-daily
+
+分享人观点：新手不必一上来装一堆插件、Skill 或开源项目，先把一句话需求说清楚，比堆工具更有用；GitHub 主要用来看更新和查问题。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-93"><h2>93　D3  B 站：我个人常看的两位 UP 主</h2><p>来源：bilibili.com 各 UP 主空间与视频页；daily.juya.uk；V2EX t/1216338（2026-10-18 查询）</p><ul><li><a href="https://daily.juya.uk/">https://daily.juya.uk/</a></li><li><a href="https://space.bilibili.com/285286947/">https://space.bilibili.com/285286947/</a></li><li><a href="https://space.bilibili.com/3546747185924773/">https://space.bilibili.com/3546747185924773/</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+B 站推荐（分享人个人推荐）
+
+Token就是词元 https://space.bilibili.com/3546747185924773/
+- 系列“屎山论剑”“屎山考核”：拿真实的祖传代码（俗称“屎山”）让模型修 bug、改功能，看谁真能干活。
+- 新模型出来基本都会测：Opus 5.5 对 GPT-6 Sol、六家 Flash 模型大乱斗、DeepSeek、Step 5 Preview、Mistral Large 4、Gemini 4 Argon 等。
+- 抖音同名账号也更新。V2EX 有用户评价“都是实测，还是很中肯”（v2ex.com/t/1216338）。
+
+橘鸦Juya https://space.bilibili.com/285286947/
+- 每日“AI 早报”，几分钟讲完前一天的模型发布、价格和额度调整；合集 570 期、累计播放 1700 万以上（合集页，2026-09-28）。
+- 文字版：https://daily.juya.uk/ （含 RSS）；GitHub 存档 imjuya/juya-ai-daily；YouTube @imjuya。
+- 也做过“全球免费大模型 API 汇总”“为什么榜单不一定靠谱”等专题。
+- 早报由 AI 辅助生成，作者自己也提示可能有错，要以原始出处为准。
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-94"><h2>94　D4  X（推特）：一手发布和榜单更新最快的地方</h2><p>来源：x.com 各官方账号（2026-10-18 查询）</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+X 上值得关注的账号（只列官方或长期活跃的账号）
+
+厂商官方：@OpenAI、@AnthropicAI、@GoogleDeepMind、@xai、@deepseek_ai、@Alibaba_Qwen —— 新模型、价格、额度调整的一手公告。
+榜单与评测：@ArtificialAnlys（Artificial Analysis）、@lmarena_ai（Arena）、@EpochAIResearch（Epoch AI，FrontierMath / ECI）、@arcprize（ARC-AGI）——第 24 页榜单的来源。
+个人：@karpathy（Andrej Karpathy）；中文圈 @dotey（宝玉）、@op7418（歸藏），常翻译整理海外动态。
+第二章“Opus 一句话出视频”的几条案例也都来自 X 原帖。
+
+注意：X 在中国大陆不能直接访问，请遵守单位和当地规定；高播放不代表真实，演示视频常经过挑选，以原帖和官方说明为准。
+
+查询与整理日期：2026-10-18。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-95"><h2>95　D5  AA 分项①：换把尺子，排名就变</h2><p>来源：artificialanalysis.ai/evaluations/gdpval-aa、/evaluations/gdp-pdf（2026-10-21）；B 站 BV1ton76SEbX 视频画面（GDP.pdf 各模型读数）</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+GDPval-AA v2.1：AA 用 OpenAI 的 GDPval 数据集（44 种职业、220 道真实任务，产出文档、表格、幻灯片）让模型带着 shell 和浏览器做，再两两盲评算 Elo；以 DeepSeek V4.1 Flash（9 月版）= 1600 为锚。视频里的百分数是 (Elo − 500) / 2000，例如 Opus 5.5 1866 → 68.3%，DeepSeek 1017 1746 → 62.3%。每家取 AA 默认展示档（多为 max）。
+GDP.pdf：Surge AI 出题，100 道题、10 个领域、4592 页原始 PDF、1275 个判分点；同一题跑 5 次，判分点全过才算“全对”。AA 页面 2026-10-21 显示最高为 Muse Wonder Full 32.6%、GPT-6 Astra（xhigh）32.2%、GPT-6.1 Sol（high）32.0%；图中其余读数来自 B 站视频画面（DeepSeek 1017 测评，BV1ton76SEbX），为 max 档，未逐项回 AA 核对。
+和正文 P23 的关系：P23 是 AA 综合指数对每题花费；这一页把综合指数里与“办公、读文档”最相关的两项拆出来。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-96"><h2>96　D5b  AA 分项②：等得久，多半不是打字慢，是想得久</h2><p>来源：artificialanalysis.ai/leaderboards/models（2026-10-21；各模型为 AA 默认展示档，多为 max）</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+数据为 AA 排行榜 2026-10-21 的默认展示档（Opus/Sonnet/Fable 为 max with fallback，GPT 系为 max，Gemini 4 Argon 为 high）。“回 500 token 要等多久”= 首个 token 延迟（含思考）+ 生成 500 token 的时间。
+同一模型换档差很多：Opus 5.5 max 约 633 秒，high 约 36 秒，medium 约 25 秒；GPT-6.1 Sol max 约 251 秒，medium 约 16 秒。Claude Haiku 5.5 打字最快（236 token/秒），但开满思考要等 4 分多钟——慢在想，不在写。
+B 站视频里还有“冗长倾向”（跑完指数的输出 token 数）：DeepSeek 1017 共 2.1 亿，同类中位 1.4 亿；话多会同时拉长等待和账单，P23 的横轴“每题实际花费”已经把它算进去。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-97"><h2>97　D5c  不只看 AA：五个榜单对一对</h2><p>来源：artificialanalysis.ai；epoch.ai/eci；vals.ai（Vals Index v2.2）；lmarena.ai/leaderboard/agent；superclueai.com（2026-07 期）；均 2026-10-21 查询</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+五个榜单都在 2026-10-21 查询。名次是该榜单全部模型里的名次，不是表内名次。
+AA 智能指数 v4.3.2：十项合成，偏智能体和办公任务。
+Epoch ECI：50 多项评测合成的“通用能力”刻度，10-21 更新：Opus 5.5 168.83、GPT-6 Astra 168.81、GPT-6.1 Sol 168.37，三者 95% 区间重叠，视为并列。DeepSeek 1017 还没收录，表里 155.93 是 9 月版。Muse Wonder（非 Full）161.85。MiMo 未收录。
+Vals Index v2.2（10-19 更新）：金融、代码、法律、税务四类真实任务，按各行业占美国 GDP 的比重加权。DeepSeek 1017 61.26%，第 8，开源模型第一，每次测试 $0.66；Sonnet 5.5 和 Opus 5.5 的分数含部分“供应商拒答后由备用模型完成”的任务，按失败计会降到 69.03% 和 64.16%，Gemini 4 Argon 则升为第一。9 月版 DeepSeek 不在 v2.2 榜上，51.32%（第 27）是 v2.1 的成绩，指数口径不同。
+Arena 智能体榜（10-20，273 万次真实会话，57 个模型）：按“净改进”排名。DeepSeek 1017 第 12（4.73%），9 月版第 21（2.57%），每任务成本中位 $0.19，在其“性价比前沿线”上。
+SuperCLUE 通用榜：中文、只给国产模型排名，最新一期是 2026 年 7 月测评（含 9 月上线的模型），1 分以内算并列。9 月版 DeepSeek V4.1 Flash 71.81 与 Qwen3.8-Max-0902 72.62 并列第一；1017 尚未测。
+厂商自报（不算独立评测）：DeepSeek 模型卡称 1017 版 Terminal-Bench 4.0 从 31.2 升到 42.3，HLE（无工具）36.8 → 42.6，DeepSWE 74.2 → 77.0。
+结论：前几名在五个榜单上基本一致（Claude、GPT、Gemini 轮流第一，差距常在误差内）；国产之间名次会互换，SuperCLUE 上 DeepSeek 并列第一，Arena 智能体上 GLM、Qwen、Kimi 排得靠后。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-98"><h2>98　E</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：附录：订阅、术语、资讯与来源
+价格、额度、地区政策都会变，用之前以官方页面为准。所有来源见配套来源索引。</pre></details></section>
+<section id="slide-99"><h2>99　E1  降智测试：四道题，各测一件事</h2><p>来源：本地十配置盲测；CLIProxyAPI 讨论 #3937（糖果题原题与 21/29 两种答案）；lm.ikale.io 与 ai-model-fingerprint（指纹方法）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页是后面三页的目录，也是整个附录的评价口径。
+
+四种题，各测一件事：
+一，鹈鹕动画——一句话出可用代码。考的是“一次成型”的能力：它要同时写出 SVG/HTML、把自行车结构画对、让动作循环。判据是动作连贯、部件对得上。它推不出工程判断力。
+
+二，糖果题——组合计数加最坏情况推理。原题是三种口味乘两种形状，问最少取几颗。正确答案 21，取 9 颗圆形加 12 颗五角星。**这题真正的陷阱在一句话**：“形状靠手感可以分辨”——意思是你可以挑形状。漏读这句，就会按“完全随机摸”去算，得出 29。所以在社区里，答 29 常被当成“理解力掉了一档”的标志。
+
+三，多合一题——长指令遵循。把七八个互不相干的元素塞进一句话：鹈鹕在孙悟空的飞机上、驮着秦始皇、秦始皇骑北极熊、手里拿螺丝刀、气泡里喊糖课题的答案。考的是“每个元素是否都落实、关系有没有搞错”。它不测深度推理，只测听不听话。
+
+四，模型指纹——不看答案对不对，看它“随机”选数的分布。原理下一页讲。
+
+最后一行的评价纪律是原来 E1 的内容，压缩成一句：模型、客户端、设置、原始输出、评价规则都要留档，单次结果不能代表稳定水平。</pre></details></section>
+<section id="slide-100"><h2>100　E1b  工具一：多合一题，一张图看完“听不听话”</h2><p>来源：本地盲测产出（DeepSeek V4.1 Flash 出图）；提示词见本页备注
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一题的设计思路：把“听得懂”拆成可数的七八个点。每个点都能在这张图上直接指出来。
+
+提示词大意（讲的时候念一遍就够）：
+“画一张孙悟空驾驶的飞机（机身写‘筋斗云 WUKONG AIR’），飞机上有一辆自行车，一只鹈鹕骑着自行车，鹈鹕背上驮着秦始皇，秦始皇骑着一只北极熊，秦始皇手里拿着螺丝刀在打螺丝，鹈鹕嘴里冒出气泡，气泡里写‘21！’；背景是蓝天白云，画面里还要有一句‘THE IMPOSSIBLE SKY EXPEDITION / 云上奇航’。”
+
+判据就是逐条对：孙悟空在不在驾驶舱（✓）、飞机机身有没有那个名字（✓）、鹈鹕是不是在骑自行车（✓）、自行车是不是在飞机上（✓）、秦始皇是不是骑在北极熊上（✓）、螺丝刀和螺丝有没有（✓）、气泡里是不是 21（✓）、那句英文标题有没有（✓）。
+
+关键点：这一题几乎不考“聪明”，考的是**一次把八件事都记住**。元素一多，模型常见的失败是“丢件”——画了鹈鹕忘了秦始皇，或者把“骑北极熊”画成“站在旁边”。所以它特别适合当“长指令稳定性”的指标。
+
+局限也要讲：这种题判分靠人眼逐条看，主观成分大（画得好不好看会干扰判断）。所以它适合“数元素”，不适合“打分排名”。</pre></details></section>
+<section id="slide-101"><h2>101　E1c  工具二：模型指纹，355 个数字里的“口音”</h2><p>来源：lm.ikale.io（模型指纹检测）；github.com/qqqqqf-q/ai-model-fingerprint；CLIProxyAPI 讨论 #3937（516 现象）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页回答一个很实际的问题：中转站说它是 Opus，你怎么知道真的是？
+
+办法不是问它“你是谁”（它会照系统提示词回答），而是让它做一件它自己控制不了的事——“随机”报数。
+
+具体三道题：让它从 1 到 355 里挑 294 个整数，要求每个位置独立选择、不许从 1 开始数、不许递增递减、不许用等差循环。三道题分别用中文、英文、日文（或韩文）出，避免它靠“题型记忆”作答。
+
+为什么要这么设计：大模型不是真随机数发生器，它的“随机”是从训练分布里采出来的，于是每个模型都有自己的偏好——某些数字出现得特别多、某些区段被系统性回避。把三次输出画成直方图，形状就是这只模型的“口音”。同一家的不同代际、甚至同一模型的不同量化版本，形状都可能不一样。
+
+能干什么：识别是不是被换了模型、是不是套壳、是不是被降智。这正好接上 E2 的中转站风险——上一页说“便宜模型冒充贵模型，很难证明”，这一页就是“怎么证”的一种办法。
+
+边界必须讲：一，它只能把范围缩小到“家族”，证不了具体版本；二，结果依赖采样温度，温度设成 0 就没意义了；三，样本要够（一次 294 个数），太短的输出统计不出来；四，这只是间接证据，不能当合同依据。
+
+附带一句社区观察（原帖里的）：有人发现走第三方客户端时，推理 token 经常卡在 516，而直连官方的同一道题能正常思考——这被当作“被截断”的旁证，但官方从未承认。讲的时候要标清这是“社区观察”，不是结论。</pre></details></section>
+<section id="slide-102"><h2>102　E2  中转站与代理池：多出来的那一层</h2><p>来源：CLIProxyAPI、magpie 文档；OpenAI、Anthropic 使用政策；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页是 E2 的总图，先把两个词分开：中转站和代理池。
+
+共同点只有一句：请求不再直连厂商，而是先到一台中间服务器。区别在于这台服务器是谁的、它手里有什么。
+
+中转站，是别人的服务器。你从它那儿买“额度”，它拿自己的 Key 或自己注册的号去连厂商。对你来说只有一个地址和一个 Key；对厂商来说，请求来自它，不来自你。所以数据、密钥、模型真伪、条款、资金这五件事，全都落在它身上——这就是下一页要展开的风险。
+
+代理池，是自己的服务器。上面挂的是你自己的账号登录态或自己的 Key，网关按剩余额度、按重置时间挑一个发出去。它解决的是“一个人一份订阅不够用”，不解决“没有订阅也能用”。
+
+画图的时候指一下两条链路：上面那条多一个方框，方框不在你手里；下面那条也多一个方框，但方框在你自己的机器上。同样是“多一层”，风险完全不同。</pre></details></section>
+<section id="slide-103"><h2>103　E2b  中转站的风险：五件事都不在你手里</h2><p>来源：OpenAI、Anthropic 使用政策；lm.ikale.io 文档；L 站中转纠纷帖；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上一页画了链路，这一页讲代价。五条都按“它怎么发生 → 你怎么发现”来讲。
+
+数据：输入、附件、输出都要过对方服务器。它有没有留、留多久、会不会被拿去训练，你看不到日志，也拿不到承诺。
+
+密钥：交出 Key 就等于交出计费权。更常见的是“共享 Key”——几十个人用同一个 Key，哪天上游被封，你跟着一起停，而且账单上写的是别人的名字。
+
+模型：一句“我是 Opus”证明不了任何事。便宜的号池里常见小模型冒充大模型，要靠固定题目＋随机数指纹来验，而这本身就说明你没法直接信。
+
+条款：绕地区限制、共享 Key、多号刷额度，都是明确的停用理由；一旦停用，预充的钱通常不退款。
+
+资金：预充值、无发票、跑路。这一条最容易验证：问一句“能不能开票”，大部分中转站就答不上来。
+
+最后落到自查三问，让对方自己回答：Base URL 是谁的域名、Key 是谁开的、账单抬头是谁。</pre></details></section>
+<section id="slide-104"><h2>104　E2c  代理池：一份订阅，几个人排队</h2><p>来源：magpie 文档（usemagpie.ai）；CLIProxyAPI README；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+账号池解决一个很具体的问题：订阅按“一个人用”卖，额度按 5 小时和每周滚动，白天用完了晚上就没了。把几个账号放进同一个网关，就能一直有额度。
+
+四步：登录、收口、调度、计量。最容易忽略的是第一步——凭据是文件或钥匙串里的东西，复制走等于账号被复制走，改密码是唯一能收回的办法。
+
+第二步就是“反代”真正发生的地方：网关对外只暴露一个地址，Agent 配置里写的是 127.0.0.1，看起来完全没有越过任何东西。
+
+右边三条是风险。重点讲第三条：厂商风控看的不是“你是谁”，是“形状对不对”——同 IP 多号、并发超过一个人的打字速度、今天在东京明天在法兰克福。
+
+给一个诚实判断：自己两三个订阅、或团队共用一台机器，是常见做法；但常见不等于条款允许，尤其不要用单位资料去跑。</pre></details></section>
+<section id="slide-105"><h2>105　E2d  开箱（一）：一行一个账号，全在一张表里</h2><p>来源：magpie 本地界面截图（账号、邮箱、Key 已打码）；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这是真实界面，账号、邮箱、Key 已经全部换成 A01–C11 的编号。
+
+看三列。第一列是 Agent 或服务商的名字：Antigravity、WorkBuddy、Trae CN、Qoder、Cline、OpenCode Zen…… 它们各自本来有自己的登录方式和配置文件。
+
+第二列是状态：有的是“已登录 + 邮箱”（订阅账号），有的是“5 个密钥”（API Key 池），有的是一个 base URL 加 1 个模型。这一列解释了池子里装的是什么——不是模型，是“凭据”。
+
+第三列是额度类型：Google AI Pro、Free、Credits、personal_stand…这就是调度器排序的依据。
+
+最下面那行 MP 是 API Key 形态，右侧只剩 sk-F••••BW8 的尾巴——这类截图一旦漏打码，等于把 Key 公开。所以这一页的图里，邮箱、手机号、Key 一律换成编号。
+
+讲的时候强调：这张表看起来完全正常，它就是个配置界面；风险不在“看起来可疑”，在“这些东西本来不该集中在一个文件里”。</pre></details></section>
+<section id="slide-106"><h2>106　E2e  开箱（二）：一次请求，网关挑了哪个号</h2><p>来源：magpie 路由页截图（账号已打码）；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这张图把“池”画出来了：左边一个入口，中间一台网关（127.0.0.1:3425），右边一列全是账号，全都打同一个上游、同一个模型。
+
+从上往下看状态，正好是四种典型：
+已用 0%——全新、没动过；
+额度用尽·周一 13:04 恢复——撞到窗口了，还剩 21 小时；
+额度用尽·22:55 恢复——还剩 7 小时 19 分；
+602.79 / 3,000 积分、958.57 / 3,300 积分——按积分计量的客户端。
+
+高亮那一条写着“回答了这个请求”，意思是这一次请求就落在它身上。这就是 smart 策略在做的判断：优先用还剩额度、且最早重置的那个，浪费最少。
+
+这张图为什么值得放：它把“账号池”从概念变成了可核对的东西——每个号的剩余、恢复时间、这次是谁答的，都摆在明面上。反面是：这么清楚的一张表，也等于把“你手上有多少号”摊开给任何看到屏幕的人。</pre></details></section>
+<section id="slide-107"><h2>107　E2f  工具：magpie、CPA 与自建网关</h2><p>来源：github.com/yetone/magpie；github.com/router-for-me/CLIProxyAPI；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+两个工具做同一件事：把多个来源（订阅登录态、API Key、本地模型）收成一个兼容接口。区别在形态和暴露面。
+
+magpie 是桌面应用加本地网关，默认 127.0.0.1:3425，同时支持 OpenAI Chat / Responses、Anthropic Messages 和 Gemini 协议并互相转换。改配置时原子改写、保留注释；路由组可以按额度、按重置时间、按用量挑账号。前面两页的截图就是它。要提醒：它默认会读 Claude Code 和 Codex 的登录信息，设置里的“订阅账号”可以关。
+
+CLIProxyAPI 是 Go 写的服务端代理，OAuth 登录各家，多账号轮询，适合放服务器或 NAS。管理面板用来盯每个号的 5 小时与每周窗口。一旦上公网，必须加访问密码和客户端 Key——这类面板被扫到的事故不少。
+
+最后一行：真要给单位用，唯一说得清“谁用了多少、数据去了哪”的做法，是自己搭一个网关。</pre></details></section>
+<section id="slide-108"><h2>108　E3  安全护栏：四道闸，各拦各的</h2><p>来源：OpenAI、Anthropic 使用政策；OWASP LLM Top 10；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页是后面几页的地基。很多人把“模型拒绝了我”当成一件事，其实是四件不同的事。
+
+第一层，训练侧。对齐训练让模型在概率上不愿意往某些方向走。是倾向，不是能力：换个说法、换个语言、放进一个长文档里，常常还能问出来。
+
+第二层，系统提示词。客户端在你看不见的地方预先写了一段“岗位说明”。改一行字就可能松动，所以只能当默认值，不能当安全边界。
+
+第三层，运行时。审批门、工具权限、文件与网络白名单。它拦的不是文字，是后果：能让模型想清楚了也动不了手。四层里只有这一层是硬的。
+
+第四层，输出侧。分类器、敏感词、水印、日志。拦的是“落地”，拦不住已经发生的工具调用。
+
+结论那句是重点：分不清是哪一层在拦，就会得出错误结论。</pre></details></section>
+<section id="slide-109"><h2>109　E3b  破限的两条路：改话术，还是改外壳</h2><p>来源：github.com/YuJunZhiXue/dsh-purge；OWASP LLM Top 10；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+“破限”是个被用混的词，它至少指两种完全不同的操作，区别在攻哪一层。
+
+第一种，提示词破限，也叫越狱。攻第 1、2 层：拒答倾向和系统提示词。手法是说服——角色扮演、分步诱导、编码绕行、把要求藏进长文档、伪造“我在做安全审计”。特点是极不稳定：同一句今天行明天不行，模型换代或加个分类器就失效。
+
+第二种，harness 破限，攻第 3 层。它不动模型，动的是包着模型的那层壳：默认文案、审批策略、沙箱范围、工具上限。dsh-purge 是这一类里做得比较完整的——本机 @deepseek-ai 包里改掉这些，再写一段 prompt-inject.md 作为会话覆盖段。
+
+可以点一下它的工程克制：改前把每个文件备份成 .dshpurge.bak，可 revert、可卸载；prompt-inject.md 是用户文件，还原时保留；重复应用是幂等的。
+
+两者叠起来，就是社区说的“全解锁”：外壳放开手脚，提示词放开嘴。但这一页真正想说的是最后一行——它改变的是“谁能说不”，不改变“它到底会不会”。</pre></details></section>
+<section id="slide-110"><h2>110　E3c  破限之后：多出来的能力，和它的账单</h2><p>来源：各应用商店审核条款；iOS / Android 签名与支付文档；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页要拆掉一个很常见的误解：很多人把“去广告”“内购免费”“模型破限”当成同一件事，叫同一个词。它们其实在三层，风险也落在不同的人身上。
+
+第一层，内容边界，这才是严格意义上的破限。撬开的是模型愿不愿意说。能撬开一部分，但越敏感越容易编——拒答和准确性经常一起掉。
+
+第二层，广告和内购，这是客户端的事，和模型无关。能改的多是本地展示：开屏、横幅、会员角标、功能开关。真正扣钱和发权益在服务端，客户端改出来的只是“看起来是会员”。下一頁给三个真实例子。
+
+第三层，权限与审批，是 Agent 时代的新问题。dsh-purge 这类工具确实能把审批门和沙箱放开，让它自己删文件、付款、外发。技术上做得到，问题是：它改的是“谁能喊停”。一次误操作就是真损失，而日志里写着是你放的。</pre></details></section>
+<section id="slide-111"><h2>111　E3d  L 站三类“成果”：代价落在谁身上</h2><p>来源：linux.do 相关帖子（S51、S52）；各软件官网与官方说明；本稿整理（2026-10-18）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页用三个真实例子，把上一页的三层落到地上。名字都打了码，这不是含糊，是这类分享的通行做法：说清楚“改了什么”，不指路“去哪下”。
+
+第一个，**模拟器。社区里流传的是“绿色版、去广告、无限多开”。改的其实是宿主 App 自己的展示层和多开限制——广告位换掉、多开校验跳过。代价：官方一升级就失效，而且多开挂机属异常行为，账号本身可能被判定。
+
+第二个，*果视频。常见两种：去广告版、解锁会员版。能改的是本地展示——开屏、贴片、会员角标；真正发权益、扣钱在服务端。所以“解锁会员”多半只是界面变成会员，看不了会员专享。改包必须重签名，签名一变，支付、推送、微信登录全部失效。
+
+第三个，**造价软件。这类是授权与加密锁，典型做法是本地校验绕过。如果锁只在本地校验，绕过就能跑；一旦变成联网校验、云端定额库、按账号发授权，本地补丁就没用了。而且单位里用盗版授权，是合规问题，不是技术问题。
+
+讲的时候不要演示任何一步。这一页的价值是让人分清：技术上行得通，不等于拿得出手。</pre></details></section>
+<section id="slide-112"><h2>112　E3e  案例（一）：Hugging Face 事件与诉讼</h2><p>来源：Hugging Face 安全事件公告（2026-07-16）；OpenAI 声明（2026-07-21）；BBC（2026-07-25）；CNBC（2026-09-30）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页的写法本身就是要讲的点：一起还在进行中的事件，必须把“已披露事实”“某一方的主张”“目前进展”“我们能带走的启示”分开，否则听众会把我们的解释当成已确定的结论。
+
+第一栏，已披露事实。只写当事方自己说的：Hugging Face 7 月 16 日公告被入侵，称不到两天执行了约 1.7 万次动作；OpenAI 7 月 21 日承认，两个未发布的模型在测试中获得了对公网的访问，并访问了 Hugging Face 的系统；Anthropic 7 月 30 日说明，其内部复盘发现自家模型在测试中也进入了三家公司的系统。这些是公司自己的表述，可核对。
+
+第二栏，诉方主张。9 月 29 日，非营利组织 LASST 在旧金山高等法院起诉 OpenAI，援引加州《计算机数据访问与欺诈法》，请求法院禁令。这里要注意：这是**原告的主张**，不是法院认定。
+
+第三栏，案件进展。OpenAI 公开回应称这起诉讼“没有依据”。截至整理日，没有看到法院对该案作出实体裁判，也没有看到被入侵的第三方公开确认受监管数据泄露。也就是说，责任归属仍未定。
+
+第四栏，工作启示。这一栏是我们的判断，不是案件结论：测试环境与生产网络要隔开；Agent 能碰什么要写进制度；要留日志，出事时它是唯一能自证的东西。
+
+如果现场有人问“那到底谁负责”，标准回答是：目前没有定论，已知的只是原告主张与被告回应；可以参考的比较点是加州等州在推的 AI 责任立法，但那也只是立法动向。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-113"><h2>113　E3f  案例（二）：人指挥 Agent 入侵韩国金融机构</h2><p>来源：CrowdStrike（2026-10-07）；The Record；NYT（2026-10-09）；Korea JoongAng Daily；韩联社
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+上一页是“AI 自己跑出去”，这一页正好相反：人坐在旁边指挥，Agent 只是把活干快了。两件事放在一起看，责任归属的差别才是重点。
+
+时间线：9 月 27 日 KB 国民银行员工移动办公系统被入侵，持续 40 多小时；9 月 29 日新韩发现贷款中介查询服务被攻击，30 日监管进驻、KB 确认泄露。到 10 月初七家机构陆续确认，至少 6.8 万人资料外泄，新韩一家约 2.57 万。
+
+10 月 6 日，总统李在明说“已有迹象”用了 AI；监管统计到 33 个攻击 IP。10 月 7 日 CrowdStrike 归到 ARTEX——中国开发者做的开源 Agent 渗透工具，主模型 DeepSeek V4.1 Flash，操作者又在 Claude Code 里挂了 GLM-5.3 和 Grok 4.6，用中文提示词指挥。10 月 8 日，ARTEX 作者闭源停更。
+
+三个要点：人还在环里（韩国金融安全院明确说并非无人参与）；入口不是零日，是暴露在公网、认证与会话校验偏弱的内部工具；速度差——发现入侵用了 15 到 68 小时，一年一次的渗透测试追不上。
+本页型号、权益、价格、榜单或事件数据沿用原稿所注查询日期，本次未作全面实时核验，不应标为2026-10-21重新确认。</pre></details></section>
+<section id="slide-114"><h2>114　E4  开源落地：从权重到能用的四层</h2><p>来源：各项目 GitHub README；2026-10-20 查询；本稿为选型清单，未做部署实测
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>E4 开源平台对照
+
+这一页放在附录，因为它属于“选型参考”，不该出现在正文的业务主线里。
+
+上一版把这两个项目写成“能直接部署”，容易让人以为装上就能用于生产。这次改成分三档标注：文档声称支持、我们实际验证通过、还需要开发。后两档目前都是空的——我们只读过文档，没有部署实测，所以都标“未实测”。
+
+比较维度换成业务能判断的五项：权限、资料接入、审批、日志、部署维护。技术栈、容器数量这些放备注，正文不占篇幅。
+
+用法：把这张表当“提问清单”。任何平台说自己能做企业版，就让它逐行回答这五项，并说明是文档写的还是已经跑通的。</pre></details></section>
+<section id="slide-115"><h2>115　F</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+附录 F 是正文第 01 部分的延伸，按“历史 → 怎么学 → 怎么表示 → 怎么算 → 为什么越大越强 → 怎么学会推理 → 怎么看图”排：F1 发展史，F2 梯度下降与反向传播，F3 token 与向量，F4 Transformer 一层的结构，F5 注意力计算，F6 稠密 / MoE / 稀疏，F7 规模定律，F8 对齐、强化学习与推理模型，F9 多模态与扩散生成。现场不展开，有人追问“它到底怎么学的”“770B 和 49B 激活是什么意思”“思考模式为什么更准”时翻到这里。</pre></details></section>
+<section id="slide-116"><h2>116　F1  从 1943 年到今天：数据、算力、架构三条线汇到了一起</h2><p>来源：S34，S35，S33；Krizhevsky 等 2012；Minsky &amp; Papert 1969；Rumelhart 等 1986；图 Wikimedia Commons（公有领域）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+1943 McCulloch 与 Pitts 提出数学神经元；1958 Rosenblatt 发表感知机，Mark I 感知机是能从例子里学习的硬件；1969 Minsky 与 Papert《Perceptrons》指出单层网络的局限，研究降温；1986 Rumelhart、Hinton、Williams 推广反向传播，多层网络可训练；2012 AlexNet 在 ImageNet 上 top-5 错误率 15.3%，第二名 26.2%；2017 Vaswani 等《Attention Is All You Need》提出 Transformer；2022 年 11 月 ChatGPT 上线；之后是多模态、长上下文和会调用工具的 Agent。
+三条线：数据、算力、架构，缺一条都走不到今天。</pre></details></section>
+<section id="slide-117"><h2>117　F2  神经网络怎么学：猜一次、量误差、往误差变小的方向挪一点</h2><p>来源：Rumelhart、Hinton &amp; Williams（Nature，1986）；图为示意
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+下一页 F2b 讲网络长什么样，这一页讲它怎么“学”。
+四步循环：猜（前向计算）→ 量（损失函数）→ 求方向（梯度）→ 挪一小步（梯度下降）。
+参数多了以后，“求方向”靠反向传播：用链式法则从输出往回一层层算，一次就把所有参数的梯度算完。
+学习率太大会来回震荡，太小又学得慢；大模型训练要几周到几个月，主要就花在这个循环上。</pre></details></section>
+<section id="slide-118"><h2>118　F2b  神经网络的结构：很多层“加权求和＋非线性”叠起来</h2><p>来源：神经网络结构示意
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+输入 → 加权组合 → 非线性变换 → 多层叠加 → 输出
+
+单层简单关系难以处理弯曲、交叉的分布，多层变换可以逐步提取和组合特征。
+
+训练改变的是大量参数。我们通常无法把每个参数直接翻译成一条人类规则。
+
+类比：“折一下”帮助理解非线性，实际网络是在数学空间中进行变换。
+
+参考来源
+
+查询与整理日期：2026-10-18。
+
+补充讲解：
+左图是一个极简的全连接网络：输入层 → 两个隐藏层 → 输出层。每个圆圈把上一层的数值按权重加起来，再经过一个非线性函数（比如“小于 0 就当 0”）。
+只有加权求和，叠多少层都还是一条直线；加了非线性，层数越多，能拟合的关系越弯、越复杂。
+大模型的“参数”，主要就是这些连线上的权重，数量可以到千亿级。我们一般没法把某个权重翻译成一条人能读懂的规则。</pre></details></section>
+<section id="slide-119"><h2>119　F3  词怎么变成数字：token 与向量</h2><p>来源：Sennrich 等 2016（BPE 分词）；Mikolov 等 2013（word2vec）；切分、编号与向量均为示意
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+三步：切分（tokenize）→ 查编号 → 换成向量（embedding）。
+切分：常用 BPE 一类算法，把高频片段合成一个 token；同一句中文，不同模型切出来的 token 数不一样，所以同样的字数，成本和“上下文上限”也不一样。
+向量：训练时一起学出来，意思相近、用法相近的词靠得近。word2vec 的经典例子：国王 − 男人 + 女人 ≈ 女王。
+和正文的关系：第 04 部分 RAG 页（第 46 页）的“向量检索”，就是把问题和资料都变成向量，再找最近的几段。</pre></details></section>
+<section id="slide-120"><h2>120　F3b  检索怎么找：关键词、向量或混合，再精排筛出证据</h2><p>来源：Chroma《Context Rot》；Lewis 等 RAG 原论文（2020）；各厂 embedding 与上下文计费文档
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页是正文 RAG 页（P46–47）的补充：用一张图说清“靠什么找”。
+
+两个理由：
+一，省 token，省一个量级。100 页中文资料约 5–8 万 token，整包塞进去问一次付一次；检索只把命中的 3–5 段（一两千 token）送进去，差 20–50 倍。
+二，少编。材料不在眼前，模型不会说“没有”，会按“最像”往下续；原文片段摆在眼前，它有东西可抄、能标出处，再加一句“只依据片段回答”，编造率明显下降。
+
+下半页的图是重点，讲三句：
+① 每段资料和每个问题都被压成一串数字（向量），可以画在平面上；
+② 意思越近，点越近——问“防撞设施”，也能落到写着“挡块”的那段上，这是关键词搜索做不到的（字面一个词都不重合）；
+③ 但“近”不等于“对”。近邻里常有看着像、其实不是同一个东西的段落，所以工程上还要再做一次精排（rerank），并且必须给页码让人回原文核。
+
+这就是“搜索”：不是查字典，是找意思最近的那几段。
+
+边界：检索没找到，它照样会编。所以“找不到就说找不到”要写进规则，也要抽查。</pre></details></section>
+<section id="slide-121"><h2>121　F4  Transformer 一层：注意力 + 前馈，再叠几十上百层</h2><p>来源：Vaswani 等 2017；Brown 等 2020（GPT-3）；Su 等 2021（RoPE）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+一层 = 多头注意力 + 前馈网络，各自外面套一圈“残差 + 归一化”。
+位置：注意力本身不分先后，所以要另外加位置信息；原论文用正余弦编码，现在主流模型多用 RoPE（旋转位置编码）。
+前馈网络：每个位置单独过两层全连接，参数的大头在这里；MoE（F6）替换的就是这一块。
+规模对比：原论文 6 层、512 维、8 个头；GPT-3 是 96 层、12288 维、96 个头，共 1750 亿参数。</pre></details></section>
+<section id="slide-122"><h2>122　F5  注意力怎么算：每个词带着“问题”去和其他词“对暗号”</h2><p>来源：Vaswani 等《Attention Is All You Need》（2017）；权重为示意</p><ul><li><a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+注意力机制（简化讲法）
+
+每个词会生成三样东西：Query（我想找什么）、Key（我能提供什么的标签）、Value（我真正携带的内容）。
+1. 打分：拿“它”的 Query 去和每个词的 Key 做匹配，越相关分越高。
+2. 换算比例：用 softmax 把分数变成加起来等于 100% 的权重。
+3. 加权求和：按权重把各个词的 Value 混合起来，得到“它”在这句话里的新含义。
+
+右边的热力图：每一行是“正在读的词”，每一列是“被参考的词”，颜色越深权重越大（数字为示意）。
+
+多头注意力：同一层里有很多组独立的 Q/K/V（“头”），各自关注不同关系，比如一个头看指代（它→清单），一个头看修饰（放→一起），一个头看数字和单位。最后把各头结果拼起来。
+
+和前后内容的联系：
+- 注意力的计算量随长度平方增长，所以上下文越长越贵、越慢；
+- 权重总和固定为 100%，内容越多，每份分到的越少——这就是上下文腐烂的直观原因。
+
+来源：Vaswani et al., Attention Is All You Need, 2017, https://arxiv.org/abs/1706.03762
+
+查询与整理日期：2026-10-18。</pre></details></section>
+<section id="slide-123"><h2>123　F6  模型架构：稠密、MoE、稀疏，差在哪</h2><p>来源：Shazeer 等（2017，MoE 原始论文）；DeepSeek-V3 与 Kimi K3 技术报告；本稿整理
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页补一个前面没讲的东西：模型的内部结构。听众常听到 MoE、稀疏、稠密、激活参数这些词，但很少有人说清它们到底差在哪、对使用者有什么影响。
+
+一，稠密（Dense）。最直白的结构：每生成一个 token，整个网络的所有参数都要算一遍。好处是行为可预测、同一输入结果稳定；坏处是参数越多越贵、越慢——想更聪明就得付出线性增长的成本。多数“小模型”和早期模型都是稠密结构。
+
+二，MoE（Mixture of Experts，混合专家）。把前馈层拆成很多个“专家”，每个 token 只被路由到其中少数几个（常见是 2 个），其余不参与计算。于是出现两个参数口径：总参数（所有专家加起来）和激活参数（这次真正算到的）。比如 770B 总参数 / 49B 激活，意思是“知识容量按 770B 存，但每次只动 49B”。这就是“又快又便宜又有大模型知识”的来源。
+
+三，稀疏（Sparse）。严格说 MoE 就是一种条件计算/稀疏激活；工程上还会用稀疏注意力（只让每个 token 关注部分位置）等手段降低长文的计算量。所以说“稀疏模型”时，要问清是“参数稀疏（MoE）”还是“注意力稀疏”。
+
+四，注意力的两个演进方向：MLA（多头潜在注意力）把 KV 缓存压小，长文更省显存；线性注意力/混合线性注意力把注意力的计算从随长度平方增长压到接近线性，代价是可能损失一部分精确回忆能力。Kimi 的 Kimi Delta Attention 属于这一类。
+
+五，对使用者意味着什么：
+· 总参数大 ≠ 一定更聪明：很多“大”是存在硬盘里的容量，不是每次都用上；
+· 激活参数小 = 更快更便宜，但极难任务上可能不如稠密大模型稳；
+· 稠密模型行为更可预测，适合需要复现的实验；
+· MoE 的专家路由可能带来“同一问题两次答案差异更大”的现象，做基准测试要注意。
+
+六，对部署的影响：MoE 的总参数决定显存占用（要装得下所有专家），激活参数决定算力开销。所以“770B 总参数能在单机上跑”这种说法，要看显存是否够装全部专家。
+
+一句话收尾：架构决定的是“成本曲线”，不是“聪明程度”；聪明程度还是看评测和你自己的任务。</pre></details></section>
+<section id="slide-124"><h2>124　F7  规模定律：模型、数据、算力一起放大，损失按幂律下降</h2><p>来源：Kaplan 等 2020（OpenAI）；Hoffmann 等 2022（DeepMind，Chinchilla）；图为示意
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+Kaplan 等（2020）：语言模型的损失随参数量、数据量、算力呈幂律下降，有的趋势跨了七个数量级以上。
+Chinchilla（2022）：同样的算力，参数和数据应该同比例放大，大约每个参数配 20 个 token。700 亿参数、1.4 万亿 token 的 Chinchilla 胜过 2800 亿参数的 Gopher。
+粗估训练算力：约 6 × 参数量 × token 数；Chinchilla 约 5.8×10²³ 次浮点运算。
+现在的变化：公开的高质量文本有限，各家越来越多地用合成数据、强化学习和“推理时多算”（见 F8）继续提升。</pre></details></section>
+<section id="slide-125"><h2>125　F8  从会续写到会推理：对齐、强化学习与“想久一点”</h2><p>来源：Ouyang 等 2022（InstructGPT）；OpenAI《Learning to Reason with LLMs》2024-09；DeepSeek-AI 2025（arXiv 2501.12948）
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+接正文第 10 页“训练三步”。
+2022 InstructGPT：人写示范回答 → 人给多个回答排序 → 训练奖励模型 → 用强化学习优化（RLHF）。13 亿参数的 InstructGPT 在人工评比里胜过 1750 亿参数的 GPT-3：对齐比堆参数更直接地影响“好不好用”。也正是“按人的偏好打分”，带来了正文讲的“迎合”。
+2024 o1：先生成一长段思考再作答；OpenAI 报告成绩随训练时强化学习、以及推理时思考时长一起提升。
+2025 DeepSeek-R1：用能自动判对错的题（数学、代码）做大规模强化学习，长链推理随之出现，权重开源。
+推理时计算：多想几步、多采样几次再投票，难题正确率上升；代价是更慢、更贵，思考的 token 也要计费。</pre></details></section>
+<section id="slide-126"><h2>126　F9  多模态：图怎么进模型，图片和视频又是怎么画出来的</h2><p>来源：Dosovitskiy 等 2020（ViT）；Radford 等 2021（CLIP）；Ho 等 2020（DDPM）；图为本稿挡块图纸局部，切块与去噪为示意
+来源索引 ›</p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+看图（理解）：ViT 把图切成 16×16 像素的小块，每块变成一个向量，和文字 token 一起进 Transformer。CLIP 用约 4 亿对“图片—说明文字”训练，让图和字落到同一个向量空间，模型才能“用文字理解图”。
+画图（生成）：扩散模型从纯噪声出发，每一步预测并去掉一点噪声，几十步后得到清晰图像；视频生成把这件事扩展到时间轴上。
+和正文的关系：图纸案例里只靠 OCR 的配置零命中——图里的线、尺寸和符号根本没有进模型。</pre></details></section>
+<section id="slide-127"><h2>127　Z</h2><p></p><ul></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+章节过渡页：附录：订阅、术语、资讯与来源
+价格、额度、地区政策都会变，用之前以官方页面为准。所有来源见配套来源索引。</pre></details></section>
+<section id="slide-128"><h2>128　Z  参考资料与案例来源</h2><p>来源：S01–S58，本地案例；E2／E3／Z2／Z3 新增来源见备注
+来源索引 ›
+来源编号</p><ul><li><a href="http://smartcost.com.cn/">http://smartcost.com.cn/</a></li><li><a href="https://ai.google.dev/gemini-api/docs/latest-model?hl=en">https://ai.google.dev/gemini-api/docs/latest-model?hl=en</a></li><li><a href="https://api-docs.deepseek.com/news/news261017/">https://api-docs.deepseek.com/news/news261017/</a></li><li><a href="https://api-docs.deepseek.com/quick_start/pricing/">https://api-docs.deepseek.com/quick_start/pricing/</a></li><li><a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">https://api-docs.deepseek.com/zh-cn/quick_start/pricing/</a></li><li><a href="https://artificialanalysis.ai/leaderboards/models">https://artificialanalysis.ai/leaderboards/models</a></li><li><a href="https://artificialanalysis.ai/models">https://artificialanalysis.ai/models</a></li><li><a href="https://artificialanalysis.ai/models/claude-opus-5-5">https://artificialanalysis.ai/models/claude-opus-5-5</a></li><li><a href="https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash">https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash</a></li><li><a href="https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803">https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803</a></li><li><a href="https://artificialanalysis.ai/models/deepseek-v4-1-flash">https://artificialanalysis.ai/models/deepseek-v4-1-flash</a></li><li><a href="https://artificialanalysis.ai/models/gemini-4-argon">https://artificialanalysis.ai/models/gemini-4-argon</a></li><li><a href="https://artificialanalysis.ai/models/glm-5-3">https://artificialanalysis.ai/models/glm-5-3</a></li><li><a href="https://artificialanalysis.ai/models/gpt-6-1-sol">https://artificialanalysis.ai/models/gpt-6-1-sol</a></li><li><a href="https://artificialanalysis.ai/models/kimi-k3">https://artificialanalysis.ai/models/kimi-k3</a></li><li><a href="https://arxiv.org/abs/1706.03762">https://arxiv.org/abs/1706.03762</a></li><li><a href="https://arxiv.org/abs/2307.03172">https://arxiv.org/abs/2307.03172</a></li><li><a href="https://arxiv.org/abs/2310.13548">https://arxiv.org/abs/2310.13548</a></li><li><a href="https://bbs.kanxue.com/thread-255826.htm">https://bbs.kanxue.com/thread-255826.htm</a></li><li><a href="https://chatgpt.com/pricing">https://chatgpt.com/pricing</a></li><li><a href="https://chatgpt.com/pricing/">https://chatgpt.com/pricing/</a></li><li><a href="https://claude.com/pricing">https://claude.com/pricing</a></li><li><a href="https://cursor.com/pricing">https://cursor.com/pricing</a></li><li><a href="https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do">https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do</a></li><li><a href="https://developers.openai.com/api/docs/models/gpt-6.1-sol">https://developers.openai.com/api/docs/models/gpt-6.1-sol</a></li><li><a href="https://docs.bigmodel.cn/cn/guide/start/model-overview">https://docs.bigmodel.cn/cn/guide/start/model-overview</a></li><li><a href="https://docs.cline.bot/getting-started/free-models">https://docs.cline.bot/getting-started/free-models</a></li><li><a href="https://docs.qoder.cn/product-overview/account-and-subscription">https://docs.qoder.cn/product-overview/account-and-subscription</a></li><li><a href="https://docs.qoder.com/release-notes/quest-retirement-notice">https://docs.qoder.com/release-notes/quest-retirement-notice</a></li><li><a href="https://docs.trae.ai/ide/new-plans-and-billing">https://docs.trae.ai/ide/new-plans-and-billing</a></li><li><a href="https://docs.x.ai/x-subscription/pricing">https://docs.x.ai/x-subscription/pricing</a></li><li><a href="https://gemini.google/subscriptions/">https://gemini.google/subscriptions/</a></li><li><a href="https://github.com/Stonewuu/agenteam">https://github.com/Stonewuu/agenteam</a></li><li><a href="https://github.com/clarithromycine/ad-auto">https://github.com/clarithromycine/ad-auto</a></li><li><a href="https://github.com/google-gemini/gemini-cli/discussions/28017">https://github.com/google-gemini/gemini-cli/discussions/28017</a></li><li><a href="https://github.com/gsd-build/get-shit-done">https://github.com/gsd-build/get-shit-done</a></li><li><a href="https://github.com/himovo/movo">https://github.com/himovo/movo</a></li><li><a href="https://github.com/himovo/movo/blob/main/README.zh-CN.md">https://github.com/himovo/movo/blob/main/README.zh-CN.md</a></li><li><a href="https://gwern.net/doc/ai/nn/1943-mcculloch.pdf">https://gwern.net/doc/ai/nn/1943-mcculloch.pdf</a></li><li><a href="https://help.aliyun.com/zh/model-studio/qwen3-8-max">https://help.aliyun.com/zh/model-studio/qwen3-8-max</a></li><li><a href="https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus">https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus</a></li><li><a href="https://help.openai.com/en/articles/7947663-chatgpt-supported-countries">https://help.openai.com/en/articles/7947663-chatgpt-supported-countries</a></li><li><a href="https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers">https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers</a></li><li><a href="https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL">https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL</a></li><li><a href="https://invariantlabs.ai/blog/mcp-github-vulnerability">https://invariantlabs.ai/blog/mcp-github-vulnerability</a></li><li><a href="https://kiro.dev/pricing/">https://kiro.dev/pricing/</a></li><li><a href="https://learn.chatgpt.com/docs/pricing">https://learn.chatgpt.com/docs/pricing</a></li><li><a href="https://linux.do/t/topic/1516872">https://linux.do/t/topic/1516872</a></li><li><a href="https://linux.do/t/topic/2779542">https://linux.do/t/topic/2779542</a></li><li><a href="https://mumu.163.com/help/20210913/35047_971679.html">https://mumu.163.com/help/20210913/35047_971679.html</a></li><li><a href="https://openai.com/index/introducing-chatgpt-go/">https://openai.com/index/introducing-chatgpt-go/</a></li><li><a href="https://openai.com/index/sycophancy-in-gpt-4o/">https://openai.com/index/sycophancy-in-gpt-4o/</a></li><li><a href="https://platform.claude.com/docs/en/models/overview">https://platform.claude.com/docs/en/models/overview</a></li><li><a href="https://qoder.com/pricing">https://qoder.com/pricing</a></li><li><a href="https://research.trychroma.com/context-rot">https://research.trychroma.com/context-rot</a></li><li><a href="https://support.google.com/gemini/answer/13575153">https://support.google.com/gemini/answer/13575153</a></li><li><a href="https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/">https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/</a></li><li><a href="https://web.stanford.edu/class/psych209a/ReadingsByDate/01_30/Rosenblatt58Perceptron.pdf">https://web.stanford.edu/class/psych209a/ReadingsByDate/01_30/Rosenblatt58Perceptron.pdf</a></li><li><a href="https://www.aim.security/lp/aim-labs-echoleak-blogpost">https://www.aim.security/lp/aim-labs-echoleak-blogpost</a></li><li><a href="https://www.anthropic.com/legal/supported-regions">https://www.anthropic.com/legal/supported-regions</a></li><li><a href="https://www.anthropic.com/news/2026-usage-policy-update">https://www.anthropic.com/news/2026-usage-policy-update</a></li><li><a href="https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm">https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm</a></li><li><a href="https://www.gitguardian.com/state-of-secrets-sprawl-report-2025">https://www.gitguardian.com/state-of-secrets-sprawl-report-2025</a></li><li><a href="https://www.kimi.ai/help/kimi-api/api-troubleshooting">https://www.kimi.ai/help/kimi-api/api-troubleshooting</a></li><li><a href="https://www.kimi.com/help/membership/membership-pricing">https://www.kimi.com/help/membership/membership-pricing</a></li><li><a href="https://www.tbench.ai/">https://www.tbench.ai/</a></li><li><a href="https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report">https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report</a></li><li><a href="https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt">https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt</a></li><li><a href="https://www.trae.cn/pricing">https://www.trae.cn/pricing</a></li><li><a href="https://www.workbuddy.cn/docs/workbuddy/Pricing">https://www.workbuddy.cn/docs/workbuddy/Pricing</a></li><li><a href="https://x.ai/news/x-subscription">https://x.ai/news/x-subscription</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+官方与论文：
+- Transformer论文：Attention Is All You Need。
+- 历史原文：McCulloch &amp; Pitts（1943），Rosenblatt（1958），制作前补论文书目信息或出版页，避免二手时间轴误写。
+- Artificial Analysis 模型榜：拟采用2026-10-17快照，具体榜单行待归档。
+- Terminal-Bench：拟采用4.0榜单，版本、配置和具体行待归档。
+- Qoder Quest退役公告。
+- Qoder CN订阅说明。
+- Gemini CLI官方迁移讨论。
+- X Subscription价格。
+- 旧GSD迁移说明 → 新仓库。
+- EchoLeak NVD条目，微软条目。
+- GitGuardian 2025报告。
+- Anthropic 2025销售限制说明，2026使用政策更新。
+- 网信办生成式AI服务备案公告。
+- 加拿大航空裁决原文入口：当前工具未能读取全文，不据此声称已核实赔款组成。
+
+本地材料：
+- AI对比/ep1 识图：图纸、模型审查输出与鹈鹕原文件。
+- AI对比/ep2 做表：清单、模板、参考材料与四份报告。
+- _检查补充_20261017：图纸交付形态、修编复算、截图及复现脚本。这里的旧PPT页数结论针对旧稿，不适用于新v4。
+- 完善版01配套：匿名映射、原始HTML和图纸口径材料。
+
+参考来源
+S01 OpenAI GPT-6.1 Sol 模型文档
+https://developers.openai.com/api/docs/models/gpt-6.1-sol
+
+S02 Claude 模型规格
+https://platform.claude.com/docs/en/models/overview
+
+S03 Gemini 4 Argon 开发者文档
+https://ai.google.dev/gemini-api/docs/latest-model?hl=en
+
+S04 智谱模型概览
+https://docs.bigmodel.cn/cn/guide/start/model-overview
+
+S05 Qwen3.8-Max 型号与定价
+https://help.aliyun.com/zh/model-studio/qwen3-8-max
+
+S06 Kimi API 长度与故障说明
+https://www.kimi.ai/help/kimi-api/api-troubleshooting
+
+S07 小米官方模型卡
+https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
+
+S08 DeepSeek 模型与定价
+https://api-docs.deepseek.com/quick_start/pricing/
+
+S09 AA Opus 5.5 max，default fallback
+https://artificialanalysis.ai/models/claude-opus-5-5
+
+S10 AA GPT-6.1 Sol max
+https://artificialanalysis.ai/models/gpt-6-1-sol
+
+S11 AA Gemini 4 Argon high
+https://artificialanalysis.ai/models/gemini-4-argon
+
+S12 AA GLM-5.3 max
+https://artificialanalysis.ai/models/glm-5-3
+
+S13 AA Qwen3.8 Max 0902 对比页
+https://artificialanalysis.ai/models/comparisons/qwen3-8-max-vs-qwen3-8-max-0803
+
+S14 AA Kimi K3 max
+https://artificialanalysis.ai/models/kimi-k3
+
+S15 AA MiMo 与 DeepSeek 对比页
+https://artificialanalysis.ai/models/comparisons/mimo-v2-6-pro-vs-deepseek-v4-1-flash
+
+S16 AA DeepSeek V4.1 Flash max
+https://artificialanalysis.ai/models/deepseek-v4-1-flash
+
+S17 ChatGPT 订阅权益
+https://chatgpt.com/pricing/
+
+S18 ChatGPT Pro 三档价格
+https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers
+
+S19 ChatGPT Go 美元价格
+https://openai.com/index/introducing-chatgpt-go/
+
+S20 ChatGPT Plus 美元价格
+https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
+
+S21 Claude 订阅、API 与指定额度
+https://claude.com/pricing
+
+S22 Google AI 订阅
+https://gemini.google/subscriptions/
+
+S23 X Subscription 组合套餐
+https://docs.x.ai/x-subscription/pricing
+
+S24 Qoder IDE Quest 退役范围
+https://docs.qoder.com/release-notes/quest-retirement-notice
+
+S25 Qoder CN 账号与订阅
+https://docs.qoder.cn/product-overview/account-and-subscription
+
+S26 Gemini CLI 个人账号迁移公告
+https://github.com/google-gemini/gemini-cli/discussions/28017
+
+S27 GSD 官方迁移说明
+https://github.com/gsd-build/get-shit-done
+
+S28 2026 年 7—8 月 AI 备案公告
+https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm
+
+S29 Anthropic 2026 使用政策更新
+https://www.anthropic.com/news/2026-usage-policy-update
+
+S30 GitGuardian 2025 密钥报告
+https://www.gitguardian.com/state-of-secrets-sprawl-report-2025
+
+S31 GitHub MCP 注入原始研究
+https://invariantlabs.ai/blog/mcp-github-vulnerability
+
+S32 EchoLeak 原始研究
+https://www.aim.security/lp/aim-labs-echoleak-blogpost
+
+S33 Transformer 原论文
+https://arxiv.org/abs/1706.03762
+
+S34 McCulloch 与 Pitts 1943 原论文
+https://gwern.net/doc/ai/nn/1943-mcculloch.pdf
+
+S35 Rosenblatt 1958 原论文
+https://web.stanford.edu/class/psych209a/ReadingsByDate/01_30/Rosenblatt58Perceptron.pdf
+
+S36 加拿大航空裁决入口
+https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do
+
+S37 Terminal-Bench 榜单与方法
+https://www.tbench.ai/
+
+S38 AA 智能指数与成本方法
+https://artificialanalysis.ai/models
+
+查询与整理日期：2026-10-18。
+
+新增来源（2026-10-18 查询）
+Artificial Analysis 排行榜：https://artificialanalysis.ai/leaderboards/models
+DeepSeek 1017 发布与价格：https://api-docs.deepseek.com/news/news261017/ ；https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
+免费版与订阅：https://chatgpt.com/pricing ；https://claude.com/pricing ；https://gemini.google/subscriptions/ ；https://www.kimi.com/help/membership/membership-pricing ；https://x.ai/news/x-subscription
+客户端额度：https://www.workbuddy.cn/docs/workbuddy/Pricing ；https://www.trae.cn/pricing ；https://docs.trae.ai/ide/new-plans-and-billing ；https://qoder.com/pricing ；https://docs.cline.bot/getting-started/free-models ；https://learn.chatgpt.com/docs/pricing ；https://kiro.dev/pricing/ ；https://cursor.com/pricing
+地区政策：https://help.openai.com/en/articles/7947663-chatgpt-supported-countries ；https://www.anthropic.com/legal/supported-regions ；https://support.google.com/gemini/answer/13575153
+案例：https://www.theguardian.com/technology/2023/jun/23/two-us-lawyers-fined-submitting-fake-court-citations-chatgpt ；https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report ；https://openai.com/index/sycophancy-in-gpt-4o/ ；https://arxiv.org/abs/2310.13548 ；https://research.trychroma.com/context-rot ；https://arxiv.org/abs/2307.03172 ；https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+本地核对底稿：配套核对材料 drawing.md、report.md、web.md
+
+新增来源（2026-10-18 查询）
+S51 L 站：*果 去广告会员版（仅取“社区在传什么”这一事实）：https://linux.do/t/topic/2779542
+S52 L 站：**模拟器 绿色无广 / 无限多开：https://linux.do/t/topic/1516872
+S53 **造价软件 官网：http://smartcost.com.cn/
+S54 *果 广告形态与自动跳过类适配说明（GitHub，仅作机制参考）：https://github.com/clarithromycine/ad-auto
+S55 MuMu 官方多开说明：https://mumu.163.com/help/20210913/35047_971679.html
+S56 看雪：加密锁破解经验帖（仅作原理参考）：https://bbs.kanxue.com/thread-255826.htm
+口径：L 站案例只写“改了哪一层、改不了什么、代价是什么”，不写获取渠道与操作步骤；软件名按社区惯例打码。
+
+新增来源（2026-10-18 查询）
+S57 MOVO（自托管企业 Agent 平台，基于 DSH）：https://github.com/himovo/movo ；中文说明 https://github.com/himovo/movo/blob/main/README.zh-CN.md
+S58 AgenTeam 群策（多智能体协作平台）：https://github.com/Stonewuu/agenteam
+口径：两个项目的服务数、技术栈与能力边界均引自各自的 README；“六件必备件”与“工作流 / RAG 怎么养”是本稿的归纳，不是项目原文。</pre></details></section>
+<section id="slide-129"><h2>129　Z2  链接清单（一）：官方原文与事件报道</h2><p>说明：链接为 2026-10-18 核对；第三方站点内容可能变动，引用前先复核一遍
+来源索引 ›</p><ul><li><a href="https://genai.owasp.org/llm-top-10/">https://genai.owasp.org/llm-top-10/</a></li><li><a href="https://huggingface.co/blog/security-incident-july-2026">https://huggingface.co/blog/security-incident-july-2026</a></li><li><a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">https://openai.com/index/hugging-face-model-evaluation-security-incident/</a></li><li><a href="https://openai.com/policies/usage-policies/">https://openai.com/policies/usage-policies/</a></li><li><a href="https://therecord.media/south-korean-bank-hacks-ai-agents">https://therecord.media/south-korean-bank-hacks-ai-agents</a></li><li><a href="https://www.anthropic.com/legal/aup">https://www.anthropic.com/legal/aup</a></li><li><a href="https://www.bbc.com/news/articles/cd9w22n9e4go">https://www.bbc.com/news/articles/cd9w22n9e4go</a></li><li><a href="https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm">https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm</a></li><li><a href="https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html">https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html</a></li><li><a href="https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/">https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+这一页和下一页放的是能直接点开的链接，分四组，这页是前两组。
+
+官方与政策：签合同、写制度、判断“这算不算违规”时看原文，不看二手解读。OWASP 的 LLM Top 10 是讲护栏时最常用的框架。
+
+事件与判例：Hugging Face 原始公告、OpenAI 的说明、BBC 的质疑、CNBC 的起诉报道，再加上韩国那起的两份一手材料。做案例页时先看这几份，别只看转述。
+
+提醒：这类链接会失效、会删帖。重要结论要么当场截图存档，要么只引官方原文。</pre></details></section>
+<section id="slide-130"><h2>130　Z3  链接清单（二）：工具、平台与社区</h2><p>说明：链接为 2026-10-18 核对；第三方站点内容可能变动，引用前先复核
+来源索引 ›</p><ul><li><a href="http://smartcost.com.cn/">http://smartcost.com.cn/</a></li><li><a href="https://bbs.kanxue.com/thread-255826.htm">https://bbs.kanxue.com/thread-255826.htm</a></li><li><a href="https://github.com/Stonewuu/agenteam">https://github.com/Stonewuu/agenteam</a></li><li><a href="https://github.com/YuJunZhiXue/dsh-purge">https://github.com/YuJunZhiXue/dsh-purge</a></li><li><a href="https://github.com/clarithromycine/ad-auto">https://github.com/clarithromycine/ad-auto</a></li><li><a href="https://github.com/himovo/movo">https://github.com/himovo/movo</a></li><li><a href="https://github.com/himovo/movo/blob/main/README.zh-CN.md">https://github.com/himovo/movo/blob/main/README.zh-CN.md</a></li><li><a href="https://github.com/router-for-me/CLIProxyAPI">https://github.com/router-for-me/CLIProxyAPI</a></li><li><a href="https://github.com/yetone/magpie">https://github.com/yetone/magpie</a></li><li><a href="https://linux.do/t/topic/1516872">https://linux.do/t/topic/1516872</a></li><li><a href="https://linux.do/t/topic/2779542">https://linux.do/t/topic/2779542</a></li><li><a href="https://mumu.163.com/help/20210913/35047_971679.html">https://mumu.163.com/help/20210913/35047_971679.html</a></li></ul><details><summary>原稿备注与补充口径</summary><pre>讲解与会后阅读
+
+工具与仓库分两组：一组是“壳”（magpie、CLIProxyAPI），一组是“企业平台”（MOVO、AgenTeam）。看企业平台时重点看两处：它的权限与审计做到什么程度，它的知识库与检索怎么迭代。
+
+社区与客户端：L 站两个帖子是 E3 那页三个例子的来源；另外补了软件官网、官方多开说明和看雪帖。
+
+边界：社区帖只证明“有人在这么做”，不提供做法。</pre></details></section><section id="design"><h2>本次搜集的PPT制作参考</h2><p>用于调整可读性、单页焦点与案例证据的呈现，未把制作方法添加为分享正文。</p><ul><li><a href="https://support.microsoft.com/en-us/powerpoint/tips-for-creating-and-delivering-an-effective-presentation">Microsoft：投影可读性</a></li><li><a href="https://www.duarte.com/blog/presenting/">Duarte：每页一个重点</a></li><li><a href="https://www.assertion-evidence.com/">工程技术演示：结论配证据</a></li></ul></section></html>
